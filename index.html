@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="根据身体、技术与比赛数据分析篮球打法，并生成针对性训练方案。">
+  <meta name="theme-color" content="#0b0d0f">
+  <title>全场解码｜篮球打法分析</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230b0d0f'/%3E%3Ccircle cx='32' cy='32' r='21' fill='%23ff6b20'/%3E%3Cpath d='M11 32h42M32 11c-8 6-12 13-12 21s4 15 12 21M32 11c8 6 12 13 12 21s-4 15-12 21' fill='none' stroke='%230b0d0f' stroke-width='3'/%3E%3C/svg%3E">
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #090b0d;
+      --panel: #12161a;
+      --panel-2: #171c21;
+      --line: #2a3036;
+      --text: #f5f7f8;
+      --muted: #9da7b0;
+      --orange: #ff6b20;
+      --orange-2: #ff9b55;
+      --lime: #c7f36b;
+      --red: #ff655d;
+      --radius: 18px;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      min-width: 320px;
+      background:
+        radial-gradient(circle at 70% -10%, rgba(255,107,32,.15), transparent 34rem),
+        var(--bg);
+      color: var(--text);
+      font-family: Inter, "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+      line-height: 1.55;
+    }
+    button, input, select { font: inherit; }
+    button, input[type="range"], select { cursor: pointer; }
+    .shell { width: min(1440px, 100%); margin: 0 auto; padding: 22px; }
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid var(--line);
+    }
+    .brand { display: flex; align-items: center; gap: 12px; }
+    .ball {
+      width: 42px;
+      height: 42px;
+      display: grid;
+      place-items: center;
+      border-radius: 50%;
+      background: var(--orange);
+      color: #17100c;
+      font-weight: 900;
+      letter-spacing: -.08em;
+      box-shadow: inset 0 0 0 2px #111;
+    }
+    .brand-name { font-size: 1.12rem; font-weight: 800; letter-spacing: .08em; }
+    .brand-sub { color: var(--muted); font-size: .78rem; letter-spacing: .08em; }
+    .status { display: flex; align-items: center; gap: 8px; color: var(--muted); font-size: .86rem; }
+    .status::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--lime); box-shadow: 0 0 12px rgba(199,243,107,.7); }
+    main { display: grid; grid-template-columns: minmax(320px, 430px) minmax(0, 1fr); gap: 22px; padding-top: 22px; }
+    .panel { background: rgba(18,22,26,.92); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; }
+    .panel-head { display: flex; justify-content: space-between; align-items: end; gap: 14px; padding: 20px 22px 16px; border-bottom: 1px solid var(--line); }
+    h1, h2, h3, p { margin-top: 0; }
+    h1 { margin-bottom: 3px; font-size: clamp(1.35rem, 2vw, 1.75rem); line-height: 1.2; }
+    h2 { margin-bottom: 0; font-size: 1.05rem; }
+    h3 { margin-bottom: 12px; font-size: .94rem; color: var(--muted); font-weight: 650; }
+    .eyebrow { color: var(--orange-2); font-size: .78rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }
+    .hint { margin: 0; color: var(--muted); font-size: .84rem; }
+    .form { padding: 20px 22px 22px; }
+    .physical { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 22px; }
+    .field label { display: block; margin-bottom: 7px; color: var(--muted); font-size: .8rem; }
+    .field input, .field select {
+      width: 100%;
+      min-height: 44px;
+      padding: 9px 10px;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      background: var(--panel-2);
+      color: var(--text);
+      outline: none;
+    }
+    .field input:focus, .field select:focus { border-color: var(--orange); box-shadow: 0 0 0 3px rgba(255,107,32,.16); }
+    .skills { display: grid; gap: 13px; }
+    .skill-row { display: grid; grid-template-columns: 68px 1fr 30px; align-items: center; gap: 10px; }
+    .skill-row label { color: #dbe0e4; font-size: .88rem; }
+    .skill-row output { text-align: right; color: var(--orange-2); font-weight: 800; font-variant-numeric: tabular-nums; }
+    input[type="range"] { width: 100%; accent-color: var(--orange); }
+    .actions { display: flex; gap: 10px; margin-top: 24px; }
+    .primary, .secondary {
+      min-height: 48px;
+      border: 0;
+      border-radius: 11px;
+      padding: 0 18px;
+      font-weight: 800;
+      transition: transform .18s ease, filter .18s ease;
+    }
+    .primary { flex: 1; background: var(--orange); color: #160b05; }
+    .secondary { background: var(--panel-2); color: var(--text); border: 1px solid var(--line); }
+    .primary:hover, .secondary:hover { transform: translateY(-1px); filter: brightness(1.08); }
+    .primary:active, .secondary:active { transform: translateY(0); }
+    .results { display: grid; gap: 18px; align-content: start; }
+    .identity { position: relative; min-height: 240px; padding: 26px; overflow: hidden; }
+    .identity::after {
+      content: attr(data-index);
+      position: absolute;
+      right: 20px;
+      top: -26px;
+      color: rgba(255,255,255,.035);
+      font-size: 13rem;
+      font-weight: 950;
+      line-height: 1;
+      pointer-events: none;
+    }
+    .role { position: relative; z-index: 1; max-width: 720px; }
+    .role h2 { margin: 8px 0 8px; font-size: clamp(2rem, 5vw, 4.5rem); line-height: .98; letter-spacing: -.045em; }
+    .role p { max-width: 680px; margin-bottom: 0; color: #c7ced4; font-size: 1rem; }
+    .badges { position: relative; z-index: 1; display: flex; flex-wrap: wrap; gap: 8px; margin-top: 22px; }
+    .badge { padding: 6px 10px; border-radius: 999px; background: rgba(199,243,107,.1); border: 1px solid rgba(199,243,107,.25); color: var(--lime); font-size: .8rem; font-weight: 700; }
+    .grid { display: grid; grid-template-columns: .9fr 1.4fr; gap: 18px; }
+    .card { padding: 20px 22px; }
+    .profile-bars { display: grid; gap: 13px; }
+    .bar-top { display: flex; justify-content: space-between; gap: 14px; margin-bottom: 5px; color: #d9dee2; font-size: .84rem; }
+    .track { height: 7px; border-radius: 99px; background: #252b30; overflow: hidden; }
+    .fill { height: 100%; width: 0; border-radius: inherit; background: linear-gradient(90deg, var(--orange), var(--lime)); transition: width .55s cubic-bezier(.2,.8,.2,1); }
+    .focus-list { display: grid; gap: 10px; }
+    .focus-item { display: grid; grid-template-columns: 30px 1fr; gap: 10px; padding: 11px 0; border-top: 1px solid var(--line); }
+    .focus-item:first-child { border-top: 0; padding-top: 0; }
+    .rank { color: var(--orange); font-weight: 900; font-variant-numeric: tabular-nums; }
+    .focus-item strong { display: block; font-size: .9rem; }
+    .focus-item span { color: var(--muted); font-size: .82rem; }
+    .plan { padding: 20px 22px; }
+    .week-strip { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin-bottom: 20px; }
+    .week { padding: 10px; border-radius: 10px; background: var(--panel-2); border: 1px solid var(--line); }
+    .week.active { border-color: rgba(255,107,32,.8); background: rgba(255,107,32,.1); }
+    .week b { display: block; color: var(--orange-2); font-size: .8rem; }
+    .week span { color: var(--muted); font-size: .75rem; }
+    .sessions { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+    .session { padding: 14px; border-radius: 12px; background: #0e1114; border: 1px solid var(--line); }
+    .session-top { display: flex; justify-content: space-between; gap: 12px; margin-bottom: 7px; }
+    .session strong { font-size: .9rem; }
+    .session time { color: var(--lime); font-size: .78rem; font-weight: 800; }
+    .session p { margin: 0; color: var(--muted); font-size: .82rem; }
+    .footnote { margin: 14px 0 0; color: #7f8991; font-size: .76rem; }
+    .flash { animation: flash .45s ease; }
+    @keyframes flash { 50% { border-color: var(--orange); box-shadow: 0 0 0 3px rgba(255,107,32,.08); } }
+    @media (max-width: 980px) {
+      main { grid-template-columns: 1fr; }
+      .grid { grid-template-columns: 1fr 1fr; }
+      .input-panel { order: 1; }
+      .results { order: 2; }
+    }
+    @media (max-width: 640px) {
+      .shell { padding: 14px; }
+      header { align-items: flex-start; }
+      .status { display: none; }
+      .physical { grid-template-columns: 1fr 1fr; }
+      .physical .field:last-child { grid-column: 1 / -1; }
+      .grid, .sessions { grid-template-columns: 1fr; }
+      .week-strip { grid-template-columns: 1fr 1fr; }
+      .identity { min-height: 260px; padding: 22px; }
+      .role h2 { font-size: 2.55rem; }
+      .actions { flex-direction: column; }
+      .secondary { order: 2; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after { transition: none !important; animation: none !important; }
+    }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <header>
+      <div class="brand">
+        <div class="ball" aria-hidden="true">//</div>
+        <div><div class="brand-name">全场解码</div><div class="brand-sub">PLAYER PROFILE LAB</div></div>
+      </div>
+      <div class="status">分析模型已就绪</div>
+    </header>
+
+    <main>
+      <section class="panel input-panel" aria-labelledby="input-title">
+        <div class="panel-head">
+          <div><div class="eyebrow">01 / 录入数据</div><h1 id="input-title">你的球员档案</h1></div>
+          <p class="hint">技术项按当前实战水平评分</p>
+        </div>
+        <form class="form" id="player-form">
+          <div class="physical">
+            <div class="field"><label for="height">身高 / cm</label><input id="height" name="height" type="number" min="140" max="230" value="180" required></div>
+            <div class="field"><label for="weight">体重 / kg</label><input id="weight" name="weight" type="number" min="35" max="180" value="75" required></div>
+            <div class="field"><label for="frequency">每周训练</label><select id="frequency" name="frequency"><option value="2">2 天</option><option value="3">3 天</option><option value="4" selected>4 天</option><option value="5">5 天</option></select></div>
+          </div>
+          <h3>技术与身体评分 · 1—10</h3>
+          <div class="skills" id="skills">
+            <div class="skill-row"><label for="shooting">投篮</label><input id="shooting" name="shooting" type="range" min="1" max="10" value="7"><output for="shooting">7</output></div>
+            <div class="skill-row"><label for="finishing">终结</label><input id="finishing" name="finishing" type="range" min="1" max="10" value="6"><output for="finishing">6</output></div>
+            <div class="skill-row"><label for="handling">运球</label><input id="handling" name="handling" type="range" min="1" max="10" value="7"><output for="handling">7</output></div>
+            <div class="skill-row"><label for="passing">传球</label><input id="passing" name="passing" type="range" min="1" max="10" value="6"><output for="passing">6</output></div>
+            <div class="skill-row"><label for="defense">防守</label><input id="defense" name="defense" type="range" min="1" max="10" value="6"><output for="defense">6</output></div>
+            <div class="skill-row"><label for="rebounding">篮板</label><input id="rebounding" name="rebounding" type="range" min="1" max="10" value="5"><output for="rebounding">5</output></div>
+            <div class="skill-row"><label for="speed">速度</label><input id="speed" name="speed" type="range" min="1" max="10" value="7"><output for="speed">7</output></div>
+            <div class="skill-row"><label for="strength">力量</label><input id="strength" name="strength" type="range" min="1" max="10" value="6"><output for="strength">6</output></div>
+            <div class="skill-row"><label for="stamina">体能</label><input id="stamina" name="stamina" type="range" min="1" max="10" value="7"><output for="stamina">7</output></div>
+          </div>
+          <div class="actions"><button class="secondary" id="reset-btn" type="button">恢复示例</button><button class="primary" type="submit">生成我的打法报告</button></div>
+        </form>
+      </section>
+
+      <div class="results" id="results" aria-live="polite">
+        <section class="panel identity" data-index="01">
+          <div class="role">
+            <div class="eyebrow">02 / 推荐定位</div>
+            <h2 id="role-name">双能卫</h2>
+            <p id="role-desc">用投篮威胁带动突破与传球，在弱侧接球和二次组织之间快速切换。你的价值来自持续制造防守选择题。</p>
+          </div>
+          <div class="badges" id="strength-badges" aria-label="主要优势"></div>
+        </section>
+
+        <div class="grid">
+          <section class="panel card" aria-labelledby="profile-title">
+            <h2 id="profile-title">能力结构</h2>
+            <div class="profile-bars" id="profile-bars"></div>
+          </section>
+          <section class="panel card" aria-labelledby="focus-title">
+            <h2 id="focus-title">最该优先练的三件事</h2>
+            <div class="focus-list" id="focus-list"></div>
+          </section>
+        </div>
+
+        <section class="panel plan" aria-labelledby="plan-title">
+          <div class="panel-head" style="padding:0 0 16px;margin-bottom:18px">
+            <div><div class="eyebrow">03 / 训练处方</div><h2 id="plan-title">4 周角色强化计划</h2></div>
+            <p class="hint" id="weekly-load">每周 4 练</p>
+          </div>
+          <div class="week-strip" aria-label="四周训练节奏">
+            <div class="week active"><b>第 1 周</b><span>动作质量</span></div>
+            <div class="week"><b>第 2 周</b><span>提高对抗</span></div>
+            <div class="week"><b>第 3 周</b><span>加入决策</span></div>
+            <div class="week"><b>第 4 周</b><span>实战检验</span></div>
+          </div>
+          <div class="sessions" id="sessions"></div>
+          <p class="footnote">建议每次训练前热身 8—10 分钟。若出现持续疼痛或明显不适，请停止训练并咨询专业人士。</p>
+        </section>
+      </div>
+    </main>
+  </div>
+
+  <script>
+    const metrics = {
+      shooting: { label: '投篮', drill: '定点到移动接球：5 个点位各进 8 球，最后 20 球加入一步横移。' },
+      finishing: { label: '终结', drill: '左右手篮下终结各 20 次，再做 3 组对抗后上篮。' },
+      handling: { label: '运球', drill: '低重心变向、胯下衔接与急停启动，各 4 组 45 秒。' },
+      passing: { label: '传球', drill: '墙面目标传球 60 次，加入单手、击地与突破分球脚步。' },
+      defense: { label: '防守', drill: '滑步 5×20 秒，随后做 6 组封堵路线与 closeout。' },
+      rebounding: { label: '篮板', drill: '卡位转身 4×8 次，连续起跳点抢 4×10 次。' },
+      speed: { label: '速度', drill: '5—10 米启动冲刺 8 组，组间充分休息保证动作质量。' },
+      strength: { label: '力量', drill: '深蹲、俯卧撑、分腿蹲与核心抗旋各 3 组。' },
+      stamina: { label: '体能', drill: '半场折返 6 组，每组 20 秒，休息 40 秒。' }
+    };
+
+    const roles = {
+      creator: { name: '持球组织者', index: '01', desc: '用运球改变防守站位，用传球找到空位队友。优先掌控节奏，在挡拆和转换中做第一决策。', drills: ['挡拆两读：借掩护后只练急停投篮与顺下传球两种判断。', '全场推进：弱手运球越过中线后，3 秒内完成一次有效发起。'] },
+      combo: { name: '双能卫', index: '02', desc: '用投篮威胁带动突破与传球，在弱侧接球和二次组织之间快速切换。你的价值来自持续制造防守选择题。', drills: ['接球三威胁：投、突、传三种选择各完成 20 次。', '二次挡拆：第一次突破受阻后，重组进攻并在 5 秒内完成决策。'] },
+      wing: { name: '3&D 侧翼', index: '03', desc: '守住对方主要外线得分点，并用稳定的空位投篮惩罚协防。减少无效运球，快速完成投或传。', drills: ['底角与 45 度接球投篮，各进 30 球。', 'closeout 后横移：封投篮、堵突破、完成卡位，连续做 8 组。'] },
+      scorer: { name: '冲击型得分手', index: '04', desc: '依靠第一步与身体对抗攻击篮筐，用急停投篮惩罚退防。把进攻压缩成少而清晰的高效选择。', drills: ['左右侧突破终结各 25 次，交替使用同侧手与反侧手。', '两次运球内得分：从三分线启动，限制运球次数完成终结。'] },
+      forward: { name: '全能前锋', index: '05', desc: '利用体型与技术在多个位置制造错位，抢下篮板后直接推进，并承担侧翼协防与短传策应。', drills: ['抢板推进：模拟篮板后 4 次运球内推进到前场并完成决策。', '肘区策应：练习手递手、背切传球和一步突破。'] },
+      stretch: { name: '空间型内线', index: '06', desc: '用中远距离投篮拉开禁区，并在掩护后外弹或顺下。防守端优先卡位和保护篮板。', drills: ['掩护外弹：弧顶与两侧 45 度各进 20 球。', '短顺下处理：接球后练终结、击地分球和底角转移。'] },
+      anchor: { name: '护框蓝领', index: '07', desc: '用力量、卡位和防守判断守住禁区。进攻端做好掩护、顺下与二次进攻，靠稳定执行影响比赛。', drills: ['垂直起跳护框与落地卡位，4 组各 8 次。', '掩护顺下：两侧各完成 20 次强起终结。'] }
+    };
+
+    const form = document.getElementById('player-form');
+    const inputs = [...form.querySelectorAll('input[type="range"]')];
+
+    function valuesFromForm() {
+      const data = Object.fromEntries(new FormData(form).entries());
+      Object.keys(data).forEach(key => data[key] = Number(data[key]));
+      return data;
+    }
+
+    function analyze(data) {
+      const tall = Math.max(0, Math.min(10, (data.height - 165) / 5));
+      const mass = Math.max(0, Math.min(10, (data.weight - 55) / 6));
+      const scores = {
+        creator: data.handling * 1.55 + data.passing * 1.65 + data.speed + data.stamina * .6 - tall * .15,
+        combo: data.shooting * 1.4 + data.handling * 1.25 + data.finishing + data.passing * .7 + data.speed * .8,
+        wing: data.shooting * 1.35 + data.defense * 1.45 + data.speed * .8 + tall * .75 + data.stamina * .5,
+        scorer: data.finishing * 1.55 + data.speed * 1.35 + data.handling + data.strength * .7 + data.shooting * .6,
+        forward: tall * 1.05 + data.passing + data.handling * .75 + data.defense + data.rebounding + mass * .35,
+        stretch: tall * 1.5 + data.shooting * 1.45 + data.rebounding + data.strength * .55,
+        anchor: tall * 1.7 + data.defense * 1.45 + data.rebounding * 1.5 + data.strength + mass * .45
+      };
+      const roleKey = Object.entries(scores).sort((a, b) => b[1] - a[1])[0][0];
+      const skillEntries = Object.keys(metrics).map(key => [key, data[key]]).sort((a, b) => b[1] - a[1]);
+      return { roleKey, strengths: skillEntries.slice(0, 3), priorities: [...skillEntries].sort((a, b) => a[1] - b[1]).slice(0, 3), scores };
+    }
+
+    function buildSessions(data, result) {
+      const role = roles[result.roleKey];
+      const focus = result.priorities;
+      const all = [
+        { title: `基础补强 · ${metrics[focus[0][0]].label}`, time: '60 分钟', text: metrics[focus[0][0]].drill },
+        { title: `角色技术 · ${role.name}`, time: '70 分钟', text: role.drills[0] },
+        { title: `身体与防守`, time: '55 分钟', text: `${metrics[data.defense <= data.stamina ? 'defense' : 'stamina'].drill} 结束后做 10 分钟核心稳定。` },
+        { title: '比赛转化', time: '75 分钟', text: `${role.drills[1]} 最后打 3 局半场对抗，只统计与角色相关的有效回合。` },
+        { title: `第二短板 · ${metrics[focus[1][0]].label}`, time: '50 分钟', text: metrics[focus[1][0]].drill }
+      ];
+      return all.slice(0, data.frequency);
+    }
+
+    function render(data) {
+      const result = analyze(data);
+      const role = roles[result.roleKey];
+      document.getElementById('role-name').textContent = role.name;
+      document.getElementById('role-desc').textContent = role.desc;
+      document.querySelector('.identity').dataset.index = role.index;
+      document.getElementById('strength-badges').innerHTML = result.strengths.map(([key, score]) => `<span class="badge">${metrics[key].label} ${score}/10</span>`).join('');
+
+      const groups = [
+        ['进攻创造', Math.round((data.shooting + data.finishing + data.handling) / 3 * 10)],
+        ['组织连接', Math.round((data.passing + data.handling) / 2 * 10)],
+        ['防守影响', Math.round((data.defense + data.rebounding) / 2 * 10)],
+        ['运动能力', Math.round((data.speed + data.strength + data.stamina) / 3 * 10)]
+      ];
+      document.getElementById('profile-bars').innerHTML = groups.map(([name, value]) => `<div><div class="bar-top"><span>${name}</span><b>${value}</b></div><div class="track"><div class="fill" style="width:${value}%"></div></div></div>`).join('');
+
+      document.getElementById('focus-list').innerHTML = result.priorities.map(([key, score], i) => `<div class="focus-item"><div class="rank">0${i + 1}</div><div><strong>${metrics[key].label} · 当前 ${score}/10</strong><span>${metrics[key].drill}</span></div></div>`).join('');
+      document.getElementById('weekly-load').textContent = `每周 ${data.frequency} 练`;
+      document.getElementById('sessions').innerHTML = buildSessions(data, result).map((s, i) => `<article class="session"><div class="session-top"><strong>训练 ${i + 1} · ${s.title}</strong><time>${s.time}</time></div><p>${s.text}</p></article>`).join('');
+      document.getElementById('results').classList.remove('flash');
+      requestAnimationFrame(() => document.getElementById('results').classList.add('flash'));
+      return { role: role.name, strengths: result.strengths.map(([key]) => metrics[key].label), priorities: result.priorities.map(([key]) => metrics[key].label), weeklySessions: data.frequency };
+    }
+
+    inputs.forEach(input => input.addEventListener('input', () => {
+      input.nextElementSibling.value = input.value;
+    }));
+    form.addEventListener('submit', event => { event.preventDefault(); render(valuesFromForm()); });
+    document.getElementById('reset-btn').addEventListener('click', () => {
+      form.reset();
+      inputs.forEach(input => input.nextElementSibling.value = input.value);
+      render(valuesFromForm());
+    });
+
+    render(valuesFromForm());
+
+    if (document.modelContext?.registerTool) {
+      const numericKeys = ['height','weight','frequency','shooting','finishing','handling','passing','defense','rebounding','speed','strength','stamina'];
+      Promise.resolve(document.modelContext.registerTool({
+        name: 'analyze_basketball_profile',
+        title: '分析篮球打法',
+        description: '填写球员身体与技术评分，更新页面并返回推荐打法、优势和训练重点。',
+        inputSchema: {
+          type: 'object',
+          properties: Object.fromEntries(numericKeys.map(key => [key, { type: 'number' }])),
+          required: numericKeys,
+          additionalProperties: false
+        },
+        annotations: { readOnlyHint: false, untrustedContentHint: false },
+        execute(input) {
+          numericKeys.forEach(key => {
+            if (!Number.isFinite(input[key])) throw new Error(`${key} 必须是数字`);
+            const element = form.elements[key];
+            const min = Number(element.min || 1);
+            const max = Number(element.max || (key === 'frequency' ? 5 : 10));
+            if (input[key] < min || input[key] > max) throw new Error(`${key} 超出允许范围`);
+            element.value = String(input[key]);
+            if (element.type === 'range') element.nextElementSibling.value = String(input[key]);
+          });
+          return render(valuesFromForm());
+        }
+      })).catch(() => {});
+    }
+  </script>
+</body>
+</html>
