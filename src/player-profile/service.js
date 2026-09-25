@@ -11,6 +11,7 @@ export function createPlayerProfileService({
   localRepository,
   cloudRepository,
   authAdapter,
+  legacyMigrator = null,
   now = () => new Date().toISOString()
 }) {
   assertLocalProfileRepository(localRepository);
@@ -41,7 +42,24 @@ export function createPlayerProfileService({
 
     const cloud = await cloudRepository.readCurrent(user.id);
     if (!cloud) {
-      if (!guest) return { status: 'empty', source: 'cloud', user, cloud: null, guest: null, profile: null };
+      if (!guest) {
+        if (legacyMigrator?.migrateForUser) {
+          const migration = await legacyMigrator.migrateForUser(user.id);
+          if (migration.record) {
+            return {
+              status: 'cloud',
+              source: migration.status === 'migrated' ? 'legacy_migration' : 'cloud',
+              user,
+              cloud: migration.record,
+              guest: null,
+              profile: migration.record.data,
+              migration
+            };
+          }
+          return { status: 'empty', source: 'cloud', user, cloud: null, guest: null, profile: null, migration };
+        }
+        return { status: 'empty', source: 'cloud', user, cloud: null, guest: null, profile: null };
+      }
       if (guest.sync.syncedUserId && guest.sync.syncedUserId !== user.id) {
         return { status: 'conflict', reason: 'cross_account_guest', user, cloud: null, guest };
       }
