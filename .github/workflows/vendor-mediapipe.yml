@@ -18,16 +18,16 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          npm pack @mediapipe/tasks-vision@0.10.22 --silent
-          tar -xzf mediapipe-tasks-vision-0.10.22.tgz
+          npm pack @mediapipe/tasks-vision@0.10.21
+          tar -xzf mediapipe-tasks-vision-0.10.21.tgz
           mkdir -p assets/mediapipe/wasm
           cp package/vision_bundle.mjs assets/mediapipe/vision_bundle.mjs
           cp package/wasm/* assets/mediapipe/wasm/
           curl --fail --location --retry 3             https://storage.googleapis.com/mediapipe-models/pose_landmarker/pose_landmarker_lite/float16/1/pose_landmarker_lite.task             --output assets/mediapipe/pose_landmarker_lite.task
-          rm -rf package mediapipe-tasks-vision-0.10.22.tgz
+          rm -rf package mediapipe-tasks-vision-0.10.21.tgz
           test -s assets/mediapipe/vision_bundle.mjs
           test -s assets/mediapipe/pose_landmarker_lite.task
-          find assets/mediapipe -type f -maxdepth 2 -print
+          find assets/mediapipe -maxdepth 2 -type f -print
       - name: Point the website to its bundled files
         shell: python
         run: |
