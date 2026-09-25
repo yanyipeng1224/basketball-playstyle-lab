@@ -365,7 +365,7 @@
         <div class="feature-tools"><label class="button-like" for="pose-file">选择本地视频</label><input id="pose-file" type="file" accept="video/*" hidden><button type="button" id="pose-camera">打开摄像头</button><button type="button" id="pose-stop" disabled>关闭摄像头</button><button type="button" id="pose-analyze" class="primary" disabled>分析动作</button></div>
         <video class="video-preview" id="pose-video" controls playsinline hidden></video>
         <canvas id="pose-canvas" hidden></canvas>
-        <p id="pose-status" class="result-message" role="status">可上传侧面投篮视频，或使用摄像头。首次分析会加载姿势识别模型。</p>
+        <p id="pose-status" class="result-message" role="status">可上传侧面投篮视频，或使用摄像头。首次分析会加载网站内置的姿势识别模型。</p>
         <div id="pose-report" class="mini-card" hidden></div>
         <p class="account-note">建议拍摄全身侧面；这是姿势辅助建议，不会追踪篮球或判断进球，也不替代教练现场指导。</p>
       </section>
@@ -1202,9 +1202,9 @@
     document.getElementById('pose-stop').addEventListener('click', () => { disposeCamera(); poseVideo.pause(); poseVideo.srcObject = null; poseVideo.hidden = true; });
     async function getPoseLandmarker() {
       if (!posePromise) posePromise = (async () => {
-        const vision = await import('https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@0.10.22/vision_bundle.mjs');
-        const files = await vision.FilesetResolver.forVisionTasks('https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@0.10.22/wasm');
-        return vision.PoseLandmarker.createFromOptions(files,{ baseOptions:{modelAssetPath:'https://storage.googleapis.com/mediapipe-models/pose_landmarker/pose_landmarker_lite/float16/1/pose_landmarker_lite.task'}, runningMode:'VIDEO', numPoses:1, minPoseDetectionConfidence:.45, minTrackingConfidence:.45 });
+        const vision = await import('./assets/mediapipe/vision_bundle.mjs');
+        const files = await vision.FilesetResolver.forVisionTasks('./assets/mediapipe/wasm');
+        return vision.PoseLandmarker.createFromOptions(files,{ baseOptions:{modelAssetPath:'./assets/mediapipe/pose_landmarker_lite.task'}, runningMode:'VIDEO', numPoses:1, minPoseDetectionConfidence:.45, minTrackingConfidence:.45 });
       })();
       return posePromise;
     }
