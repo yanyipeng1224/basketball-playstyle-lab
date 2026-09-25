@@ -17,7 +17,10 @@
       "tov": 3.984375,
       "fg": 0.476,
       "three": 0.366,
-      "ts": 0.616
+      "ts": 0.616,
+      "nameZh": "卢卡·东契奇",
+      "playerId": "fc-vft2wf",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Shai Gilgeous-Alexander",
@@ -31,7 +34,10 @@
       "tov": 2.2205882352941178,
       "fg": 0.553,
       "three": 0.386,
-      "ts": 0.665
+      "ts": 0.665,
+      "nameZh": "谢伊·吉尔杰斯-亚历山大",
+      "playerId": "fc-17v0t4i",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Anthony Edwards",
@@ -45,7 +51,10 @@
       "tov": 2.8524590163934427,
       "fg": 0.489,
       "three": 0.399,
-      "ts": 0.617
+      "ts": 0.617,
+      "nameZh": "安东尼·爱德华兹",
+      "playerId": "fc-6f7kqm",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Jaylen Brown",
@@ -59,7 +68,10 @@
       "tov": 3.647887323943662,
       "fg": 0.477,
       "three": 0.347,
-      "ts": 0.573
+      "ts": 0.573,
+      "nameZh": "杰伦·布朗",
+      "playerId": "fc-hhe57y",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Tyrese Maxey",
@@ -73,7 +85,10 @@
       "tov": 2.442857142857143,
       "fg": 0.462,
       "three": 0.367,
-      "ts": 0.588
+      "ts": 0.588,
+      "nameZh": "泰瑞斯·马克西",
+      "playerId": "fc-1x5814f",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Kawhi Leonard",
@@ -87,7 +102,10 @@
       "tov": 2.046153846153846,
       "fg": 0.505,
       "three": 0.387,
-      "ts": 0.629
+      "ts": 0.629,
+      "nameZh": "科怀·伦纳德",
+      "playerId": "fc-m65hua",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Donovan Mitchell",
@@ -101,7 +119,10 @@
       "tov": 2.8285714285714287,
       "fg": 0.483,
       "three": 0.364,
-      "ts": 0.613
+      "ts": 0.613,
+      "nameZh": "多诺万·米切尔",
+      "playerId": "fc-1ox8zrc",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Nikola Jokić",
@@ -115,7 +136,10 @@
       "tov": 3.7384615384615385,
       "fg": 0.569,
       "three": 0.38,
-      "ts": 0.67
+      "ts": 0.67,
+      "nameZh": "尼古拉·约基奇",
+      "playerId": "fc-1ijg8cs",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Giannis Antetokounmpo",
@@ -129,7 +153,10 @@
       "tov": 3.1944444444444446,
       "fg": 0.624,
       "three": 0.333,
-      "ts": 0.658
+      "ts": 0.658,
+      "nameZh": "扬尼斯·阿德托昆博",
+      "playerId": "fc-1bm7yi6",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Joel Embiid",
@@ -143,7 +170,10 @@
       "tov": 2.8684210526315788,
       "fg": 0.489,
       "three": 0.333,
-      "ts": 0.605
+      "ts": 0.605,
+      "nameZh": "乔尔·恩比德",
+      "playerId": "fc-19m4llj",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Lauri Markkanen",
@@ -157,7 +187,10 @@
       "tov": 1.5,
       "fg": 0.477,
       "three": 0.355,
-      "ts": 0.608
+      "ts": 0.608,
+      "nameZh": "劳里·马尔卡宁",
+      "playerId": "fc-d3at3y",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Stephen Curry",
@@ -171,7 +204,10 @@
       "tov": 2.813953488372093,
       "fg": 0.468,
       "three": 0.393,
-      "ts": 0.637
+      "ts": 0.637,
+      "nameZh": "斯蒂芬·库里",
+      "playerId": "fc-1pqpit5",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Devin Booker",
@@ -185,7 +221,10 @@
       "tov": 3.140625,
       "fg": 0.456,
       "three": 0.33,
-      "ts": 0.585
+      "ts": 0.585,
+      "nameZh": "德文·布克",
+      "playerId": "fc-zjzcaj",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Jalen Brunson",
@@ -199,7 +238,10 @@
       "tov": 2.364864864864865,
       "fg": 0.467,
       "three": 0.369,
-      "ts": 0.58
+      "ts": 0.58,
+      "nameZh": "杰伦·布伦森",
+      "playerId": "fc-p8tebu",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Kevin Durant",
@@ -213,7 +255,10 @@
       "tov": 3.1538461538461537,
       "fg": 0.52,
       "three": 0.413,
-      "ts": 0.641
+      "ts": 0.641,
+      "nameZh": "凯文·杜兰特",
+      "playerId": "fc-1w49e2",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Jamal Murray",
@@ -227,7 +272,10 @@
       "tov": 2.28,
       "fg": 0.483,
       "three": 0.435,
-      "ts": 0.622
+      "ts": 0.622,
+      "nameZh": "贾马尔·穆雷",
+      "playerId": "fc-5fdns2",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Victor Wembanyama",
@@ -241,7 +289,10 @@
       "tov": 2.421875,
       "fg": 0.512,
       "three": 0.349,
-      "ts": 0.626
+      "ts": 0.626,
+      "nameZh": "维克托·文班亚马",
+      "playerId": "fc-10h5rfm",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Deni Avdija",
@@ -255,7 +306,10 @@
       "tov": 3.8333333333333335,
       "fg": 0.462,
       "three": 0.318,
-      "ts": 0.6
+      "ts": 0.6,
+      "nameZh": "德尼·阿夫迪亚",
+      "playerId": "fc-14al51w",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Michael Porter Jr.",
@@ -269,7 +323,10 @@
       "tov": 2.3461538461538463,
       "fg": 0.463,
       "three": 0.363,
-      "ts": 0.595
+      "ts": 0.595,
+      "nameZh": "迈克尔·波特",
+      "playerId": "fc-1wbcbws",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Pascal Siakam",
@@ -283,7 +340,10 @@
       "tov": 2.225806451612903,
       "fg": 0.484,
       "three": 0.358,
-      "ts": 0.562
+      "ts": 0.562,
+      "nameZh": "帕斯卡尔·西亚卡姆",
+      "playerId": "fc-1lz2fm1",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Cade Cunningham",
@@ -297,7 +357,10 @@
       "tov": 3.6875,
       "fg": 0.461,
       "three": 0.342,
-      "ts": 0.564
+      "ts": 0.564,
+      "nameZh": "凯德·坎宁安",
+      "playerId": "fc-zwfaw0",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Keyonte George",
@@ -311,7 +374,10 @@
       "tov": 3.074074074074074,
       "fg": 0.456,
       "three": 0.371,
-      "ts": 0.609
+      "ts": 0.609,
+      "nameZh": "基扬特·乔治",
+      "playerId": "fc-1lei4c7",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "James Harden",
@@ -325,7 +391,10 @@
       "tov": 3.5,
       "fg": 0.434,
       "three": 0.375,
-      "ts": 0.61
+      "ts": 0.61,
+      "nameZh": "詹姆斯·哈登",
+      "playerId": "fc-kc49lf",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Austin Reaves",
@@ -339,7 +408,10 @@
       "tov": 2.9607843137254903,
       "fg": 0.49,
       "three": 0.36,
-      "ts": 0.641
+      "ts": 0.641,
+      "nameZh": "奥斯汀·里夫斯",
+      "playerId": "fc-1mufxjv",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Jalen Johnson",
@@ -353,7 +425,10 @@
       "tov": 3.388888888888889,
       "fg": 0.489,
       "three": 0.352,
-      "ts": 0.581
+      "ts": 0.581,
+      "nameZh": "杰伦·约翰逊",
+      "playerId": "fc-y2rwz0",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Paolo Banchero",
@@ -367,7 +442,10 @@
       "tov": 3.0833333333333335,
       "fg": 0.459,
       "three": 0.305,
-      "ts": 0.566
+      "ts": 0.566,
+      "nameZh": "保罗·班凯罗",
+      "playerId": "fc-1publo8",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Jayson Tatum",
@@ -381,7 +459,10 @@
       "tov": 2.4375,
       "fg": 0.411,
       "three": 0.329,
-      "ts": 0.541
+      "ts": 0.541,
+      "nameZh": "杰森·塔图姆",
+      "playerId": "fc-iuv9w2",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Norman Powell",
@@ -395,7 +476,10 @@
       "tov": 1.9137931034482758,
       "fg": 0.47,
       "three": 0.38,
-      "ts": 0.609
+      "ts": 0.609,
+      "nameZh": "诺曼·鲍威尔",
+      "playerId": "fc-1t33x59",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Trey Murphy III",
@@ -409,7 +493,10 @@
       "tov": 1.8181818181818181,
       "fg": 0.47,
       "three": 0.379,
-      "ts": 0.613
+      "ts": 0.613,
+      "nameZh": "特雷·墨菲三世",
+      "playerId": "fc-wu0kyx",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Brandon Ingram",
@@ -423,7 +510,10 @@
       "tov": 2.4285714285714284,
       "fg": 0.477,
       "three": 0.382,
-      "ts": 0.573
+      "ts": 0.573,
+      "nameZh": "布兰登·英格拉姆",
+      "playerId": "fc-36xytt",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Julius Randle",
@@ -437,7 +527,10 @@
       "tov": 2.7468354430379747,
       "fg": 0.481,
       "three": 0.315,
-      "ts": 0.585
+      "ts": 0.585,
+      "nameZh": "朱利叶斯·兰德尔",
+      "playerId": "fc-1knbjxt",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Cooper Flagg",
@@ -451,7 +544,10 @@
       "tov": 2.3,
       "fg": 0.468,
       "three": 0.295,
-      "ts": 0.548
+      "ts": 0.548,
+      "nameZh": "库珀·弗拉格",
+      "playerId": "fc-vgyazs",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Zion Williamson",
@@ -465,7 +561,10 @@
       "tov": 2.032258064516129,
       "fg": 0.6,
       "three": 0.25,
-      "ts": 0.644
+      "ts": 0.644,
+      "nameZh": "锡安·威廉森",
+      "playerId": "fc-1m3ci10",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "LeBron James",
@@ -479,7 +578,10 @@
       "tov": 2.9833333333333334,
       "fg": 0.515,
       "three": 0.317,
-      "ts": 0.594
+      "ts": 0.594,
+      "nameZh": "勒布朗·詹姆斯",
+      "playerId": "fc-1ck5lwb",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Shaedon Sharpe",
@@ -493,7 +595,10 @@
       "tov": 2.94,
       "fg": 0.452,
       "three": 0.337,
-      "ts": 0.546
+      "ts": 0.546,
+      "nameZh": "谢登·夏普",
+      "playerId": "fc-oh1nyw",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Nickeil Alexander-Walker",
@@ -507,7 +612,10 @@
       "tov": 2.076923076923077,
       "fg": 0.459,
       "three": 0.399,
-      "ts": 0.61
+      "ts": 0.61,
+      "nameZh": "尼基尔·亚历山大-沃克",
+      "playerId": "fc-1yjk6ej",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Franz Wagner",
@@ -521,7 +629,10 @@
       "tov": 1.7058823529411764,
       "fg": 0.481,
       "three": 0.345,
-      "ts": 0.588
+      "ts": 0.588,
+      "nameZh": "弗朗茨·瓦格纳",
+      "playerId": "fc-1yht5ce",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Tyler Herro",
@@ -535,7 +646,10 @@
       "tov": 1.9393939393939394,
       "fg": 0.48,
       "three": 0.378,
-      "ts": 0.602
+      "ts": 0.602,
+      "nameZh": "泰勒·希罗",
+      "playerId": "fc-1gnq23p",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Alperen Sengun",
@@ -549,7 +663,10 @@
       "tov": 3.1527777777777777,
       "fg": 0.519,
       "three": 0.305,
-      "ts": 0.569
+      "ts": 0.569,
+      "nameZh": "阿尔佩伦·申京",
+      "playerId": "fc-fga5mc",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Anthony Davis",
@@ -563,7 +680,10 @@
       "tov": 2.05,
       "fg": 0.506,
       "three": 0.27,
-      "ts": 0.551
+      "ts": 0.551,
+      "nameZh": "安东尼·戴维斯",
+      "playerId": "fc-1m130md",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Dillon Brooks",
@@ -577,7 +697,10 @@
       "tov": 1.75,
       "fg": 0.435,
       "three": 0.344,
-      "ts": 0.54
+      "ts": 0.54,
+      "nameZh": "狄龙·布鲁克斯",
+      "playerId": "fc-wvsuvl",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Brandon Miller",
@@ -591,7 +714,10 @@
       "tov": 2.5076923076923077,
       "fg": 0.435,
       "three": 0.383,
-      "ts": 0.574
+      "ts": 0.574,
+      "nameZh": "布兰登·米勒",
+      "playerId": "fc-xze86w",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Bam Adebayo",
@@ -605,7 +731,10 @@
       "tov": 1.643835616438356,
       "fg": 0.442,
       "three": 0.318,
-      "ts": 0.551
+      "ts": 0.551,
+      "nameZh": "巴姆·阿德巴约",
+      "playerId": "fc-117dlxy",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Desmond Bane",
@@ -619,7 +748,10 @@
       "tov": 2,
       "fg": 0.484,
       "three": 0.391,
-      "ts": 0.607
+      "ts": 0.607,
+      "nameZh": "德斯蒙德·贝恩",
+      "playerId": "fc-t5vbhf",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "LaMelo Ball",
@@ -633,7 +765,10 @@
       "tov": 2.8055555555555554,
       "fg": 0.407,
       "three": 0.368,
-      "ts": 0.546
+      "ts": 0.546,
+      "nameZh": "拉梅洛·鲍尔",
+      "playerId": "fc-olvz3m",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Karl-Anthony Towns",
@@ -647,7 +782,10 @@
       "tov": 2.493333333333333,
       "fg": 0.501,
       "three": 0.368,
-      "ts": 0.619
+      "ts": 0.619,
+      "nameZh": "卡尔-安东尼·唐斯",
+      "playerId": "fc-1228rli",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Jimmy Butler III",
@@ -661,7 +799,10 @@
       "tov": 1.5789473684210527,
       "fg": 0.519,
       "three": 0.376,
-      "ts": 0.646
+      "ts": 0.646,
+      "nameZh": "吉米·巴特勒",
+      "playerId": "fc-jf03ns",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Ty Jerome",
@@ -675,7 +816,10 @@
       "tov": 1.8,
       "fg": 0.474,
       "three": 0.42,
-      "ts": 0.616
+      "ts": 0.616,
+      "nameZh": "泰·杰罗姆",
+      "playerId": "fc-7c93ke",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Jalen Duren",
@@ -689,7 +833,10 @@
       "tov": 1.8571428571428572,
       "fg": 0.65,
       "three": 0,
-      "ts": 0.688
+      "ts": 0.688,
+      "nameZh": "杰伦·杜伦",
+      "playerId": "fc-rao13",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Ja Morant",
@@ -703,7 +850,10 @@
       "tov": 3.55,
       "fg": 0.41,
       "three": 0.235,
-      "ts": 0.521
+      "ts": 0.521,
+      "nameZh": "贾·莫兰特",
+      "playerId": "fc-nlxggj",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Jaren Jackson Jr.",
@@ -717,7 +867,10 @@
       "tov": 2.2291666666666665,
       "fg": 0.476,
       "three": 0.357,
-      "ts": 0.576
+      "ts": 0.576,
+      "nameZh": "小贾伦·杰克逊",
+      "playerId": "fc-4apcy6",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "RJ Barrett",
@@ -731,7 +884,10 @@
       "tov": 1.736842105263158,
       "fg": 0.491,
       "three": 0.339,
-      "ts": 0.585
+      "ts": 0.585,
+      "nameZh": "RJ·巴雷特",
+      "playerId": "fc-1j1r7qp",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Zach LaVine",
@@ -745,7 +901,10 @@
       "tov": 1.8974358974358974,
       "fg": 0.479,
       "three": 0.39,
-      "ts": 0.614
+      "ts": 0.614,
+      "nameZh": "扎克·拉文",
+      "playerId": "fc-7xgkyu",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Darius Garland",
@@ -759,7 +918,10 @@
       "tov": 2.888888888888889,
       "fg": 0.46,
       "three": 0.396,
-      "ts": 0.582
+      "ts": 0.582,
+      "nameZh": "达里厄斯·加兰",
+      "playerId": "fc-197eb4s",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "CJ McCollum",
@@ -773,7 +935,10 @@
       "tov": 1.7763157894736843,
       "fg": 0.455,
       "three": 0.375,
-      "ts": 0.566
+      "ts": 0.566,
+      "nameZh": "CJ·麦科勒姆",
+      "playerId": "fc-hom5xg",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Jerami Grant",
@@ -787,7 +952,10 @@
       "tov": 2.087719298245614,
       "fg": 0.453,
       "three": 0.389,
-      "ts": 0.608
+      "ts": 0.608,
+      "nameZh": "杰拉米·格兰特",
+      "playerId": "fc-1saq5ex",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "De'Aaron Fox",
@@ -801,7 +969,10 @@
       "tov": 2.2777777777777777,
       "fg": 0.486,
       "three": 0.332,
-      "ts": 0.578
+      "ts": 0.578,
+      "nameZh": "达龙·福克斯",
+      "playerId": "fc-n3irkh",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Kon Knueppel",
@@ -815,7 +986,10 @@
       "tov": 1.9876543209876543,
       "fg": 0.475,
       "three": 0.425,
-      "ts": 0.633
+      "ts": 0.633,
+      "nameZh": "康·克尼佩尔",
+      "playerId": "fc-qzvv5r",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "DeMar DeRozan",
@@ -829,7 +1003,10 @@
       "tov": 1.2467532467532467,
       "fg": 0.497,
       "three": 0.32,
-      "ts": 0.594
+      "ts": 0.594,
+      "nameZh": "德玛尔·德罗赞",
+      "playerId": "fc-sa9t93",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Amen Thompson",
@@ -843,7 +1020,10 @@
       "tov": 2.4050632911392404,
       "fg": 0.534,
       "three": 0.216,
-      "ts": 0.594
+      "ts": 0.594,
+      "nameZh": "阿门·汤普森",
+      "playerId": "fc-1k8rv84",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Evan Mobley",
@@ -857,7 +1037,10 @@
       "tov": 1.876923076923077,
       "fg": 0.546,
       "three": 0.297,
-      "ts": 0.596
+      "ts": 0.596,
+      "nameZh": "埃文·莫布利",
+      "playerId": "fc-15qt3i3",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Scottie Barnes",
@@ -871,7 +1054,10 @@
       "tov": 2.625,
       "fg": 0.507,
       "three": 0.304,
-      "ts": 0.577
+      "ts": 0.577,
+      "nameZh": "斯科蒂·巴恩斯",
+      "playerId": "fc-1cv9flj",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Trae Young",
@@ -885,7 +1071,10 @@
       "tov": 2.6,
       "fg": 0.458,
       "three": 0.338,
-      "ts": 0.612
+      "ts": 0.612,
+      "nameZh": "特雷·杨",
+      "playerId": "fc-c1xukh",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Jalen Green",
@@ -899,7 +1088,10 @@
       "tov": 2.25,
       "fg": 0.422,
       "three": 0.313,
-      "ts": 0.516
+      "ts": 0.516,
+      "nameZh": "杰伦·格林",
+      "playerId": "fc-voftts",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Saddiq Bey",
@@ -913,7 +1105,10 @@
       "tov": 0.9444444444444444,
       "fg": 0.451,
       "three": 0.367,
-      "ts": 0.579
+      "ts": 0.579,
+      "nameZh": "萨迪克·贝",
+      "playerId": "fc-14o2qin",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Bennedict Mathurin",
@@ -927,7 +1122,10 @@
       "tov": 2.185185185185185,
       "fg": 0.43,
       "three": 0.315,
-      "ts": 0.575
+      "ts": 0.575,
+      "nameZh": "本尼迪克特·马瑟林",
+      "playerId": "fc-1ip83rb",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Kevin Porter Jr.",
@@ -941,7 +1139,10 @@
       "tov": 2.8947368421052633,
       "fg": 0.465,
       "three": 0.322,
-      "ts": 0.567
+      "ts": 0.567,
+      "nameZh": "小凯文·波特",
+      "playerId": "fc-m5mqm4",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Coby White",
@@ -955,7 +1156,10 @@
       "tov": 2.56,
       "fg": 0.446,
       "three": 0.362,
-      "ts": 0.595
+      "ts": 0.595,
+      "nameZh": "科比·怀特",
+      "playerId": "fc-xjkq6r",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Paul George",
@@ -969,7 +1173,10 @@
       "tov": 1.7297297297297298,
       "fg": 0.439,
       "three": 0.392,
-      "ts": 0.57
+      "ts": 0.57,
+      "nameZh": "保罗·乔治",
+      "playerId": "fc-aywq7w",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Ryan Rollins",
@@ -983,7 +1190,10 @@
       "tov": 2.7162162162162162,
       "fg": 0.472,
       "three": 0.406,
-      "ts": 0.583
+      "ts": 0.583,
+      "nameZh": "",
+      "playerId": "fc-1vnjyaa",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Chet Holmgren",
@@ -997,7 +1207,10 @@
       "tov": 1.5507246376811594,
       "fg": 0.557,
       "three": 0.362,
-      "ts": 0.653
+      "ts": 0.653,
+      "nameZh": "切特·霍姆格伦",
+      "playerId": "fc-ja6sw1",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Miles Bridges",
@@ -1011,7 +1224,10 @@
       "tov": 1.3896103896103895,
       "fg": 0.46,
       "three": 0.333,
-      "ts": 0.57
+      "ts": 0.57,
+      "nameZh": "迈尔斯·布里奇斯",
+      "playerId": "fc-10uc80r",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Jalen Williams",
@@ -1025,7 +1241,10 @@
       "tov": 1.9090909090909092,
       "fg": 0.484,
       "three": 0.299,
-      "ts": 0.56
+      "ts": 0.56,
+      "nameZh": "杰伦·威廉姆斯",
+      "playerId": "fc-1js7odv",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Payton Pritchard",
@@ -1039,7 +1258,10 @@
       "tov": 1.379746835443038,
       "fg": 0.464,
       "three": 0.377,
-      "ts": 0.584
+      "ts": 0.584,
+      "nameZh": "佩顿·普里查德",
+      "playerId": "fc-jo0a1f",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Josh Giddey",
@@ -1053,7 +1275,10 @@
       "tov": 3.6296296296296298,
       "fg": 0.448,
       "three": 0.364,
-      "ts": 0.562
+      "ts": 0.562,
+      "nameZh": "乔什·吉迪",
+      "playerId": "fc-8ec1y9",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Andrew Nembhard",
@@ -1067,7 +1292,10 @@
       "tov": 2.4035087719298245,
       "fg": 0.442,
       "three": 0.361,
-      "ts": 0.564
+      "ts": 0.564,
+      "nameZh": "安德鲁·内姆布哈德",
+      "playerId": "fc-19fyfkj",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Dejounte Murray",
@@ -1081,7 +1309,10 @@
       "tov": 3.357142857142857,
       "fg": 0.484,
       "three": 0.306,
-      "ts": 0.58
+      "ts": 0.58,
+      "nameZh": "德章泰·穆雷",
+      "playerId": "fc-10csmpn",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "OG Anunoby",
@@ -1095,7 +1326,10 @@
       "tov": 1.835820895522388,
       "fg": 0.484,
       "three": 0.386,
-      "ts": 0.62
+      "ts": 0.62,
+      "nameZh": "OG·阿努诺比",
+      "playerId": "fc-19mmj97",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Stephon Castle",
@@ -1109,7 +1343,10 @@
       "tov": 3.1911764705882355,
       "fg": 0.471,
       "three": 0.332,
-      "ts": 0.575
+      "ts": 0.575,
+      "nameZh": "斯蒂芬·卡斯尔",
+      "playerId": "fc-rv7o1w",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Kristaps Porziņģis",
@@ -1123,7 +1360,10 @@
       "tov": 1.28125,
       "fg": 0.446,
       "three": 0.338,
-      "ts": 0.582
+      "ts": 0.582,
+      "nameZh": "克里斯塔普斯·波尔津吉斯",
+      "playerId": "fc-1fg5s2z",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Grayson Allen",
@@ -1137,7 +1377,10 @@
       "tov": 1.6274509803921569,
       "fg": 0.403,
       "three": 0.349,
-      "ts": 0.568
+      "ts": 0.568,
+      "nameZh": "格雷森·阿伦",
+      "playerId": "fc-9gwi8u",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Derrick White",
@@ -1151,7 +1394,10 @@
       "tov": 1.7402597402597402,
       "fg": 0.394,
       "three": 0.327,
-      "ts": 0.529
+      "ts": 0.529,
+      "nameZh": "德里克·怀特",
+      "playerId": "fc-fv4mdm",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Immanuel Quickley",
@@ -1165,7 +1411,10 @@
       "tov": 1.457142857142857,
       "fg": 0.443,
       "three": 0.374,
-      "ts": 0.577
+      "ts": 0.577,
+      "nameZh": "伊曼纽尔·奎克利",
+      "playerId": "fc-1btdza8",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Dariq Whitehead",
@@ -1179,7 +1428,10 @@
       "tov": 1.6666666666666667,
       "fg": 0.398,
       "three": 0.317,
-      "ts": 0.51
+      "ts": 0.51,
+      "nameZh": "",
+      "playerId": "fc-1856w6p",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Jrue Holiday",
@@ -1193,7 +1445,10 @@
       "tov": 2.7547169811320753,
       "fg": 0.451,
       "three": 0.378,
-      "ts": 0.573
+      "ts": 0.573,
+      "nameZh": "朱·霍勒迪",
+      "playerId": "fc-12xlmaj",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Alex Sarr",
@@ -1207,7 +1462,10 @@
       "tov": 1.7083333333333333,
       "fg": 0.482,
       "three": 0.333,
-      "ts": 0.544
+      "ts": 0.544,
+      "nameZh": "亚历克斯·萨尔",
+      "playerId": "fc-rfc5b",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Matas Buzelis",
@@ -1221,7 +1479,10 @@
       "tov": 2.064935064935065,
       "fg": 0.463,
       "three": 0.349,
-      "ts": 0.586
+      "ts": 0.586,
+      "nameZh": "马塔斯·布泽利斯",
+      "playerId": "fc-d8jrn1",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Aaron Gordon",
@@ -1235,7 +1496,10 @@
       "tov": 1.0555555555555556,
       "fg": 0.497,
       "three": 0.389,
-      "ts": 0.62
+      "ts": 0.62,
+      "nameZh": "阿隆·戈登",
+      "playerId": "fc-11zpeb7",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "VJ Edgecombe",
@@ -1249,7 +1513,10 @@
       "tov": 1.8266666666666667,
       "fg": 0.438,
       "three": 0.354,
-      "ts": 0.54
+      "ts": 0.54,
+      "nameZh": "VJ·埃奇库姆",
+      "playerId": "fc-h5fnfy",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Domantas Sabonis",
@@ -1263,7 +1530,10 @@
       "tov": 2.6842105263157894,
       "fg": 0.543,
       "three": 0.185,
-      "ts": 0.59
+      "ts": 0.59,
+      "nameZh": "多曼塔斯·萨博尼斯",
+      "playerId": "fc-1dfscbb",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Jabari Smith Jr.",
@@ -1277,7 +1547,10 @@
       "tov": 1.3636363636363635,
       "fg": 0.449,
       "three": 0.363,
-      "ts": 0.569
+      "ts": 0.569,
+      "nameZh": "小贾巴里·史密斯",
+      "playerId": "fc-15aa77x",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Collin Sexton",
@@ -1291,7 +1564,10 @@
       "tov": 2.073529411764706,
       "fg": 0.485,
       "three": 0.401,
-      "ts": 0.615
+      "ts": 0.615,
+      "nameZh": "科林·塞克斯顿",
+      "playerId": "fc-b4e4zx",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Andrew Wiggins",
@@ -1305,7 +1581,10 @@
       "tov": 1.5147058823529411,
       "fg": 0.475,
       "three": 0.414,
-      "ts": 0.586
+      "ts": 0.586,
+      "nameZh": "安德鲁·维金斯",
+      "playerId": "fc-g9tjh2",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Jaime Jaquez Jr.",
@@ -1319,7 +1598,10 @@
       "tov": 2.026666666666667,
       "fg": 0.507,
       "three": 0.317,
-      "ts": 0.57
+      "ts": 0.57,
+      "nameZh": "小海梅·哈克斯",
+      "playerId": "fc-liycc9",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Jarrett Allen",
@@ -1333,7 +1615,10 @@
       "tov": 1.3392857142857142,
       "fg": 0.638,
       "three": 0.1,
-      "ts": 0.669
+      "ts": 0.669,
+      "nameZh": "贾勒特·阿伦",
+      "playerId": "fc-i95ken",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Naji Marshall",
@@ -1347,7 +1632,10 @@
       "tov": 1.6081081081081081,
       "fg": 0.51,
       "three": 0.291,
-      "ts": 0.592
+      "ts": 0.592,
+      "nameZh": "纳吉·马绍尔",
+      "playerId": "fc-1ovdmq5",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Onyeka Okongwu",
@@ -1361,7 +1649,10 @@
       "tov": 1.7162162162162162,
       "fg": 0.48,
       "three": 0.376,
-      "ts": 0.592
+      "ts": 0.592,
+      "nameZh": "奥涅卡·奥孔古",
+      "playerId": "fc-1ybgu4q",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Russell Westbrook",
@@ -1375,7 +1666,10 @@
       "tov": 3.265625,
       "fg": 0.427,
       "three": 0.338,
-      "ts": 0.528
+      "ts": 0.528,
+      "nameZh": "拉塞尔·威斯布鲁克",
+      "playerId": "fc-ewdovb",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Nikola Vučević",
@@ -1389,7 +1683,10 @@
       "tov": 1.328125,
       "fg": 0.493,
       "three": 0.369,
-      "ts": 0.574
+      "ts": 0.574,
+      "nameZh": "尼古拉·武切维奇",
+      "playerId": "fc-g537vt",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Kennedy Chandler",
@@ -1403,7 +1700,10 @@
       "tov": 2.090909090909091,
       "fg": 0.445,
       "three": 0.395,
-      "ts": 0.529
+      "ts": 0.529,
+      "nameZh": "",
+      "playerId": "fc-eovrgi",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Anthony Black",
@@ -1417,7 +1717,10 @@
       "tov": 2.0625,
       "fg": 0.447,
       "three": 0.333,
-      "ts": 0.549
+      "ts": 0.549,
+      "nameZh": "安东尼·布莱克",
+      "playerId": "fc-bgusnp",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Brice Sensabaugh",
@@ -1431,7 +1734,10 @@
       "tov": 1.6533333333333333,
       "fg": 0.46,
       "three": 0.367,
-      "ts": 0.59
+      "ts": 0.59,
+      "nameZh": "",
+      "playerId": "fc-b2xgxh",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Jaden McDaniels",
@@ -1445,7 +1751,10 @@
       "tov": 1.7945205479452055,
       "fg": 0.515,
       "three": 0.412,
-      "ts": 0.611
+      "ts": 0.611,
+      "nameZh": "杰登·麦克丹尼尔斯",
+      "playerId": "fc-vnx103",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Ayo Dosunmu",
@@ -1459,7 +1768,10 @@
       "tov": 1.391304347826087,
       "fg": 0.517,
       "three": 0.439,
-      "ts": 0.63
+      "ts": 0.63,
+      "nameZh": "阿约·多孙穆",
+      "playerId": "fc-1xtr35b",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Kyshawn George",
@@ -1473,7 +1785,10 @@
       "tov": 2.6041666666666665,
       "fg": 0.438,
       "three": 0.381,
-      "ts": 0.559
+      "ts": 0.559,
+      "nameZh": "",
+      "playerId": "fc-1efrmj1",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Peyton Watson",
@@ -1487,7 +1802,10 @@
       "tov": 1.7222222222222223,
       "fg": 0.491,
       "three": 0.411,
-      "ts": 0.594
+      "ts": 0.594,
+      "nameZh": "",
+      "playerId": "fc-voolge",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Mikal Bridges",
@@ -1501,7 +1819,10 @@
       "tov": 1.0121951219512195,
       "fg": 0.49,
       "three": 0.371,
-      "ts": 0.587
+      "ts": 0.587,
+      "nameZh": "米卡尔·布里奇斯",
+      "playerId": "fc-1kn0hdj",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Walker Kessler",
@@ -1515,7 +1836,10 @@
       "tov": 3.2,
       "fg": 0.703,
       "three": 0.75,
-      "ts": 0.786
+      "ts": 0.786,
+      "nameZh": "沃克·凯斯勒",
+      "playerId": "fc-1lp87nq",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Anfernee Simons",
@@ -1529,7 +1853,10 @@
       "tov": 1.2363636363636363,
       "fg": 0.44,
       "three": 0.385,
-      "ts": 0.576
+      "ts": 0.576,
+      "nameZh": "安芬尼·西蒙斯",
+      "playerId": "fc-1beihv8",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Cormac Ryan",
@@ -1543,7 +1870,10 @@
       "tov": 1.5454545454545454,
       "fg": 0.52,
       "three": 0.458,
-      "ts": 0.692
+      "ts": 0.692,
+      "nameZh": "",
+      "playerId": "fc-nwjquk",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Jeremiah Fears",
@@ -1557,7 +1887,10 @@
       "tov": 2.1707317073170733,
       "fg": 0.434,
       "three": 0.33,
-      "ts": 0.525
+      "ts": 0.525,
+      "nameZh": "",
+      "playerId": "fc-10xhpv1",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Scoot Henderson",
@@ -1571,7 +1904,10 @@
       "tov": 2.433333333333333,
       "fg": 0.418,
       "three": 0.352,
-      "ts": 0.553
+      "ts": 0.553,
+      "nameZh": "斯库特·亨德森",
+      "playerId": "fc-18c58y9",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "P.J. Washington",
@@ -1585,7 +1921,10 @@
       "tov": 1.6785714285714286,
       "fg": 0.45,
       "three": 0.325,
-      "ts": 0.537
+      "ts": 0.537,
+      "nameZh": "PJ·华盛顿",
+      "playerId": "fc-1jaau3n",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Ivica Zubac",
@@ -1599,7 +1938,10 @@
       "tov": 1.7916666666666667,
       "fg": 0.598,
       "three": 0,
-      "ts": 0.622
+      "ts": 0.622,
+      "nameZh": "伊维察·祖巴茨",
+      "playerId": "fc-1bf8olk",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Kelly Oubre Jr.",
@@ -1613,7 +1955,10 @@
       "tov": 1.38,
       "fg": 0.467,
       "three": 0.36,
-      "ts": 0.58
+      "ts": 0.58,
+      "nameZh": "小凯利·乌布雷",
+      "playerId": "fc-tkuri1",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Tre Jones",
@@ -1627,7 +1972,10 @@
       "tov": 1.4153846153846155,
       "fg": 0.553,
       "three": 0.315,
-      "ts": 0.637
+      "ts": 0.637,
+      "nameZh": "特雷·琼斯",
+      "playerId": "fc-x091tt",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Santi Aldama",
@@ -1641,7 +1989,10 @@
       "tov": 1.2790697674418605,
       "fg": 0.479,
       "three": 0.35,
-      "ts": 0.572
+      "ts": 0.572,
+      "nameZh": "桑蒂·阿尔达马",
+      "playerId": "fc-1ympta2",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Keegan Murray",
@@ -1655,7 +2006,10 @@
       "tov": 1.173913043478261,
       "fg": 0.42,
       "three": 0.277,
-      "ts": 0.499
+      "ts": 0.499,
+      "nameZh": "基根·穆雷",
+      "playerId": "fc-16yvj96",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Devin Vassell",
@@ -1669,7 +2023,10 @@
       "tov": 0.8955223880597015,
       "fg": 0.437,
       "three": 0.384,
-      "ts": 0.574
+      "ts": 0.574,
+      "nameZh": "德文·瓦塞尔",
+      "playerId": "fc-1mmekdx",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Brandin Podziemski",
@@ -1683,7 +2040,10 @@
       "tov": 1.5975609756097562,
       "fg": 0.455,
       "three": 0.371,
-      "ts": 0.583
+      "ts": 0.583,
+      "nameZh": "布兰丁·波杰姆斯基",
+      "playerId": "fc-15m4fhi",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Aaron Nesmith",
@@ -1697,7 +2057,10 @@
       "tov": 1.4,
       "fg": 0.414,
       "three": 0.379,
-      "ts": 0.554
+      "ts": 0.554,
+      "nameZh": "阿隆·内史密斯",
+      "playerId": "fc-1ssgbqy",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Ace Bailey",
@@ -1711,7 +2074,10 @@
       "tov": 1.4861111111111112,
       "fg": 0.443,
       "three": 0.344,
-      "ts": 0.533
+      "ts": 0.533,
+      "nameZh": "",
+      "playerId": "fc-1fq1dfm",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Jalen Suggs",
@@ -1725,7 +2091,10 @@
       "tov": 2.6666666666666665,
       "fg": 0.435,
       "three": 0.339,
-      "ts": 0.561
+      "ts": 0.561,
+      "nameZh": "杰伦·萨格斯",
+      "playerId": "fc-2dw3fg",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "De'Andre Hunter",
@@ -1739,7 +2108,10 @@
       "tov": 1.6666666666666667,
       "fg": 0.415,
       "three": 0.305,
-      "ts": 0.545
+      "ts": 0.545,
+      "nameZh": "德安德烈·亨特",
+      "playerId": "fc-1gv43tt",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Bobby Portis Jr.",
@@ -1753,7 +2125,10 @@
       "tov": 0.9850746268656716,
       "fg": 0.488,
       "three": 0.456,
-      "ts": 0.587
+      "ts": 0.587,
+      "nameZh": "小鲍比·波蒂斯",
+      "playerId": "fc-1oxzbje",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Zach Edey",
@@ -1767,7 +2142,10 @@
       "tov": 2.3636363636363638,
       "fg": 0.633,
       "three": 0.2,
-      "ts": 0.669
+      "ts": 0.669,
+      "nameZh": "扎克·埃迪",
+      "playerId": "fc-1wagheu",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Cedric Coward",
@@ -1781,7 +2159,10 @@
       "tov": 1.6935483870967742,
       "fg": 0.471,
       "three": 0.338,
-      "ts": 0.585
+      "ts": 0.585,
+      "nameZh": "",
+      "playerId": "fc-161c3yd",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Naz Reid",
@@ -1795,7 +2176,10 @@
       "tov": 1.6363636363636365,
       "fg": 0.456,
       "three": 0.362,
-      "ts": 0.565
+      "ts": 0.565,
+      "nameZh": "纳兹·里德",
+      "playerId": "fc-jhpvbe",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Ajay Mitchell",
@@ -1809,7 +2193,10 @@
       "tov": 1.4210526315789473,
       "fg": 0.485,
       "three": 0.347,
-      "ts": 0.585
+      "ts": 0.585,
+      "nameZh": "",
+      "playerId": "fc-1beruak",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "John Collins",
@@ -1823,7 +2210,10 @@
       "tov": 1.3768115942028984,
       "fg": 0.552,
       "three": 0.406,
-      "ts": 0.643
+      "ts": 0.643,
+      "nameZh": "约翰·科林斯",
+      "playerId": "fc-1gulwc6",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Reed Sheppard",
@@ -1837,7 +2227,10 @@
       "tov": 1.5,
       "fg": 0.43,
       "three": 0.394,
-      "ts": 0.564
+      "ts": 0.564,
+      "nameZh": "里德·谢泼德",
+      "playerId": "fc-wqiojo",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Cam Thomas",
@@ -1851,7 +2244,10 @@
       "tov": 1.7619047619047619,
       "fg": 0.41,
       "three": 0.31,
-      "ts": 0.53
+      "ts": 0.53,
+      "nameZh": "卡姆·托马斯",
+      "playerId": "fc-zrhhlk",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Tim Hardaway Jr.",
@@ -1865,7 +2261,10 @@
       "tov": 0.5375,
       "fg": 0.447,
       "three": 0.407,
-      "ts": 0.624
+      "ts": 0.624,
+      "nameZh": "小蒂姆·哈达威",
+      "playerId": "fc-1j2ajaq",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Jordan Poole",
@@ -1879,7 +2278,10 @@
       "tov": 1.7692307692307692,
       "fg": 0.372,
       "three": 0.333,
-      "ts": 0.53
+      "ts": 0.53,
+      "nameZh": "乔丹·普尔",
+      "playerId": "fc-i57y8a",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Toumani Camara",
@@ -1893,7 +2295,10 @@
       "tov": 1.7560975609756098,
       "fg": 0.44,
       "three": 0.37,
-      "ts": 0.578
+      "ts": 0.578,
+      "nameZh": "图马尼·卡马拉",
+      "playerId": "fc-j0ighj",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Quentin Grimes",
@@ -1907,7 +2312,10 @@
       "tov": 1.7733333333333334,
       "fg": 0.45,
       "three": 0.334,
-      "ts": 0.585
+      "ts": 0.585,
+      "nameZh": "昆廷·格莱姆斯",
+      "playerId": "fc-xpym3i",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Tobias Harris",
@@ -1921,7 +2329,10 @@
       "tov": 1,
       "fg": 0.469,
       "three": 0.368,
-      "ts": 0.574
+      "ts": 0.574,
+      "nameZh": "托拜厄斯·哈里斯",
+      "playerId": "fc-1pfk03g",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Jaylon Tyson",
@@ -1935,7 +2346,10 @@
       "tov": 1.5,
       "fg": 0.493,
       "three": 0.446,
-      "ts": 0.608
+      "ts": 0.608,
+      "nameZh": "",
+      "playerId": "fc-coxtjl",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Keldon Johnson",
@@ -1949,7 +2363,10 @@
       "tov": 0.8536585365853658,
       "fg": 0.519,
       "three": 0.363,
-      "ts": 0.613
+      "ts": 0.613,
+      "nameZh": "凯尔登·约翰逊",
+      "playerId": "fc-7o3lv",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Brandon Williams",
@@ -1963,7 +2380,10 @@
       "tov": 1.893939393939394,
       "fg": 0.472,
       "three": 0.232,
-      "ts": 0.572
+      "ts": 0.572,
+      "nameZh": "",
+      "playerId": "fc-1ua5d73",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Kyle Kuzma",
@@ -1977,7 +2397,10 @@
       "tov": 1.7246376811594204,
       "fg": 0.492,
       "three": 0.347,
-      "ts": 0.581
+      "ts": 0.581,
+      "nameZh": "凯尔·库兹马",
+      "playerId": "fc-6pnuei",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Sam Merrill",
@@ -1991,7 +2414,10 @@
       "tov": 0.8076923076923077,
       "fg": 0.461,
       "three": 0.421,
-      "ts": 0.644
+      "ts": 0.644,
+      "nameZh": "",
+      "playerId": "fc-1ir5dat",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Collin Gillespie",
@@ -2005,7 +2431,10 @@
       "tov": 1.5625,
       "fg": 0.418,
       "three": 0.401,
-      "ts": 0.575
+      "ts": 0.575,
+      "nameZh": "",
+      "playerId": "fc-bo3bae",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Jaylen Wells",
@@ -2019,7 +2448,10 @@
       "tov": 1.0724637681159421,
       "fg": 0.431,
       "three": 0.353,
-      "ts": 0.559
+      "ts": 0.559,
+      "nameZh": "杰伦·威尔斯",
+      "playerId": "fc-172wzjr",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "GG Jackson",
@@ -2033,7 +2465,10 @@
       "tov": 1.5454545454545454,
       "fg": 0.496,
       "three": 0.332,
-      "ts": 0.591
+      "ts": 0.591,
+      "nameZh": "GG·杰克逊",
+      "playerId": "fc-1vn9w5e",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Maxime Raynaud",
@@ -2047,7 +2482,10 @@
       "tov": 1.2702702702702702,
       "fg": 0.571,
       "three": 0.324,
-      "ts": 0.619
+      "ts": 0.619,
+      "nameZh": "",
+      "playerId": "fc-1gevvg2",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Deandre Ayton",
@@ -2061,7 +2499,10 @@
       "tov": 1.1527777777777777,
       "fg": 0.671,
       "three": 0,
-      "ts": 0.676
+      "ts": 0.676,
+      "nameZh": "德安德烈·艾顿",
+      "playerId": "fc-s4l2rd",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Malik Monk",
@@ -2075,7 +2516,10 @@
       "tov": 1.467741935483871,
       "fg": 0.438,
       "three": 0.395,
-      "ts": 0.568
+      "ts": 0.568,
+      "nameZh": "马利克·蒙克",
+      "playerId": "fc-hmjfac",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "De'Anthony Melton",
@@ -2089,7 +2533,10 @@
       "tov": 1.8571428571428572,
       "fg": 0.407,
       "three": 0.294,
-      "ts": 0.518
+      "ts": 0.518,
+      "nameZh": "",
+      "playerId": "fc-skbbrb",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Max Christie",
@@ -2103,7 +2550,10 @@
       "tov": 1.2467532467532467,
       "fg": 0.441,
       "three": 0.404,
-      "ts": 0.601
+      "ts": 0.601,
+      "nameZh": "马克斯·克里斯蒂",
+      "playerId": "fc-1e6avck",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Noah Clowney",
@@ -2117,7 +2567,10 @@
       "tov": 1.5454545454545454,
       "fg": 0.396,
       "three": 0.329,
-      "ts": 0.554
+      "ts": 0.554,
+      "nameZh": "",
+      "playerId": "fc-p72g2o",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Cameron Johnson",
@@ -2131,7 +2584,10 @@
       "tov": 0.8703703703703703,
       "fg": 0.48,
       "three": 0.43,
-      "ts": 0.629
+      "ts": 0.629,
+      "nameZh": "卡梅隆·约翰逊",
+      "playerId": "fc-19cmacx",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Tre Johnson",
@@ -2145,7 +2601,10 @@
       "tov": 1.55,
       "fg": 0.419,
       "three": 0.358,
-      "ts": 0.535
+      "ts": 0.535,
+      "nameZh": "",
+      "playerId": "fc-1v1bgb1",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Donte DiVincenzo",
@@ -2159,7 +2618,10 @@
       "tov": 1.4390243902439024,
       "fg": 0.406,
       "three": 0.379,
-      "ts": 0.567
+      "ts": 0.567,
+      "nameZh": "丹特·迪文琴佐",
+      "playerId": "fc-17q852m",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Duncan Robinson",
@@ -2173,7 +2635,10 @@
       "tov": 0.7012987012987013,
       "fg": 0.456,
       "three": 0.41,
-      "ts": 0.629
+      "ts": 0.629,
+      "nameZh": "邓肯·罗宾逊",
+      "playerId": "fc-edgvqy",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Jonathan Kuminga",
@@ -2187,7 +2652,10 @@
       "tov": 1.8611111111111112,
       "fg": 0.463,
       "three": 0.333,
-      "ts": 0.557
+      "ts": 0.557,
+      "nameZh": "乔纳森·库明加",
+      "playerId": "fc-lenxl4",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Moses Moody",
@@ -2201,7 +2669,10 @@
       "tov": 0.95,
       "fg": 0.44,
       "three": 0.401,
-      "ts": 0.6
+      "ts": 0.6,
+      "nameZh": "摩西·穆迪",
+      "playerId": "fc-ux7jc8",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Donovan Clingan",
@@ -2215,7 +2686,10 @@
       "tov": 1.2337662337662338,
       "fg": 0.52,
       "three": 0.341,
-      "ts": 0.604
+      "ts": 0.604,
+      "nameZh": "多诺万·克林根",
+      "playerId": "fc-gmp6xa",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Josh Hart",
@@ -2229,7 +2703,10 @@
       "tov": 1.9393939393939394,
       "fg": 0.508,
       "three": 0.413,
-      "ts": 0.612
+      "ts": 0.612,
+      "nameZh": "乔什·哈特",
+      "playerId": "fc-15z8zoq",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Tristen Newton",
@@ -2243,7 +2720,10 @@
       "tov": 0,
       "fg": 0.444,
       "three": 0.4,
-      "ts": 0.581
+      "ts": 0.581,
+      "nameZh": "",
+      "playerId": "fc-18qpnd5",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Miles McBride",
@@ -2257,7 +2737,10 @@
       "tov": 0.8048780487804879,
       "fg": 0.423,
       "three": 0.413,
-      "ts": 0.578
+      "ts": 0.578,
+      "nameZh": "迈尔斯·麦克布莱德",
+      "playerId": "fc-flw02h",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Christian Braun",
@@ -2271,7 +2754,10 @@
       "tov": 0.9772727272727273,
       "fg": 0.519,
       "three": 0.301,
-      "ts": 0.607
+      "ts": 0.607,
+      "nameZh": "克里斯蒂安·布劳恩",
+      "playerId": "fc-20ncnk",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Blake Hinson",
@@ -2285,7 +2771,10 @@
       "tov": 0.35714285714285715,
       "fg": 0.513,
       "three": 0.468,
-      "ts": 0.684
+      "ts": 0.684,
+      "nameZh": "",
+      "playerId": "fc-hynek7",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Myles Turner",
@@ -2299,7 +2788,10 @@
       "tov": 1.1690140845070423,
       "fg": 0.44,
       "three": 0.383,
-      "ts": 0.584
+      "ts": 0.584,
+      "nameZh": "迈尔斯·特纳",
+      "playerId": "fc-6uqx0f",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Dyson Daniels",
@@ -2313,7 +2805,10 @@
       "tov": 1.7763157894736843,
       "fg": 0.517,
       "three": 0.188,
-      "ts": 0.542
+      "ts": 0.542,
+      "nameZh": "戴森·丹尼尔斯",
+      "playerId": "fc-cdh6ue",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Julian Reese",
@@ -2327,7 +2822,10 @@
       "tov": 2.4615384615384617,
       "fg": 0.529,
       "three": 0,
-      "ts": 0.557
+      "ts": 0.557,
+      "nameZh": "",
+      "playerId": "fc-1mug544",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Wendell Carter Jr.",
@@ -2341,7 +2839,10 @@
       "tov": 1.2820512820512822,
       "fg": 0.512,
       "three": 0.319,
-      "ts": 0.617
+      "ts": 0.617,
+      "nameZh": "小温德尔·卡特",
+      "playerId": "fc-gzwltp",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Dylan Harper",
@@ -2355,7 +2856,10 @@
       "tov": 1.434782608695652,
       "fg": 0.505,
       "three": 0.343,
-      "ts": 0.574
+      "ts": 0.574,
+      "nameZh": "",
+      "playerId": "fc-nkrnlx",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Nic Claxton",
@@ -2369,7 +2873,10 @@
       "tov": 1.391304347826087,
       "fg": 0.571,
       "three": 0.158,
-      "ts": 0.592
+      "ts": 0.592,
+      "nameZh": "",
+      "playerId": "fc-1g811lq",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Klay Thompson",
@@ -2383,7 +2890,10 @@
       "tov": 0.9130434782608695,
       "fg": 0.393,
       "three": 0.383,
-      "ts": 0.541
+      "ts": 0.541,
+      "nameZh": "克莱·汤普森",
+      "playerId": "fc-13u4lq8",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Bilal Coulibaly",
@@ -2397,7 +2907,10 @@
       "tov": 1.4464285714285714,
       "fg": 0.425,
       "three": 0.319,
-      "ts": 0.531
+      "ts": 0.531,
+      "nameZh": "比拉尔·库利巴利",
+      "playerId": "fc-1cbabel",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Derik Queen",
@@ -2411,7 +2924,10 @@
       "tov": 2.345679012345679,
       "fg": 0.473,
       "three": 0.261,
-      "ts": 0.546
+      "ts": 0.546,
+      "nameZh": "",
+      "playerId": "fc-17spz3u",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Mark Williams",
@@ -2425,7 +2941,10 @@
       "tov": 1.0833333333333333,
       "fg": 0.644,
       "three": 1,
-      "ts": 0.68
+      "ts": 0.68,
+      "nameZh": "马克·威廉姆斯",
+      "playerId": "fc-i2kd1u",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Isaiah Collier",
@@ -2439,7 +2958,10 @@
       "tov": 2.5084745762711864,
       "fg": 0.495,
       "three": 0.27,
-      "ts": 0.567
+      "ts": 0.567,
+      "nameZh": "",
+      "playerId": "fc-1xaff38",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Jarace Walker",
@@ -2453,7 +2975,10 @@
       "tov": 1.8289473684210527,
       "fg": 0.419,
       "three": 0.374,
-      "ts": 0.543
+      "ts": 0.543,
+      "nameZh": "",
+      "playerId": "fc-7r5z55",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Obi Toppin",
@@ -2467,7 +2992,10 @@
       "tov": 1.1666666666666667,
       "fg": 0.503,
       "three": 0.352,
-      "ts": 0.636
+      "ts": 0.636,
+      "nameZh": "奥比·托平",
+      "playerId": "fc-nt2t5n",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Rui Hachimura",
@@ -2481,7 +3009,10 @@
       "tov": 0.6176470588235294,
       "fg": 0.514,
       "three": 0.443,
-      "ts": 0.62
+      "ts": 0.62,
+      "nameZh": "八村垒",
+      "playerId": "fc-1c063gz",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Pelle Larsson",
@@ -2495,7 +3026,10 @@
       "tov": 1.4428571428571428,
       "fg": 0.496,
       "three": 0.323,
-      "ts": 0.605
+      "ts": 0.605,
+      "nameZh": "",
+      "playerId": "fc-1q3jwdl",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Kyle Filipowski",
@@ -2509,7 +3043,10 @@
       "tov": 1.6233766233766234,
       "fg": 0.492,
       "three": 0.325,
-      "ts": 0.586
+      "ts": 0.586,
+      "nameZh": "",
+      "playerId": "fc-18b4sxr",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Scotty Pippen Jr.",
@@ -2523,7 +3060,10 @@
       "tov": 2.7,
       "fg": 0.448,
       "three": 0.313,
-      "ts": 0.537
+      "ts": 0.537,
+      "nameZh": "",
+      "playerId": "fc-3lrn13",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Max Strus",
@@ -2537,7 +3077,10 @@
       "tov": 0.75,
       "fg": 0.443,
       "three": 0.402,
-      "ts": 0.609
+      "ts": 0.609,
+      "nameZh": "马克斯·斯特鲁斯",
+      "playerId": "fc-tyb0y",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Sandro Mamukelashvili",
@@ -2551,7 +3094,10 @@
       "tov": 0.8375,
       "fg": 0.523,
       "three": 0.389,
-      "ts": 0.637
+      "ts": 0.637,
+      "nameZh": "",
+      "playerId": "fc-6am90e",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Julian Champagnie",
@@ -2565,7 +3111,10 @@
       "tov": 0.8414634146341463,
       "fg": 0.437,
       "three": 0.381,
-      "ts": 0.609
+      "ts": 0.609,
+      "nameZh": "",
+      "playerId": "fc-1uhv9dt",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Cam Spencer",
@@ -2579,7 +3128,10 @@
       "tov": 1.2916666666666667,
       "fg": 0.473,
       "three": 0.449,
-      "ts": 0.649
+      "ts": 0.649,
+      "nameZh": "",
+      "playerId": "fc-v7r1n6",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Isaiah Joe",
@@ -2593,7 +3145,10 @@
       "tov": 0.6338028169014085,
       "fg": 0.455,
       "three": 0.423,
-      "ts": 0.657
+      "ts": 0.657,
+      "nameZh": "",
+      "playerId": "fc-qb7js0",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Kel'el Ware",
@@ -2607,7 +3162,10 @@
       "tov": 0.8051948051948052,
       "fg": 0.53,
       "three": 0.395,
-      "ts": 0.616
+      "ts": 0.616,
+      "nameZh": "",
+      "playerId": "fc-dmqxuy",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Alondes Williams",
@@ -2621,7 +3179,10 @@
       "tov": 1.25,
       "fg": 0.615,
       "three": 0.357,
-      "ts": 0.745
+      "ts": 0.745,
+      "nameZh": "",
+      "playerId": "fc-1tvogvz",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Rudy Gobert",
@@ -2635,7 +3196,10 @@
       "tov": 1.394736842105263,
       "fg": 0.682,
       "three": 0,
-      "ts": 0.664
+      "ts": 0.664,
+      "nameZh": "鲁迪·戈贝尔",
+      "playerId": "fc-y7ixx8",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Jusuf Nurkić",
@@ -2649,7 +3213,10 @@
       "tov": 2.4634146341463414,
       "fg": 0.503,
       "three": 0.352,
-      "ts": 0.548
+      "ts": 0.548,
+      "nameZh": "优素福·努尔基奇",
+      "playerId": "fc-8n962z",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Dennis Schröder",
@@ -2663,7 +3230,10 @@
       "tov": 1.7714285714285714,
       "fg": 0.405,
       "three": 0.329,
-      "ts": 0.526
+      "ts": 0.526,
+      "nameZh": "丹尼斯·施罗德",
+      "playerId": "fc-uoj260",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Daeqwon Plowden",
@@ -2677,7 +3247,10 @@
       "tov": 0.8125,
       "fg": 0.43,
       "three": 0.333,
-      "ts": 0.572
+      "ts": 0.572,
+      "nameZh": "",
+      "playerId": "fc-1cq2dih",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Tyler Burton",
@@ -2691,7 +3264,10 @@
       "tov": 0.9166666666666666,
       "fg": 0.375,
       "three": 0.333,
-      "ts": 0.521
+      "ts": 0.521,
+      "nameZh": "",
+      "playerId": "fc-1t57mdh",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Jakob Poeltl",
@@ -2705,7 +3281,10 @@
       "tov": 1.2391304347826086,
       "fg": 0.7,
       "three": 0,
-      "ts": 0.698
+      "ts": 0.698,
+      "nameZh": "雅各布·珀尔特尔",
+      "playerId": "fc-u9iemw",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Bub Carrington",
@@ -2719,7 +3298,10 @@
       "tov": 2.3292682926829267,
       "fg": 0.424,
       "three": 0.408,
-      "ts": 0.556
+      "ts": 0.556,
+      "nameZh": "",
+      "playerId": "fc-tn8t7z",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Jock Landale",
@@ -2733,7 +3315,10 @@
       "tov": 0.8823529411764706,
       "fg": 0.515,
       "three": 0.383,
-      "ts": 0.595
+      "ts": 0.595,
+      "nameZh": "乔克·兰代尔",
+      "playerId": "fc-dv3br7",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Tari Eason",
@@ -2747,7 +3332,10 @@
       "tov": 1.35,
       "fg": 0.416,
       "three": 0.358,
-      "ts": 0.514
+      "ts": 0.514,
+      "nameZh": "塔里·伊森",
+      "playerId": "fc-9m36up",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Marvin Bagley III",
@@ -2761,7 +3349,10 @@
       "tov": 1.0166666666666666,
       "fg": 0.618,
       "three": 0.462,
-      "ts": 0.661
+      "ts": 0.661,
+      "nameZh": "马文·巴格利三世",
+      "playerId": "fc-12fbcep",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Lucas Williamson",
@@ -2775,7 +3366,10 @@
       "tov": 1.4285714285714286,
       "fg": 0.333,
       "three": 0.283,
-      "ts": 0.465
+      "ts": 0.465,
+      "nameZh": "",
+      "playerId": "fc-11z44g2",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Caleb Love",
@@ -2789,7 +3383,10 @@
       "tov": 1.2653061224489797,
       "fg": 0.388,
       "three": 0.318,
-      "ts": 0.497
+      "ts": 0.497,
+      "nameZh": "",
+      "playerId": "fc-bka6t8",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Adama Bal",
@@ -2803,7 +3400,10 @@
       "tov": 0.75,
       "fg": 0.412,
       "three": 0.409,
-      "ts": 0.573
+      "ts": 0.573,
+      "nameZh": "",
+      "playerId": "fc-4zb7ja",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "AJ Green",
@@ -2817,7 +3417,10 @@
       "tov": 0.9615384615384616,
       "fg": 0.424,
       "three": 0.419,
-      "ts": 0.627
+      "ts": 0.627,
+      "nameZh": "",
+      "playerId": "fc-1hvzyzl",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "DaQuan Jeffries",
@@ -2831,7 +3434,10 @@
       "tov": 0,
       "fg": 0.579,
       "three": 0.444,
-      "ts": 0.731
+      "ts": 0.731,
+      "nameZh": "",
+      "playerId": "fc-1qfw9u5",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Will Riley",
@@ -2845,7 +3451,10 @@
       "tov": 1.2702702702702702,
       "fg": 0.439,
       "three": 0.316,
-      "ts": 0.548
+      "ts": 0.548,
+      "nameZh": "",
+      "playerId": "fc-1xbexl8",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Egor Dëmin",
@@ -2859,7 +3468,10 @@
       "tov": 1.6538461538461537,
       "fg": 0.399,
       "three": 0.385,
-      "ts": 0.561
+      "ts": 0.561,
+      "nameZh": "",
+      "playerId": "fc-tvg2vj",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Ziaire Williams",
@@ -2873,7 +3485,10 @@
       "tov": 1.0535714285714286,
       "fg": 0.425,
       "three": 0.343,
-      "ts": 0.579
+      "ts": 0.579,
+      "nameZh": "",
+      "playerId": "fc-1l7lyp3",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Neemias Queta",
@@ -2887,7 +3502,10 @@
       "tov": 0.9868421052631579,
       "fg": 0.653,
       "three": 0.125,
-      "ts": 0.674
+      "ts": 0.674,
+      "nameZh": "",
+      "playerId": "fc-c7dhx7",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Jalen Smith",
@@ -2901,7 +3519,10 @@
       "tov": 1,
       "fg": 0.483,
       "three": 0.373,
-      "ts": 0.608
+      "ts": 0.608,
+      "nameZh": "",
+      "playerId": "fc-10kwuys",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Khris Middleton",
@@ -2915,7 +3536,10 @@
       "tov": 1.7142857142857142,
       "fg": 0.42,
       "three": 0.36,
-      "ts": 0.533
+      "ts": 0.533,
+      "nameZh": "克里斯·米德尔顿",
+      "playerId": "fc-1s6kgzm",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "D'Angelo Russell",
@@ -2929,7 +3553,10 @@
       "tov": 1.8846153846153846,
       "fg": 0.405,
       "three": 0.295,
-      "ts": 0.511
+      "ts": 0.511,
+      "nameZh": "丹吉洛·拉塞尔",
+      "playerId": "fc-1uz26m0",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Precious Achiuwa",
@@ -2943,7 +3570,10 @@
       "tov": 0.8904109589041096,
       "fg": 0.528,
       "three": 0.278,
-      "ts": 0.558
+      "ts": 0.558,
+      "nameZh": "普雷舍斯·阿丘瓦",
+      "playerId": "fc-1hktqn1",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Derrick Jones Jr.",
@@ -2957,7 +3587,10 @@
       "tov": 0.8,
       "fg": 0.499,
       "three": 0.359,
-      "ts": 0.6
+      "ts": 0.6,
+      "nameZh": "小德里克·琼斯",
+      "playerId": "fc-1jfnle6",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Kevin Huerter",
@@ -2971,7 +3604,10 @@
       "tov": 1.0434782608695652,
       "fg": 0.451,
       "three": 0.308,
-      "ts": 0.552
+      "ts": 0.552,
+      "nameZh": "凯文·赫尔特",
+      "playerId": "fc-4c2195",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Isaiah Stewart",
@@ -2985,7 +3621,10 @@
       "tov": 1.1551724137931034,
       "fg": 0.55,
       "three": 0.333,
-      "ts": 0.632
+      "ts": 0.632,
+      "nameZh": "以赛亚·斯图尔特",
+      "playerId": "fc-n7qb8a",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Olivier-Maxence Prosper",
@@ -2999,7 +3638,10 @@
       "tov": 0.8867924528301887,
       "fg": 0.549,
       "three": 0.405,
-      "ts": 0.662
+      "ts": 0.662,
+      "nameZh": "",
+      "playerId": "fc-hheprk",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Toby Okani",
@@ -3013,7 +3655,10 @@
       "tov": 0.5,
       "fg": 0.357,
       "three": 0.29,
-      "ts": 0.408
+      "ts": 0.408,
+      "nameZh": "",
+      "playerId": "fc-18nuxol",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Jordan Miller",
@@ -3027,7 +3672,10 @@
       "tov": 1.05,
       "fg": 0.531,
       "three": 0.345,
-      "ts": 0.628
+      "ts": 0.628,
+      "nameZh": "",
+      "playerId": "fc-153v6fs",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Harrison Barnes",
@@ -3041,7 +3689,10 @@
       "tov": 0.7922077922077922,
       "fg": 0.456,
       "three": 0.388,
-      "ts": 0.608
+      "ts": 0.608,
+      "nameZh": "哈里森·巴恩斯",
+      "playerId": "fc-1poircc",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Tristan da Silva",
@@ -3055,7 +3706,10 @@
       "tov": 0.8961038961038961,
       "fg": 0.45,
       "three": 0.374,
-      "ts": 0.576
+      "ts": 0.576,
+      "nameZh": "",
+      "playerId": "fc-md6b4c",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Ausar Thompson",
@@ -3069,7 +3723,10 @@
       "tov": 1.5068493150684932,
       "fg": 0.525,
       "three": 0.25,
-      "ts": 0.545
+      "ts": 0.545,
+      "nameZh": "奥萨尔·汤普森",
+      "playerId": "fc-1c579f5",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Royce O'Neale",
@@ -3083,7 +3740,10 @@
       "tov": 1.3205128205128205,
       "fg": 0.421,
       "three": 0.408,
-      "ts": 0.596
+      "ts": 0.596,
+      "nameZh": "罗伊斯·奥尼尔",
+      "playerId": "fc-u3xvrg",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Micah Potter",
@@ -3097,7 +3757,10 @@
       "tov": 1,
       "fg": 0.515,
       "three": 0.423,
-      "ts": 0.679
+      "ts": 0.679,
+      "nameZh": "",
+      "playerId": "fc-1lcec51",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Zach Collins",
@@ -3111,7 +3774,10 @@
       "tov": 1,
       "fg": 0.578,
       "three": 0.429,
-      "ts": 0.666
+      "ts": 0.666,
+      "nameZh": "",
+      "playerId": "fc-2rox0d",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Javon Small",
@@ -3125,7 +3791,10 @@
       "tov": 1.3658536585365855,
       "fg": 0.465,
       "three": 0.423,
-      "ts": 0.611
+      "ts": 0.611,
+      "nameZh": "",
+      "playerId": "fc-1acmr5g",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Zaccharie Risacher",
@@ -3139,7 +3808,10 @@
       "tov": 0.8656716417910447,
       "fg": 0.455,
       "three": 0.368,
-      "ts": 0.557
+      "ts": 0.557,
+      "nameZh": "",
+      "playerId": "fc-1eureqw",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Jay Huff",
@@ -3153,7 +3825,10 @@
       "tov": 0.926829268292683,
       "fg": 0.476,
       "three": 0.319,
-      "ts": 0.598
+      "ts": 0.598,
+      "nameZh": "",
+      "playerId": "fc-gfzkma",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Daniel Gafford",
@@ -3167,7 +3842,10 @@
       "tov": 1.1454545454545455,
       "fg": 0.655,
       "three": 0,
-      "ts": 0.677
+      "ts": 0.677,
+      "nameZh": "",
+      "playerId": "fc-hw3cwp",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Aaron Wiggins",
@@ -3181,7 +3859,10 @@
       "tov": 1.2461538461538462,
       "fg": 0.431,
       "three": 0.356,
-      "ts": 0.538
+      "ts": 0.538,
+      "nameZh": "",
+      "playerId": "fc-gx5t5c",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Svi Mykhailiuk",
@@ -3195,7 +3876,10 @@
       "tov": 0.84,
       "fg": 0.478,
       "three": 0.408,
-      "ts": 0.626
+      "ts": 0.626,
+      "nameZh": "",
+      "playerId": "fc-174w3up",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "T.J. McConnell",
@@ -3209,7 +3893,10 @@
       "tov": 1.1428571428571428,
       "fg": 0.538,
       "three": 0.32,
-      "ts": 0.567
+      "ts": 0.567,
+      "nameZh": "",
+      "playerId": "fc-74d2fi",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Davion Mitchell",
@@ -3223,7 +3910,10 @@
       "tov": 1.542857142857143,
       "fg": 0.49,
       "three": 0.395,
-      "ts": 0.582
+      "ts": 0.582,
+      "nameZh": "",
+      "playerId": "fc-11uzdai",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Marcus Smart",
@@ -3237,7 +3927,10 @@
       "tov": 1.4838709677419355,
       "fg": 0.395,
       "three": 0.331,
-      "ts": 0.543
+      "ts": 0.543,
+      "nameZh": "",
+      "playerId": "fc-egfkql",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Daniss Jenkins",
@@ -3251,7 +3944,10 @@
       "tov": 1.5972222222222223,
       "fg": 0.408,
       "three": 0.374,
-      "ts": 0.525
+      "ts": 0.525,
+      "nameZh": "",
+      "playerId": "fc-1oj3rnj",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Landry Shamet",
@@ -3265,7 +3961,10 @@
       "tov": 0.5882352941176471,
       "fg": 0.437,
       "three": 0.392,
-      "ts": 0.598
+      "ts": 0.598,
+      "nameZh": "",
+      "playerId": "fc-1lf9az",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Isaac Okoro",
@@ -3279,7 +3978,10 @@
       "tov": 0.7301587301587301,
       "fg": 0.46,
       "three": 0.33,
-      "ts": 0.574
+      "ts": 0.574,
+      "nameZh": "",
+      "playerId": "fc-md1qno",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Sam Hauser",
@@ -3293,7 +3995,10 @@
       "tov": 0.44871794871794873,
       "fg": 0.419,
       "three": 0.393,
-      "ts": 0.59
+      "ts": 0.59,
+      "nameZh": "",
+      "playerId": "fc-1hwcvzw",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Taurean Prince",
@@ -3307,7 +4012,10 @@
       "tov": 1.1923076923076923,
       "fg": 0.45,
       "three": 0.436,
-      "ts": 0.617
+      "ts": 0.617,
+      "nameZh": "",
+      "playerId": "fc-jv942s",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Isaiah Hartenstein",
@@ -3321,7 +4029,10 @@
       "tov": 1.7446808510638299,
       "fg": 0.622,
       "three": 0,
-      "ts": 0.631
+      "ts": 0.631,
+      "nameZh": "",
+      "playerId": "fc-1yrb42t",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Gui Santos",
@@ -3335,7 +4046,10 @@
       "tov": 1.5,
       "fg": 0.5,
       "three": 0.351,
-      "ts": 0.609
+      "ts": 0.609,
+      "nameZh": "",
+      "playerId": "fc-h6q5fw",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Cam Whitmore",
@@ -3349,7 +4063,10 @@
       "tov": 0.8571428571428571,
       "fg": 0.456,
       "three": 0.286,
-      "ts": 0.528
+      "ts": 0.528,
+      "nameZh": "",
+      "playerId": "fc-ajc0kv",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Jaden Hardy",
@@ -3363,7 +4080,10 @@
       "tov": 1.087719298245614,
       "fg": 0.424,
       "three": 0.397,
-      "ts": 0.566
+      "ts": 0.566,
+      "nameZh": "",
+      "playerId": "fc-1c6x6yb",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Corey Kispert",
@@ -3377,7 +4097,10 @@
       "tov": 0.7758620689655172,
       "fg": 0.467,
       "three": 0.367,
-      "ts": 0.609
+      "ts": 0.609,
+      "nameZh": "",
+      "playerId": "fc-tnopst",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Quenton Jackson",
@@ -3391,7 +4114,10 @@
       "tov": 1.2653061224489797,
       "fg": 0.47,
       "three": 0.356,
-      "ts": 0.589
+      "ts": 0.589,
+      "nameZh": "",
+      "playerId": "fc-rqysg",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Tristan Vukcevic",
@@ -3405,7 +4131,10 @@
       "tov": 1.2653061224489797,
       "fg": 0.479,
       "three": 0.347,
-      "ts": 0.603
+      "ts": 0.603,
+      "nameZh": "",
+      "playerId": "fc-9l8wfy",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Devin Carter",
@@ -3419,7 +4148,10 @@
       "tov": 1.4210526315789473,
       "fg": 0.414,
       "three": 0.263,
-      "ts": 0.508
+      "ts": 0.508,
+      "nameZh": "",
+      "playerId": "fc-1k08g3c",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Danny Wolf",
@@ -3433,7 +4165,10 @@
       "tov": 1.280701754385965,
       "fg": 0.405,
       "three": 0.322,
-      "ts": 0.521
+      "ts": 0.521,
+      "nameZh": "",
+      "playerId": "fc-pj15yz",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Nolan Traore",
@@ -3447,7 +4182,10 @@
       "tov": 2.3035714285714284,
       "fg": 0.38,
       "three": 0.318,
-      "ts": 0.479
+      "ts": 0.479,
+      "nameZh": "",
+      "playerId": "fc-zqx740",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Herbert Jones",
@@ -3461,7 +4199,10 @@
       "tov": 1.3035714285714286,
       "fg": 0.383,
       "three": 0.309,
-      "ts": 0.491
+      "ts": 0.491,
+      "nameZh": "",
+      "playerId": "fc-1tc9154",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "John Poulakidas",
@@ -3475,7 +4216,10 @@
       "tov": 0.3076923076923077,
       "fg": 0.429,
       "three": 0.403,
-      "ts": 0.611
+      "ts": 0.611,
+      "nameZh": "",
+      "playerId": "fc-1yhmj11",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Cody Williams",
@@ -3489,7 +4233,10 @@
       "tov": 1.0895522388059702,
       "fg": 0.468,
       "three": 0.214,
-      "ts": 0.524
+      "ts": 0.524,
+      "nameZh": "",
+      "playerId": "fc-1ils7gy",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Payton Sandfort",
@@ -3503,7 +4250,10 @@
       "tov": 0.25,
       "fg": 0.5,
       "three": 0.412,
-      "ts": 0.63
+      "ts": 0.63,
+      "nameZh": "",
+      "playerId": "fc-cigyo9",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Jonas Valanciunas",
@@ -3517,7 +4267,10 @@
       "tov": 1.123076923076923,
       "fg": 0.582,
       "three": 0.308,
-      "ts": 0.63
+      "ts": 0.63,
+      "nameZh": "",
+      "playerId": "fc-1qixv7",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Day'Ron Sharpe",
@@ -3531,7 +4284,10 @@
       "tov": 1.7096774193548387,
       "fg": 0.601,
       "three": 0.231,
-      "ts": 0.638
+      "ts": 0.638,
+      "nameZh": "",
+      "playerId": "fc-5m7la0",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Jordan Goodwin",
@@ -3545,7 +4301,10 @@
       "tov": 0.9714285714285714,
       "fg": 0.413,
       "three": 0.371,
-      "ts": 0.525
+      "ts": 0.525,
+      "nameZh": "",
+      "playerId": "fc-1avozz2",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Justin Champagnie",
@@ -3559,7 +4318,10 @@
       "tov": 0.6521739130434783,
       "fg": 0.502,
       "three": 0.319,
-      "ts": 0.589
+      "ts": 0.589,
+      "nameZh": "",
+      "playerId": "fc-14vqomh",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Jordan Clarkson",
@@ -3573,7 +4335,10 @@
       "tov": 0.875,
       "fg": 0.451,
       "three": 0.327,
-      "ts": 0.548
+      "ts": 0.548,
+      "nameZh": "",
+      "playerId": "fc-174pdr6",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Nique Clifford",
@@ -3587,7 +4352,10 @@
       "tov": 1.5466666666666666,
       "fg": 0.418,
       "three": 0.333,
-      "ts": 0.505
+      "ts": 0.505,
+      "nameZh": "",
+      "playerId": "fc-xr5n2q",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Cason Wallace",
@@ -3601,7 +4369,10 @@
       "tov": 0.948051948051948,
       "fg": 0.432,
       "three": 0.351,
-      "ts": 0.538
+      "ts": 0.538,
+      "nameZh": "",
+      "playerId": "fc-1enlo0o",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Jaden Ivey",
@@ -3615,7 +4386,10 @@
       "tov": 1.1081081081081081,
       "fg": 0.445,
       "three": 0.373,
-      "ts": 0.571
+      "ts": 0.571,
+      "nameZh": "",
+      "playerId": "fc-1stg1ys",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Simone Fontecchio",
@@ -3629,7 +4403,10 @@
       "tov": 0.7,
       "fg": 0.412,
       "three": 0.375,
-      "ts": 0.579
+      "ts": 0.579,
+      "nameZh": "",
+      "playerId": "fc-z4wxmy",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Bones Hyland",
@@ -3643,7 +4420,10 @@
       "tov": 0.9859154929577465,
       "fg": 0.453,
       "three": 0.388,
-      "ts": 0.599
+      "ts": 0.599,
+      "nameZh": "",
+      "playerId": "fc-3fmg4y",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Collin Murray-Boyles",
@@ -3657,7 +4437,10 @@
       "tov": 1.0350877192982457,
       "fg": 0.579,
       "three": 0.34,
-      "ts": 0.621
+      "ts": 0.621,
+      "nameZh": "",
+      "playerId": "fc-1ekzbsd",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Vít Krejčí",
@@ -3671,7 +4454,10 @@
       "tov": 0.6307692307692307,
       "fg": 0.448,
       "three": 0.39,
-      "ts": 0.609
+      "ts": 0.609,
+      "nameZh": "",
+      "playerId": "fc-1m6v3fs",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Brook Lopez",
@@ -3685,7 +4471,10 @@
       "tov": 0.8133333333333334,
       "fg": 0.428,
       "three": 0.36,
-      "ts": 0.552
+      "ts": 0.552,
+      "nameZh": "",
+      "playerId": "fc-1clmbb4",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Kentavious Caldwell-Pope",
@@ -3699,7 +4488,10 @@
       "tov": 1.196078431372549,
       "fg": 0.41,
       "three": 0.316,
-      "ts": 0.533
+      "ts": 0.533,
+      "nameZh": "",
+      "playerId": "fc-8t09fd",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Draymond Green",
@@ -3713,7 +4505,10 @@
       "tov": 2.661764705882353,
       "fg": 0.418,
       "three": 0.326,
-      "ts": 0.54
+      "ts": 0.54,
+      "nameZh": "德雷蒙德·格林",
+      "playerId": "fc-n49bwc",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Luke Kennard",
@@ -3727,7 +4522,10 @@
       "tov": 0.7692307692307693,
       "fg": 0.533,
       "three": 0.478,
-      "ts": 0.689
+      "ts": 0.689,
+      "nameZh": "",
+      "playerId": "fc-pghgfj",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Luguentz Dort",
@@ -3741,7 +4539,10 @@
       "tov": 0.782608695652174,
       "fg": 0.385,
       "three": 0.344,
-      "ts": 0.524
+      "ts": 0.524,
+      "nameZh": "",
+      "playerId": "fc-1o7rrp2",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Josh Oduro",
@@ -3755,7 +4556,10 @@
       "tov": 0.6666666666666666,
       "fg": 0.647,
       "three": 0,
-      "ts": 0.636
+      "ts": 0.636,
+      "nameZh": "",
+      "playerId": "fc-vp3gp8",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Kadary Richmond",
@@ -3769,7 +4573,10 @@
       "tov": 0.6666666666666666,
       "fg": 0.625,
       "three": 0.5,
-      "ts": 0.722
+      "ts": 0.722,
+      "nameZh": "",
+      "playerId": "fc-1m157bh",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Jared McCain",
@@ -3783,7 +4590,10 @@
       "tov": 0.835820895522388,
       "fg": 0.425,
       "three": 0.385,
-      "ts": 0.551
+      "ts": 0.551,
+      "nameZh": "",
+      "playerId": "fc-1jbjdrm",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Al Horford",
@@ -3797,7 +4607,10 @@
       "tov": 0.9333333333333333,
       "fg": 0.426,
       "three": 0.361,
-      "ts": 0.554
+      "ts": 0.554,
+      "nameZh": "",
+      "playerId": "fc-1uabybg",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Malachi Smith",
@@ -3811,7 +4624,10 @@
       "tov": 0.9333333333333333,
       "fg": 0.485,
       "three": 0.435,
-      "ts": 0.605
+      "ts": 0.605,
+      "nameZh": "",
+      "playerId": "fc-1vo9ehl",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "LJ Cryer",
@@ -3825,7 +4641,10 @@
       "tov": 0.7777777777777778,
       "fg": 0.402,
       "three": 0.394,
-      "ts": 0.59
+      "ts": 0.59,
+      "nameZh": "",
+      "playerId": "fc-1k0o27w",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Jake LaRavia",
@@ -3839,7 +4658,10 @@
       "tov": 1.0609756097560976,
       "fg": 0.459,
       "three": 0.321,
-      "ts": 0.571
+      "ts": 0.571,
+      "nameZh": "",
+      "playerId": "fc-1vpu3tu",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Ronald Holland II",
@@ -3853,7 +4675,10 @@
       "tov": 1.2307692307692308,
       "fg": 0.432,
       "three": 0.253,
-      "ts": 0.525
+      "ts": 0.525,
+      "nameZh": "",
+      "playerId": "fc-1lh26dd",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Chaney Johnson",
@@ -3867,7 +4692,10 @@
       "tov": 1.1764705882352942,
       "fg": 0.543,
       "three": 0.3,
-      "ts": 0.635
+      "ts": 0.635,
+      "nameZh": "",
+      "playerId": "fc-1glopm0",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Bradley Beal",
@@ -3881,7 +4709,10 @@
       "tov": 1.5,
       "fg": 0.375,
       "three": 0.368,
-      "ts": 0.476
+      "ts": 0.476,
+      "nameZh": "",
+      "playerId": "fc-hyukci",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Gary Trent Jr.",
@@ -3895,7 +4726,10 @@
       "tov": 0.6307692307692307,
       "fg": 0.387,
       "three": 0.36,
-      "ts": 0.533
+      "ts": 0.533,
+      "nameZh": "",
+      "playerId": "fc-3gdhqt",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Bez Mbeng",
@@ -3909,7 +4743,10 @@
       "tov": 1.4666666666666666,
       "fg": 0.5,
       "three": 0.194,
-      "ts": 0.55
+      "ts": 0.55,
+      "nameZh": "",
+      "playerId": "fc-ywfalz",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Sharife Cooper",
@@ -3923,7 +4760,10 @@
       "tov": 1.4878048780487805,
       "fg": 0.514,
       "three": 0.382,
-      "ts": 0.609
+      "ts": 0.609,
+      "nameZh": "",
+      "playerId": "fc-1j1xn05",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Bryce McGowens",
@@ -3937,7 +4777,10 @@
       "tov": 0.40476190476190477,
       "fg": 0.481,
       "three": 0.409,
-      "ts": 0.61
+      "ts": 0.61,
+      "nameZh": "",
+      "playerId": "fc-1c7vnrl",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Luka Garza",
@@ -3951,7 +4794,10 @@
       "tov": 0.6666666666666666,
       "fg": 0.577,
       "three": 0.433,
-      "ts": 0.682
+      "ts": 0.682,
+      "nameZh": "",
+      "playerId": "fc-scp81h",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Nate Williams",
@@ -3965,7 +4811,10 @@
       "tov": 1.0714285714285714,
       "fg": 0.489,
       "three": 0.433,
-      "ts": 0.592
+      "ts": 0.592,
+      "nameZh": "",
+      "playerId": "fc-pekrnn",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "DeJon Jarreau",
@@ -3979,7 +4828,10 @@
       "tov": 2.3636363636363638,
       "fg": 0.398,
       "three": 0.133,
-      "ts": 0.473
+      "ts": 0.473,
+      "nameZh": "",
+      "playerId": "fc-1cejz7v",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Trevon Scott",
@@ -3993,7 +4845,10 @@
       "tov": 0.6666666666666666,
       "fg": 0.38,
       "three": 0.316,
-      "ts": 0.456
+      "ts": 0.456,
+      "nameZh": "",
+      "playerId": "fc-u3d226",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "David Roddy",
@@ -4007,7 +4862,10 @@
       "tov": 0.4,
       "fg": 0.5,
       "three": 0.273,
-      "ts": 0.605
+      "ts": 0.605,
+      "nameZh": "",
+      "playerId": "fc-5mjl4j",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Mouhamadou Gueye",
@@ -4021,7 +4879,10 @@
       "tov": 1.5,
       "fg": 0.545,
       "three": 0.2,
-      "ts": 0.627
+      "ts": 0.627,
+      "nameZh": "",
+      "playerId": "fc-1khn9w6",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Bruce Brown",
@@ -4035,7 +4896,10 @@
       "tov": 1.1097560975609757,
       "fg": 0.475,
       "three": 0.385,
-      "ts": 0.562
+      "ts": 0.562,
+      "nameZh": "",
+      "playerId": "fc-1mx2bnc",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Moussa Diabaté",
@@ -4049,7 +4913,10 @@
       "tov": 1,
       "fg": 0.631,
       "three": 0.5,
-      "ts": 0.653
+      "ts": 0.653,
+      "nameZh": "",
+      "playerId": "fc-1isdx1k",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Tyson Etienne",
@@ -4063,7 +4930,10 @@
       "tov": 0.6666666666666666,
       "fg": 0.4,
       "three": 0.398,
-      "ts": 0.588
+      "ts": 0.588,
+      "nameZh": "",
+      "playerId": "fc-1wpxlkg",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Leonard Miller",
@@ -4077,7 +4947,10 @@
       "tov": 0.782608695652174,
       "fg": 0.553,
       "three": 0.323,
-      "ts": 0.633
+      "ts": 0.633,
+      "nameZh": "",
+      "playerId": "fc-1mrwqyd",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Oscar Tshiebwe",
@@ -4091,7 +4964,10 @@
       "tov": 0.7777777777777778,
       "fg": 0.634,
       "three": 0,
-      "ts": 0.633
+      "ts": 0.633,
+      "nameZh": "",
+      "playerId": "fc-1rpi8p4",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Walter Clayton Jr.",
@@ -4105,7 +4981,10 @@
       "tov": 1.681159420289855,
       "fg": 0.384,
       "three": 0.307,
-      "ts": 0.523
+      "ts": 0.523,
+      "nameZh": "",
+      "playerId": "fc-16trs8i",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Paul Reed",
@@ -4119,7 +4998,10 @@
       "tov": 0.8923076923076924,
       "fg": 0.617,
       "three": 0.325,
-      "ts": 0.65
+      "ts": 0.65,
+      "nameZh": "",
+      "playerId": "fc-14xsc3h",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Dominick Barlow",
@@ -4133,7 +5015,10 @@
       "tov": 0.7887323943661971,
       "fg": 0.539,
       "three": 0.256,
-      "ts": 0.597
+      "ts": 0.597,
+      "nameZh": "",
+      "playerId": "fc-1roowni",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Quinten Post",
@@ -4147,7 +5032,10 @@
       "tov": 0.835820895522388,
       "fg": 0.44,
       "three": 0.336,
-      "ts": 0.56
+      "ts": 0.56,
+      "nameZh": "",
+      "playerId": "fc-zhb8dj",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Buddy Hield",
@@ -4161,7 +5049,10 @@
       "tov": 0.9411764705882353,
       "fg": 0.437,
       "three": 0.349,
-      "ts": 0.568
+      "ts": 0.568,
+      "nameZh": "巴迪·希尔德",
+      "playerId": "fc-1yaw2sp",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Ousmane Dieng",
@@ -4175,7 +5066,10 @@
       "tov": 1.3157894736842106,
       "fg": 0.422,
       "three": 0.341,
-      "ts": 0.516
+      "ts": 0.516,
+      "nameZh": "",
+      "playerId": "fc-1ccafe4",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Ryan Kalkbrenner",
@@ -4189,7 +5083,10 @@
       "tov": 0.8985507246376812,
       "fg": 0.753,
       "three": 0,
-      "ts": 0.762
+      "ts": 0.762,
+      "nameZh": "",
+      "playerId": "fc-13nnjhc",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Ben Saraf",
@@ -4203,7 +5100,10 @@
       "tov": 2.25,
       "fg": 0.396,
       "three": 0.211,
-      "ts": 0.486
+      "ts": 0.486,
+      "nameZh": "",
+      "playerId": "fc-1wxxfgf",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Jaxson Hayes",
@@ -4217,7 +5117,10 @@
       "tov": 0.4696969696969697,
       "fg": 0.756,
       "three": 1,
-      "ts": 0.758
+      "ts": 0.758,
+      "nameZh": "",
+      "playerId": "fc-911vz2",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Ja'Kobe Walter",
@@ -4231,7 +5134,10 @@
       "tov": 0.5138888888888888,
       "fg": 0.446,
       "three": 0.409,
-      "ts": 0.61
+      "ts": 0.61,
+      "nameZh": "",
+      "playerId": "fc-1foqb5d",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Vince Williams Jr.",
@@ -4245,7 +5151,10 @@
       "tov": 1.75,
       "fg": 0.353,
       "three": 0.311,
-      "ts": 0.478
+      "ts": 0.478,
+      "nameZh": "",
+      "playerId": "fc-1rc93c6",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Gary Payton II",
@@ -4259,7 +5168,10 @@
       "tov": 0.8493150684931506,
       "fg": 0.583,
       "three": 0.291,
-      "ts": 0.632
+      "ts": 0.632,
+      "nameZh": "",
+      "playerId": "fc-k364xv",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Bogdan Bogdanović",
@@ -4273,7 +5185,10 @@
       "tov": 1.173913043478261,
       "fg": 0.388,
       "three": 0.347,
-      "ts": 0.525
+      "ts": 0.525,
+      "nameZh": "",
+      "playerId": "fc-1w6p007",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Josh Minott",
@@ -4287,7 +5202,10 @@
       "tov": 0.8775510204081632,
       "fg": 0.5,
       "three": 0.418,
-      "ts": 0.653
+      "ts": 0.653,
+      "nameZh": "",
+      "playerId": "fc-o7zik2",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Taylor Hendricks",
@@ -4301,7 +5219,10 @@
       "tov": 0.847457627118644,
       "fg": 0.459,
       "three": 0.342,
-      "ts": 0.566
+      "ts": 0.566,
+      "nameZh": "",
+      "playerId": "fc-1h3yle9",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Cameron Payne",
@@ -4315,7 +5236,10 @@
       "tov": 0.5,
       "fg": 0.376,
       "three": 0.33,
-      "ts": 0.514
+      "ts": 0.514,
+      "nameZh": "",
+      "playerId": "fc-kn7k0x",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Jose Alvarado",
@@ -4329,7 +5253,10 @@
       "tov": 1.1159420289855073,
       "fg": 0.416,
       "three": 0.352,
-      "ts": 0.543
+      "ts": 0.543,
+      "nameZh": "",
+      "playerId": "fc-1ly60zm",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Caris LeVert",
@@ -4343,7 +5270,10 @@
       "tov": 1.3666666666666667,
       "fg": 0.417,
       "three": 0.333,
-      "ts": 0.518
+      "ts": 0.518,
+      "nameZh": "",
+      "playerId": "fc-1fgd94r",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Jamir Watkins",
@@ -4357,7 +5287,10 @@
       "tov": 0.8,
       "fg": 0.446,
       "three": 0.297,
-      "ts": 0.554
+      "ts": 0.554,
+      "nameZh": "",
+      "playerId": "fc-h2zssf",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Nikola Jović",
@@ -4371,7 +5304,10 @@
       "tov": 1.3829787234042554,
       "fg": 0.366,
       "three": 0.269,
-      "ts": 0.48
+      "ts": 0.48,
+      "nameZh": "",
+      "playerId": "fc-1eqyky1",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Jalen Slawson",
@@ -4385,7 +5321,10 @@
       "tov": 1.3076923076923077,
       "fg": 0.442,
       "three": 0.375,
-      "ts": 0.562
+      "ts": 0.562,
+      "nameZh": "",
+      "playerId": "fc-y6kt02",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Kobe Sanders",
@@ -4399,7 +5338,10 @@
       "tov": 1.1911764705882353,
       "fg": 0.466,
       "three": 0.408,
-      "ts": 0.597
+      "ts": 0.597,
+      "nameZh": "",
+      "playerId": "fc-1otxqyo",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Kris Dunn",
@@ -4413,7 +5355,10 @@
       "tov": 1.353658536585366,
       "fg": 0.476,
       "three": 0.374,
-      "ts": 0.581
+      "ts": 0.581,
+      "nameZh": "",
+      "playerId": "fc-15t5bhv",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Julian Strawther",
@@ -4427,7 +5372,10 @@
       "tov": 0.631578947368421,
       "fg": 0.467,
       "three": 0.387,
-      "ts": 0.59
+      "ts": 0.59,
+      "nameZh": "",
+      "playerId": "fc-1iwgjf0",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Terance Mann",
@@ -4441,7 +5389,10 @@
       "tov": 1.126984126984127,
       "fg": 0.457,
       "three": 0.364,
-      "ts": 0.564
+      "ts": 0.564,
+      "nameZh": "",
+      "playerId": "fc-1490qo7",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Jaylin Williams",
@@ -4455,7 +5406,10 @@
       "tov": 1.0307692307692307,
       "fg": 0.423,
       "three": 0.383,
-      "ts": 0.597
+      "ts": 0.597,
+      "nameZh": "",
+      "playerId": "fc-ej7h6o",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Pat Spencer",
@@ -4469,7 +5423,10 @@
       "tov": 1.2878787878787878,
       "fg": 0.427,
       "three": 0.357,
-      "ts": 0.516
+      "ts": 0.516,
+      "nameZh": "",
+      "playerId": "fc-tt1j6g",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Seth Curry",
@@ -4483,7 +5440,10 @@
       "tov": 0.2,
       "fg": 0.49,
       "three": 0.48,
-      "ts": 0.654
+      "ts": 0.654,
+      "nameZh": "",
+      "playerId": "fc-ko1nqa",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Leaky Black",
@@ -4497,7 +5457,10 @@
       "tov": 0.9333333333333333,
       "fg": 0.388,
       "three": 0.345,
-      "ts": 0.498
+      "ts": 0.498,
+      "nameZh": "",
+      "playerId": "fc-1xhz7va",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Ben Sheppard",
@@ -4511,7 +5474,10 @@
       "tov": 0.6307692307692307,
       "fg": 0.434,
       "three": 0.362,
-      "ts": 0.561
+      "ts": 0.561,
+      "nameZh": "",
+      "playerId": "fc-m5srzx",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Patrick Williams",
@@ -4525,7 +5491,10 @@
       "tov": 1.0416666666666667,
       "fg": 0.372,
       "three": 0.347,
-      "ts": 0.494
+      "ts": 0.494,
+      "nameZh": "",
+      "playerId": "fc-1ww1dt9",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Grant Williams",
@@ -4539,7 +5508,10 @@
       "tov": 0.8611111111111112,
       "fg": 0.426,
       "three": 0.388,
-      "ts": 0.609
+      "ts": 0.609,
+      "nameZh": "",
+      "playerId": "fc-3smq4x",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Lawson Lovering",
@@ -4553,7 +5525,10 @@
       "tov": 1,
       "fg": 0.6,
       "three": 0,
-      "ts": 0.574
+      "ts": 0.574,
+      "nameZh": "",
+      "playerId": "fc-3gjowx",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Ethan Thompson",
@@ -4567,7 +5542,10 @@
       "tov": 0.78125,
       "fg": 0.378,
       "three": 0.328,
-      "ts": 0.515
+      "ts": 0.515,
+      "nameZh": "",
+      "playerId": "fc-zkcvtd",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Javonte Green",
@@ -4581,7 +5559,10 @@
       "tov": 0.5487804878048781,
       "fg": 0.447,
       "three": 0.381,
-      "ts": 0.607
+      "ts": 0.607,
+      "nameZh": "",
+      "playerId": "fc-fl81y7",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Moritz Wagner",
@@ -4595,7 +5576,10 @@
       "tov": 0.5277777777777778,
       "fg": 0.426,
       "three": 0.314,
-      "ts": 0.545
+      "ts": 0.545,
+      "nameZh": "",
+      "playerId": "fc-1lp26e8",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Elijah Harkless",
@@ -4609,7 +5593,10 @@
       "tov": 1,
       "fg": 0.335,
       "three": 0.239,
-      "ts": 0.471
+      "ts": 0.471,
+      "nameZh": "",
+      "playerId": "fc-1blt2zn",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "MarJon Beauchamp",
@@ -4623,7 +5610,10 @@
       "tov": 0.9285714285714286,
       "fg": 0.434,
       "three": 0.34,
-      "ts": 0.563
+      "ts": 0.563,
+      "nameZh": "",
+      "playerId": "fc-f8515s",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Robert Williams III",
@@ -4637,7 +5627,10 @@
       "tov": 0.8305084745762712,
       "fg": 0.708,
       "three": 0.391,
-      "ts": 0.722
+      "ts": 0.722,
+      "nameZh": "",
+      "playerId": "fc-16c96ik",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Isaiah Jackson",
@@ -4651,7 +5644,10 @@
       "tov": 1.0545454545454545,
       "fg": 0.637,
       "three": 0,
-      "ts": 0.653
+      "ts": 0.653,
+      "nameZh": "",
+      "playerId": "fc-1loc89z",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Kevin Love",
@@ -4665,7 +5661,10 @@
       "tov": 0.8108108108108109,
       "fg": 0.397,
       "three": 0.373,
-      "ts": 0.568
+      "ts": 0.568,
+      "nameZh": "",
+      "playerId": "fc-g76esu",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Cole Anthony",
@@ -4679,7 +5678,10 @@
       "tov": 1.8571428571428572,
       "fg": 0.424,
       "three": 0.306,
-      "ts": 0.483
+      "ts": 0.483,
+      "nameZh": "",
+      "playerId": "fc-10zn8fl",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Keon Ellis",
@@ -4693,7 +5695,10 @@
       "tov": 0.5694444444444444,
       "fg": 0.44,
       "three": 0.363,
-      "ts": 0.579
+      "ts": 0.579,
+      "nameZh": "",
+      "playerId": "fc-1hw0ra3",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Jamal Shead",
@@ -4707,7 +5712,10 @@
       "tov": 1.3658536585365855,
       "fg": 0.367,
       "three": 0.321,
-      "ts": 0.491
+      "ts": 0.491,
+      "nameZh": "",
+      "playerId": "fc-aan3m1",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Ryan Nembhard",
@@ -4721,7 +5729,10 @@
       "tov": 1.4166666666666667,
       "fg": 0.415,
       "three": 0.356,
-      "ts": 0.492
+      "ts": 0.492,
+      "nameZh": "",
+      "playerId": "fc-kjrwiy",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Luke Kornet",
@@ -4735,7 +5746,10 @@
       "tov": 0.4117647058823529,
       "fg": 0.643,
       "three": 0,
-      "ts": 0.689
+      "ts": 0.689,
+      "nameZh": "",
+      "playerId": "fc-g3k2ch",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Trendon Watford",
@@ -4749,7 +5763,10 @@
       "tov": 1.2075471698113207,
       "fg": 0.515,
       "three": 0.2,
-      "ts": 0.573
+      "ts": 0.573,
+      "nameZh": "",
+      "playerId": "fc-3dpmkw",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Kenrich Williams",
@@ -4763,7 +5780,10 @@
       "tov": 0.7678571428571429,
       "fg": 0.473,
       "three": 0.388,
-      "ts": 0.569
+      "ts": 0.569,
+      "nameZh": "",
+      "playerId": "fc-sa7lb7",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Drake Powell",
@@ -4777,7 +5797,10 @@
       "tov": 0.9523809523809523,
       "fg": 0.402,
       "three": 0.28,
-      "ts": 0.521
+      "ts": 0.521,
+      "nameZh": "",
+      "playerId": "fc-eioko3",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Oso Ighodaro",
@@ -4791,7 +5814,10 @@
       "tov": 1.2317073170731707,
       "fg": 0.653,
       "three": 0,
-      "ts": 0.636
+      "ts": 0.636,
+      "nameZh": "",
+      "playerId": "fc-qorwe5",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Andre Drummond",
@@ -4805,7 +5831,10 @@
       "tov": 0.9682539682539683,
       "fg": 0.472,
       "three": 0.356,
-      "ts": 0.539
+      "ts": 0.539,
+      "nameZh": "",
+      "playerId": "fc-jlkkaj",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Jevon Carter",
@@ -4819,7 +5848,10 @@
       "tov": 0.6792452830188679,
       "fg": 0.401,
       "three": 0.363,
-      "ts": 0.537
+      "ts": 0.537,
+      "nameZh": "",
+      "playerId": "fc-1be9izc",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Will Richard",
@@ -4833,7 +5865,10 @@
       "tov": 0.7681159420289855,
       "fg": 0.468,
       "three": 0.335,
-      "ts": 0.596
+      "ts": 0.596,
+      "nameZh": "",
+      "playerId": "fc-x8ryfq",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Jalen Wilson",
@@ -4847,7 +5882,10 @@
       "tov": 0.7037037037037037,
       "fg": 0.396,
       "three": 0.355,
-      "ts": 0.536
+      "ts": 0.536,
+      "nameZh": "",
+      "playerId": "fc-nipk11",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Tyrese Martin",
@@ -4861,7 +5899,10 @@
       "tov": 0.8695652173913043,
       "fg": 0.394,
       "three": 0.321,
-      "ts": 0.501
+      "ts": 0.501,
+      "nameZh": "",
+      "playerId": "fc-1c5oi8e",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Rob Dillingham",
@@ -4875,7 +5916,10 @@
       "tov": 1.5384615384615385,
       "fg": 0.396,
       "three": 0.316,
-      "ts": 0.469
+      "ts": 0.469,
+      "nameZh": "",
+      "playerId": "fc-1gb0u8d",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Alex Caruso",
@@ -4889,7 +5933,10 @@
       "tov": 0.8571428571428571,
       "fg": 0.423,
       "three": 0.293,
-      "ts": 0.54
+      "ts": 0.54,
+      "nameZh": "",
+      "playerId": "fc-j4i4j4",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Jahmai Mashack",
@@ -4903,7 +5950,10 @@
       "tov": 1.5806451612903225,
       "fg": 0.395,
       "three": 0.253,
-      "ts": 0.456
+      "ts": 0.456,
+      "nameZh": "",
+      "playerId": "fc-1l8heoz",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Kasparas Jakučionis",
@@ -4917,7 +5967,10 @@
       "tov": 0.9433962264150944,
       "fg": 0.429,
       "three": 0.423,
-      "ts": 0.614
+      "ts": 0.614,
+      "nameZh": "",
+      "playerId": "fc-1h8nlzd",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Kyle Anderson",
@@ -4931,7 +5984,10 @@
       "tov": 0.9069767441860465,
       "fg": 0.53,
       "three": 0.364,
-      "ts": 0.573
+      "ts": 0.573,
+      "nameZh": "",
+      "playerId": "fc-134luj0",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Thomas Bryant",
@@ -4945,7 +6001,10 @@
       "tov": 0.4666666666666667,
       "fg": 0.506,
       "three": 0.359,
-      "ts": 0.625
+      "ts": 0.625,
+      "nameZh": "",
+      "playerId": "fc-iurc63",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Nick Smith Jr.",
@@ -4959,7 +6018,10 @@
       "tov": 0.7,
       "fg": 0.435,
       "three": 0.395,
-      "ts": 0.552
+      "ts": 0.552,
+      "nameZh": "",
+      "playerId": "fc-1ctg6e3",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Mac McClung",
@@ -4973,7 +6035,10 @@
       "tov": 0.8181818181818182,
       "fg": 0.39,
       "three": 0.233,
-      "ts": 0.501
+      "ts": 0.501,
+      "nameZh": "",
+      "playerId": "fc-sqphsx",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Justin Edwards",
@@ -4987,7 +6052,10 @@
       "tov": 0.5625,
       "fg": 0.447,
       "three": 0.372,
-      "ts": 0.572
+      "ts": 0.572,
+      "nameZh": "",
+      "playerId": "fc-18y8qeg",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Tidjane Salaün",
@@ -5001,7 +6069,10 @@
       "tov": 0.7027027027027027,
       "fg": 0.503,
       "three": 0.434,
-      "ts": 0.629
+      "ts": 0.629,
+      "nameZh": "",
+      "playerId": "fc-12z1pqu",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Hayden Gray",
@@ -5015,7 +6086,10 @@
       "tov": 1,
       "fg": 0.667,
       "three": 0,
-      "ts": 0.773
+      "ts": 0.773,
+      "nameZh": "",
+      "playerId": "fc-1gfh74v",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Gradey Dick",
@@ -5029,7 +6103,10 @@
       "tov": 0.5526315789473685,
       "fg": 0.419,
       "three": 0.301,
-      "ts": 0.538
+      "ts": 0.538,
+      "nameZh": "",
+      "playerId": "fc-h6ktfo",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Goga Bitadze",
@@ -5043,7 +6120,10 @@
       "tov": 0.671875,
       "fg": 0.676,
       "three": 0.182,
-      "ts": 0.7
+      "ts": 0.7,
+      "nameZh": "",
+      "playerId": "fc-1wph8ls",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Charles Bassey",
@@ -5057,7 +6137,10 @@
       "tov": 0.46153846153846156,
       "fg": 0.66,
       "three": 0,
-      "ts": 0.681
+      "ts": 0.681,
+      "nameZh": "",
+      "playerId": "fc-blfjs8",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Nae'Qwan Tomlin",
@@ -5071,7 +6154,10 @@
       "tov": 0.453125,
       "fg": 0.478,
       "three": 0.235,
-      "ts": 0.549
+      "ts": 0.549,
+      "nameZh": "",
+      "playerId": "fc-1ql2yl6",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Steven Adams",
@@ -5085,7 +6171,10 @@
       "tov": 1.09375,
       "fg": 0.504,
       "three": 0,
-      "ts": 0.535
+      "ts": 0.535,
+      "nameZh": "",
+      "playerId": "fc-y5z86q",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Anthony Gill",
@@ -5099,7 +6188,10 @@
       "tov": 0.6545454545454545,
       "fg": 0.628,
       "three": 0.354,
-      "ts": 0.682
+      "ts": 0.682,
+      "nameZh": "",
+      "playerId": "fc-hkqd6i",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Ryan Dunn",
@@ -5113,7 +6205,10 @@
       "tov": 0.8,
       "fg": 0.453,
       "three": 0.331,
-      "ts": 0.532
+      "ts": 0.532,
+      "nameZh": "",
+      "playerId": "fc-q2xkuq",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Kris Murray",
@@ -5127,7 +6222,10 @@
       "tov": 0.8245614035087719,
       "fg": 0.467,
       "three": 0.279,
-      "ts": 0.55
+      "ts": 0.55,
+      "nameZh": "",
+      "playerId": "fc-ku2rx4",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Matisse Thybulle",
@@ -5141,7 +6239,10 @@
       "tov": 0.9333333333333333,
       "fg": 0.433,
       "three": 0.398,
-      "ts": 0.6
+      "ts": 0.6,
+      "nameZh": "",
+      "playerId": "fc-1fa0nqa",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Dean Wade",
@@ -5155,7 +6256,10 @@
       "tov": 0.2711864406779661,
       "fg": 0.439,
       "three": 0.362,
-      "ts": 0.58
+      "ts": 0.58,
+      "nameZh": "",
+      "playerId": "fc-h0wrvs",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Kobe Brown",
@@ -5169,7 +6273,10 @@
       "tov": 0.8688524590163934,
       "fg": 0.469,
       "three": 0.374,
-      "ts": 0.594
+      "ts": 0.594,
+      "nameZh": "",
+      "playerId": "fc-dmefou",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Branden Carlson",
@@ -5183,7 +6290,10 @@
       "tov": 0.38095238095238093,
       "fg": 0.527,
       "three": 0.36,
-      "ts": 0.613
+      "ts": 0.613,
+      "nameZh": "",
+      "playerId": "fc-nom3r3",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Nick Richards",
@@ -5197,7 +6307,10 @@
       "tov": 1.2291666666666667,
       "fg": 0.512,
       "three": 0.278,
-      "ts": 0.562
+      "ts": 0.562,
+      "nameZh": "",
+      "playerId": "fc-klqibe",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Jamaree Bouyea",
@@ -5211,7 +6324,10 @@
       "tov": 0.6521739130434783,
       "fg": 0.458,
       "three": 0.295,
-      "ts": 0.523
+      "ts": 0.523,
+      "nameZh": "",
+      "playerId": "fc-j3pvit",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Yves Missi",
@@ -5225,7 +6341,10 @@
       "tov": 0.8181818181818182,
       "fg": 0.544,
       "three": 0,
-      "ts": 0.556
+      "ts": 0.556,
+      "nameZh": "",
+      "playerId": "fc-8nzahd",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Karlo Matković",
@@ -5239,7 +6358,10 @@
       "tov": 0.5483870967741935,
       "fg": 0.604,
       "three": 0.422,
-      "ts": 0.696
+      "ts": 0.696,
+      "nameZh": "",
+      "playerId": "fc-hep821",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Mitchell Robinson",
@@ -5253,7 +6375,10 @@
       "tov": 0.6833333333333333,
       "fg": 0.723,
       "three": 0,
-      "ts": 0.676
+      "ts": 0.676,
+      "nameZh": "",
+      "playerId": "fc-8vwlwz",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Doug McDermott",
@@ -5267,7 +6392,10 @@
       "tov": 0.4482758620689655,
       "fg": 0.388,
       "three": 0.39,
-      "ts": 0.574
+      "ts": 0.574,
+      "nameZh": "",
+      "playerId": "fc-62k7n3",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "E.J. Liddell",
@@ -5281,7 +6409,10 @@
       "tov": 0.5769230769230769,
       "fg": 0.486,
       "three": 0.346,
-      "ts": 0.6
+      "ts": 0.6,
+      "nameZh": "",
+      "playerId": "fc-1okfhhc",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Dru Smith",
@@ -5295,7 +6426,10 @@
       "tov": 0.7857142857142857,
       "fg": 0.415,
       "three": 0.295,
-      "ts": 0.532
+      "ts": 0.532,
+      "nameZh": "",
+      "playerId": "fc-1sq5rqh",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Terrence Shannon Jr",
@@ -5309,7 +6443,10 @@
       "tov": 0.5581395348837209,
       "fg": 0.45,
       "three": 0.408,
-      "ts": 0.597
+      "ts": 0.597,
+      "nameZh": "",
+      "playerId": "fc-ghfj2a",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Guerschon Yabusele",
@@ -5323,7 +6460,10 @@
       "tov": 0.6119402985074627,
       "fg": 0.401,
       "three": 0.352,
-      "ts": 0.543
+      "ts": 0.543,
+      "nameZh": "",
+      "playerId": "fc-1j9303z",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Baylor Scheierman",
@@ -5337,7 +6477,10 @@
       "tov": 0.5974025974025974,
       "fg": 0.453,
       "three": 0.399,
-      "ts": 0.616
+      "ts": 0.616,
+      "nameZh": "",
+      "playerId": "fc-qjn59p",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Killian Hayes",
@@ -5351,7 +6494,10 @@
       "tov": 1.2173913043478262,
       "fg": 0.304,
       "three": 0.27,
-      "ts": 0.422
+      "ts": 0.422,
+      "nameZh": "",
+      "playerId": "fc-1fdsj5p",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Spencer Jones",
@@ -5365,7 +6511,10 @@
       "tov": 0.484375,
       "fg": 0.504,
       "three": 0.396,
-      "ts": 0.619
+      "ts": 0.619,
+      "nameZh": "",
+      "playerId": "fc-1m9u0a",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Eric Gordon",
@@ -5379,7 +6528,10 @@
       "tov": 0.5,
       "fg": 0.571,
       "three": 0.571,
-      "ts": 0.754
+      "ts": 0.754,
+      "nameZh": "",
+      "playerId": "fc-1tnqalf",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Tre Mann",
@@ -5393,7 +6545,10 @@
       "tov": 1.0188679245283019,
       "fg": 0.36,
       "three": 0.323,
-      "ts": 0.462
+      "ts": 0.462,
+      "nameZh": "",
+      "playerId": "fc-1jy1ugc",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Aaron Holiday",
@@ -5407,7 +6562,10 @@
       "tov": 0.6666666666666666,
       "fg": 0.417,
       "three": 0.394,
-      "ts": 0.578
+      "ts": 0.578,
+      "nameZh": "",
+      "playerId": "fc-qp6v5e",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Jett Howard",
@@ -5421,7 +6579,10 @@
       "tov": 0.2727272727272727,
       "fg": 0.418,
       "three": 0.372,
-      "ts": 0.561
+      "ts": 0.561,
+      "nameZh": "",
+      "playerId": "fc-1u1x1ab",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Tyrese Proctor",
@@ -5435,7 +6596,10 @@
       "tov": 0.8,
       "fg": 0.413,
       "three": 0.351,
-      "ts": 0.556
+      "ts": 0.556,
+      "nameZh": "",
+      "playerId": "fc-hfubzy",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Haywood Highsmith",
@@ -5449,7 +6613,10 @@
       "tov": 0,
       "fg": 0.522,
       "three": 0.571,
-      "ts": 0.729
+      "ts": 0.729,
+      "nameZh": "",
+      "playerId": "fc-wxs9bv",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Dylan Cardwell",
@@ -5463,7 +6630,10 @@
       "tov": 0.8863636363636364,
       "fg": 0.587,
       "three": 0.5,
-      "ts": 0.591
+      "ts": 0.591,
+      "nameZh": "",
+      "playerId": "fc-17go6cp",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Pete Nance",
@@ -5477,7 +6647,10 @@
       "tov": 0.5531914893617021,
       "fg": 0.515,
       "three": 0.42,
-      "ts": 0.639
+      "ts": 0.639,
+      "nameZh": "",
+      "playerId": "fc-17bmv9s",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Sion James",
@@ -5491,7 +6664,10 @@
       "tov": 0.7926829268292683,
       "fg": 0.371,
       "three": 0.352,
-      "ts": 0.531
+      "ts": 0.531,
+      "nameZh": "",
+      "playerId": "fc-xthlb4",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Jamal Cain",
@@ -5505,7 +6681,10 @@
       "tov": 0.475,
       "fg": 0.487,
       "three": 0.384,
-      "ts": 0.624
+      "ts": 0.624,
+      "nameZh": "",
+      "playerId": "fc-1v9yld5",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Jordan Walsh",
@@ -5519,7 +6698,10 @@
       "tov": 0.5147058823529411,
       "fg": 0.509,
       "three": 0.384,
-      "ts": 0.623
+      "ts": 0.623,
+      "nameZh": "",
+      "playerId": "fc-126dcjc",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Trey Alexander",
@@ -5533,7 +6715,10 @@
       "tov": 0.3333333333333333,
       "fg": 0.514,
       "three": 0.5,
-      "ts": 0.599
+      "ts": 0.599,
+      "nameZh": "",
+      "playerId": "fc-1wygpbv",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Drew Eubanks",
@@ -5547,7 +6732,10 @@
       "tov": 0.7142857142857143,
       "fg": 0.596,
       "three": 0.143,
-      "ts": 0.605
+      "ts": 0.605,
+      "nameZh": "",
+      "playerId": "fc-147k9e",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Jalen Pickett",
@@ -5561,7 +6749,10 @@
       "tov": 0.68,
       "fg": 0.422,
       "three": 0.386,
-      "ts": 0.541
+      "ts": 0.541,
+      "nameZh": "",
+      "playerId": "fc-1auzcbn",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Garrison Mathews",
@@ -5575,7 +6766,10 @@
       "tov": 0.2,
       "fg": 0.404,
       "three": 0.37,
-      "ts": 0.628
+      "ts": 0.628,
+      "nameZh": "",
+      "playerId": "fc-u9q81v",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Andersson Garcia",
@@ -5589,7 +6783,10 @@
       "tov": 1.4,
       "fg": 0.31,
       "three": 0.077,
-      "ts": 0.394
+      "ts": 0.394,
+      "nameZh": "",
+      "playerId": "fc-131gsbz",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Nikola Topić",
@@ -5603,7 +6800,10 @@
       "tov": 2.5,
       "fg": 0.431,
       "three": 0.4,
-      "ts": 0.489
+      "ts": 0.489,
+      "nameZh": "",
+      "playerId": "fc-9vworx",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Rayan Rupert",
@@ -5617,7 +6817,10 @@
       "tov": 0.859375,
       "fg": 0.393,
       "three": 0.324,
-      "ts": 0.493
+      "ts": 0.493,
+      "nameZh": "",
+      "playerId": "fc-1fpkyts",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Marcus Sasser",
@@ -5631,7 +6834,10 @@
       "tov": 0.8157894736842105,
       "fg": 0.39,
       "three": 0.415,
-      "ts": 0.533
+      "ts": 0.533,
+      "nameZh": "",
+      "playerId": "fc-ptjdwd",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Asa Newell",
@@ -5645,7 +6851,10 @@
       "tov": 0.5227272727272727,
       "fg": 0.538,
       "three": 0.387,
-      "ts": 0.624
+      "ts": 0.624,
+      "nameZh": "",
+      "playerId": "fc-1orz8fx",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Johnny Furphy",
@@ -5659,7 +6868,10 @@
       "tov": 0.8285714285714286,
       "fg": 0.47,
       "three": 0.324,
-      "ts": 0.547
+      "ts": 0.547,
+      "nameZh": "",
+      "playerId": "fc-1ouju4j",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Sidy Cissoko",
@@ -5673,7 +6885,10 @@
       "tov": 0.9333333333333333,
       "fg": 0.398,
       "three": 0.298,
-      "ts": 0.514
+      "ts": 0.514,
+      "nameZh": "",
+      "playerId": "fc-18c065j",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Ochai Agbaji",
@@ -5687,7 +6902,10 @@
       "tov": 0.5,
       "fg": 0.436,
       "three": 0.266,
-      "ts": 0.525
+      "ts": 0.525,
+      "nameZh": "",
+      "playerId": "fc-1994vyl",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Jordan Hawkins",
@@ -5701,7 +6919,10 @@
       "tov": 0.6666666666666666,
       "fg": 0.366,
       "three": 0.348,
-      "ts": 0.48
+      "ts": 0.48,
+      "nameZh": "",
+      "playerId": "fc-1wtdtmg",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Jericho Sims",
@@ -5715,7 +6936,10 @@
       "tov": 1.1194029850746268,
       "fg": 0.784,
       "three": 0,
-      "ts": 0.772
+      "ts": 0.772,
+      "nameZh": "",
+      "playerId": "fc-1i47wq9",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Adem Bona",
@@ -5729,7 +6953,10 @@
       "tov": 0.7887323943661971,
       "fg": 0.595,
       "three": 0.333,
-      "ts": 0.638
+      "ts": 0.638,
+      "nameZh": "",
+      "playerId": "fc-1n4w50w",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Blake Wesley",
@@ -5743,7 +6970,10 @@
       "tov": 1,
       "fg": 0.452,
       "three": 0.278,
-      "ts": 0.511
+      "ts": 0.511,
+      "nameZh": "",
+      "playerId": "fc-1ubmrlz",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Tyler Smith",
@@ -5757,7 +6987,10 @@
       "tov": 0.5,
       "fg": 0.42,
       "three": 0.286,
-      "ts": 0.532
+      "ts": 0.532,
+      "nameZh": "",
+      "playerId": "fc-1ta74hi",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Zyon Pullin",
@@ -5771,7 +7004,10 @@
       "tov": 0.6,
       "fg": 0.692,
       "three": 0.333,
-      "ts": 0.779
+      "ts": 0.779,
+      "nameZh": "",
+      "playerId": "fc-883vn3",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Jeremiah Robinson-Earl",
@@ -5785,7 +7021,10 @@
       "tov": 0.5454545454545454,
       "fg": 0.37,
       "three": 0.244,
-      "ts": 0.468
+      "ts": 0.468,
+      "nameZh": "",
+      "playerId": "fc-17h70h1",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Lonzo Ball",
@@ -5799,7 +7038,10 @@
       "tov": 1.4857142857142858,
       "fg": 0.301,
       "three": 0.272,
-      "ts": 0.432
+      "ts": 0.432,
+      "nameZh": "",
+      "playerId": "fc-ubpmvq",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Malaki Branham",
@@ -5813,7 +7055,10 @@
       "tov": 0.5357142857142857,
       "fg": 0.473,
       "three": 0.378,
-      "ts": 0.604
+      "ts": 0.604,
+      "nameZh": "",
+      "playerId": "fc-182a3lf",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "KJ Simpson",
@@ -5827,7 +7072,10 @@
       "tov": 1.25,
       "fg": 0.343,
       "three": 0.3,
-      "ts": 0.426
+      "ts": 0.426,
+      "nameZh": "",
+      "playerId": "fc-9vjl5n",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Mike Conley",
@@ -5841,7 +7089,10 @@
       "tov": 0.6296296296296297,
       "fg": 0.335,
       "three": 0.337,
-      "ts": 0.517
+      "ts": 0.517,
+      "nameZh": "",
+      "playerId": "fc-1xcjuij",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "PJ Hall",
@@ -5855,7 +7106,10 @@
       "tov": 0.8421052631578947,
       "fg": 0.508,
       "three": 0.6,
-      "ts": 0.599
+      "ts": 0.599,
+      "nameZh": "",
+      "playerId": "fc-i4gxnu",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Josh Okogie",
@@ -5869,7 +7123,10 @@
       "tov": 0.5256410256410257,
       "fg": 0.425,
       "three": 0.385,
-      "ts": 0.544
+      "ts": 0.544,
+      "nameZh": "",
+      "playerId": "fc-chsdy5",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Craig Porter Jr.",
@@ -5883,7 +7140,10 @@
       "tov": 0.921875,
       "fg": 0.45,
       "three": 0.355,
-      "ts": 0.524
+      "ts": 0.524,
+      "nameZh": "",
+      "playerId": "fc-16ouo3v",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Taelon Peter",
@@ -5897,7 +7157,10 @@
       "tov": 0.7105263157894737,
       "fg": 0.38,
       "three": 0.328,
-      "ts": 0.518
+      "ts": 0.518,
+      "nameZh": "",
+      "playerId": "fc-7273m0",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Moussa Cisse",
@@ -5911,7 +7174,10 @@
       "tov": 0.7894736842105263,
       "fg": 0.574,
       "three": 0,
-      "ts": 0.564
+      "ts": 0.564,
+      "nameZh": "",
+      "playerId": "fc-7lrdbk",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Mouhamed Gueye",
@@ -5925,7 +7191,10 @@
       "tov": 0.42857142857142855,
       "fg": 0.452,
       "three": 0.308,
-      "ts": 0.539
+      "ts": 0.539,
+      "nameZh": "",
+      "playerId": "fc-1je8feq",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Jarred Vanderbilt",
@@ -5939,7 +7208,10 @@
       "tov": 0.8615384615384616,
       "fg": 0.471,
       "three": 0.293,
-      "ts": 0.544
+      "ts": 0.544,
+      "nameZh": "",
+      "playerId": "fc-zl6jiq",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "John Konchar",
@@ -5953,7 +7225,10 @@
       "tov": 0.625,
       "fg": 0.472,
       "three": 0.283,
-      "ts": 0.568
+      "ts": 0.568,
+      "nameZh": "",
+      "playerId": "fc-17shays",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Jase Richardson",
@@ -5967,7 +7242,10 @@
       "tov": 0.46296296296296297,
       "fg": 0.473,
       "three": 0.354,
-      "ts": 0.574
+      "ts": 0.574,
+      "nameZh": "",
+      "playerId": "fc-1qdk8vt",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Tyler Kolek",
@@ -5981,7 +7259,10 @@
       "tov": 0.8870967741935484,
       "fg": 0.435,
       "three": 0.386,
-      "ts": 0.533
+      "ts": 0.533,
+      "nameZh": "",
+      "playerId": "fc-5imoeb",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "DeAndre Jordan",
@@ -5995,7 +7276,10 @@
       "tov": 0.75,
       "fg": 0.656,
       "three": 0,
-      "ts": 0.671
+      "ts": 0.671,
+      "nameZh": "",
+      "playerId": "fc-1k8swsk",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Kam Jones",
@@ -6009,7 +7293,10 @@
       "tov": 0.972972972972973,
       "fg": 0.402,
       "three": 0.293,
-      "ts": 0.47
+      "ts": 0.47,
+      "nameZh": "",
+      "playerId": "fc-1ilnadn",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Gabe Vincent",
@@ -6023,7 +7310,10 @@
       "tov": 0.5094339622641509,
       "fg": 0.352,
       "three": 0.341,
-      "ts": 0.511
+      "ts": 0.511,
+      "nameZh": "",
+      "playerId": "fc-186kp8n",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "RayJ Dennis",
@@ -6037,7 +7327,10 @@
       "tov": 1,
       "fg": 0.313,
       "three": 0.311,
-      "ts": 0.425
+      "ts": 0.425,
+      "nameZh": "",
+      "playerId": "fc-zio4a",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Skal Labissiere",
@@ -6051,7 +7344,10 @@
       "tov": 0.3333333333333333,
       "fg": 0.6,
       "three": 0.2,
-      "ts": 0.65
+      "ts": 0.65,
+      "nameZh": "",
+      "playerId": "fc-1s4s9t5",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Rasheer Fleming",
@@ -6065,7 +7361,10 @@
       "tov": 0.5272727272727272,
       "fg": 0.405,
       "three": 0.346,
-      "ts": 0.517
+      "ts": 0.517,
+      "nameZh": "",
+      "playerId": "fc-1916uit",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Jabari Walker",
@@ -6079,7 +7378,10 @@
       "tov": 0.421875,
       "fg": 0.455,
       "three": 0.337,
-      "ts": 0.568
+      "ts": 0.568,
+      "nameZh": "",
+      "playerId": "fc-1f5mtrm",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Micah Peavy",
@@ -6093,7 +7395,10 @@
       "tov": 0.32786885245901637,
       "fg": 0.385,
       "three": 0.259,
-      "ts": 0.455
+      "ts": 0.455,
+      "nameZh": "",
+      "playerId": "fc-n0i206",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Josh Green",
@@ -6107,7 +7412,10 @@
       "tov": 0.603448275862069,
       "fg": 0.459,
       "three": 0.42,
-      "ts": 0.644
+      "ts": 0.644,
+      "nameZh": "",
+      "playerId": "fc-1szc6ee",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Yanic Konan Niederhäuser",
@@ -6121,7 +7429,10 @@
       "tov": 0.5609756097560976,
       "fg": 0.64,
       "three": 0.2,
-      "ts": 0.691
+      "ts": 0.691,
+      "nameZh": "",
+      "playerId": "fc-wyvfdr",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Dereck Lively II",
@@ -6135,7 +7446,10 @@
       "tov": 1.4285714285714286,
       "fg": 0.611,
       "three": 0,
-      "ts": 0.67
+      "ts": 0.67,
+      "nameZh": "",
+      "playerId": "fc-1ehjsw",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Liam McNeeley",
@@ -6149,7 +7463,10 @@
       "tov": 0.41935483870967744,
       "fg": 0.4,
       "three": 0.4,
-      "ts": 0.588
+      "ts": 0.588,
+      "nameZh": "",
+      "playerId": "fc-8nhqjm",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Keshad Johnson",
@@ -6163,7 +7480,10 @@
       "tov": 0.40625,
       "fg": 0.49,
       "three": 0.295,
-      "ts": 0.582
+      "ts": 0.582,
+      "nameZh": "",
+      "playerId": "fc-w23cdg",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Keshon Gilbert",
@@ -6177,7 +7497,10 @@
       "tov": 2,
       "fg": 0.417,
       "three": 0,
-      "ts": 0.564
+      "ts": 0.564,
+      "nameZh": "",
+      "playerId": "fc-xaf2h0",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Grant Nelson",
@@ -6191,7 +7514,10 @@
       "tov": 1,
       "fg": 0.556,
       "three": 0,
-      "ts": 0.634
+      "ts": 0.634,
+      "nameZh": "",
+      "playerId": "fc-4urzr2",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Ron Harper Jr.",
@@ -6205,7 +7531,10 @@
       "tov": 0.27586206896551724,
       "fg": 0.418,
       "three": 0.35,
-      "ts": 0.55
+      "ts": 0.55,
+      "nameZh": "",
+      "playerId": "fc-1six4n0",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Dalton Knecht",
@@ -6219,7 +7548,10 @@
       "tov": 0.42592592592592593,
       "fg": 0.455,
       "three": 0.342,
-      "ts": 0.568
+      "ts": 0.568,
+      "nameZh": "",
+      "playerId": "fc-1q1g0p8",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "A.J. Lawson",
@@ -6233,7 +7565,10 @@
       "tov": 0.25,
       "fg": 0.436,
       "three": 0.422,
-      "ts": 0.588
+      "ts": 0.588,
+      "nameZh": "",
+      "playerId": "fc-1pwn2xi",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Carter Bryant",
@@ -6247,7 +7582,10 @@
       "tov": 0.4647887323943662,
       "fg": 0.408,
       "three": 0.335,
-      "ts": 0.526
+      "ts": 0.526,
+      "nameZh": "",
+      "playerId": "fc-1jdk9t0",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Tristan Enaruna",
@@ -6261,7 +7599,10 @@
       "tov": 0.3333333333333333,
       "fg": 0.5,
       "three": 0.3,
-      "ts": 0.587
+      "ts": 0.587,
+      "nameZh": "",
+      "playerId": "fc-19brvvc",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Jaylen Clark",
@@ -6275,7 +7616,10 @@
       "tov": 0.3382352941176471,
       "fg": 0.434,
       "three": 0.327,
-      "ts": 0.534
+      "ts": 0.534,
+      "nameZh": "",
+      "playerId": "fc-300l97",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Brandon Clarke",
@@ -6289,7 +7633,10 @@
       "tov": 0,
       "fg": 0.333,
       "three": 0,
-      "ts": 0.372
+      "ts": 0.372,
+      "nameZh": "",
+      "playerId": "fc-1kebxht",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Nicolas Batum",
@@ -6303,7 +7650,10 @@
       "tov": 0.5,
       "fg": 0.403,
       "three": 0.404,
-      "ts": 0.603
+      "ts": 0.603,
+      "nameZh": "",
+      "playerId": "fc-1sbsukf",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Tony Bradley",
@@ -6317,7 +7667,10 @@
       "tov": 0.43902439024390244,
       "fg": 0.547,
       "three": 0.5,
-      "ts": 0.596
+      "ts": 0.596,
+      "nameZh": "",
+      "playerId": "fc-1u300w4",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Caleb Martin",
@@ -6331,7 +7684,10 @@
       "tov": 0.6896551724137931,
       "fg": 0.45,
       "three": 0.351,
-      "ts": 0.526
+      "ts": 0.526,
+      "nameZh": "",
+      "playerId": "fc-bz9vfr",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Hugo González",
@@ -6345,7 +7701,10 @@
       "tov": 0.5135135135135135,
       "fg": 0.476,
       "three": 0.362,
-      "ts": 0.561
+      "ts": 0.561,
+      "nameZh": "",
+      "playerId": "fc-1amomqr",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Joan Beringer",
@@ -6359,7 +7718,10 @@
       "tov": 0.275,
       "fg": 0.663,
       "three": 0,
-      "ts": 0.683
+      "ts": 0.683,
+      "nameZh": "",
+      "playerId": "fc-los6bj",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Riley Minix",
@@ -6373,7 +7735,10 @@
       "tov": 0.3333333333333333,
       "fg": 0.609,
       "three": 0.333,
-      "ts": 0.72
+      "ts": 0.72,
+      "nameZh": "",
+      "playerId": "fc-1ffzdxv",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Noah Penda",
@@ -6387,7 +7752,10 @@
       "tov": 0.711864406779661,
       "fg": 0.404,
       "three": 0.323,
-      "ts": 0.506
+      "ts": 0.506,
+      "nameZh": "",
+      "playerId": "fc-ggphub",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Omer Yurtseven",
@@ -6401,7 +7769,10 @@
       "tov": 1,
       "fg": 0.423,
       "three": 0,
-      "ts": 0.501
+      "ts": 0.501,
+      "nameZh": "",
+      "playerId": "fc-wqtyxf",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Clint Capela",
@@ -6415,7 +7786,10 @@
       "tov": 0.5466666666666666,
       "fg": 0.52,
       "three": 0.5,
-      "ts": 0.54
+      "ts": 0.54,
+      "nameZh": "克林特·卡佩拉",
+      "playerId": "fc-6b6ibh",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Koby Brea",
@@ -6429,7 +7803,10 @@
       "tov": 0.3333333333333333,
       "fg": 0.417,
       "three": 0.433,
-      "ts": 0.61
+      "ts": 0.61,
+      "nameZh": "",
+      "playerId": "fc-dnedak",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Larry Nance Jr.",
@@ -6443,7 +7820,10 @@
       "tov": 0.5714285714285714,
       "fg": 0.419,
       "three": 0.333,
-      "ts": 0.505
+      "ts": 0.505,
+      "nameZh": "",
+      "playerId": "fc-q0atse",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Tolu Smith",
@@ -6457,7 +7837,10 @@
       "tov": 0.4666666666666667,
       "fg": 0.5,
       "three": 0,
-      "ts": 0.569
+      "ts": 0.569,
+      "nameZh": "",
+      "playerId": "fc-1sfjzwg",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "DaRon Holmes II",
@@ -6471,7 +7854,10 @@
       "tov": 0.48,
       "fg": 0.508,
       "three": 0.444,
-      "ts": 0.692
+      "ts": 0.692,
+      "nameZh": "",
+      "playerId": "fc-g0976x",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Dalen Terry",
@@ -6485,7 +7871,10 @@
       "tov": 0.5416666666666666,
       "fg": 0.439,
       "three": 0.364,
-      "ts": 0.523
+      "ts": 0.523,
+      "nameZh": "",
+      "playerId": "fc-mrpn0b",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Patrick Baldwin Jr.",
@@ -6499,7 +7888,10 @@
       "tov": 0.5555555555555556,
       "fg": 0.407,
       "three": 0.429,
-      "ts": 0.549
+      "ts": 0.549,
+      "nameZh": "",
+      "playerId": "fc-5e7tna",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Zeke Nnaji",
@@ -6513,7 +7905,10 @@
       "tov": 0.5192307692307693,
       "fg": 0.47,
       "three": 0.259,
-      "ts": 0.558
+      "ts": 0.558,
+      "nameZh": "",
+      "playerId": "fc-ho3bdq",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Myron Gardner",
@@ -6527,7 +7922,10 @@
       "tov": 0.37777777777777777,
       "fg": 0.48,
       "three": 0.406,
-      "ts": 0.606
+      "ts": 0.606,
+      "nameZh": "",
+      "playerId": "fc-3f589t",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Jeremy Sochan",
@@ -6541,7 +7939,10 @@
       "tov": 0.4772727272727273,
       "fg": 0.496,
       "three": 0.244,
-      "ts": 0.563
+      "ts": 0.563,
+      "nameZh": "",
+      "playerId": "fc-14ktz97",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Mohamed Diawara",
@@ -6555,7 +7956,10 @@
       "tov": 0.43478260869565216,
       "fg": 0.423,
       "three": 0.369,
-      "ts": 0.55
+      "ts": 0.55,
+      "nameZh": "",
+      "playerId": "fc-gn6r6f",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Keaton Wallace",
@@ -6569,7 +7973,10 @@
       "tov": 0.5283018867924528,
       "fg": 0.398,
       "three": 0.373,
-      "ts": 0.52
+      "ts": 0.52,
+      "nameZh": "",
+      "playerId": "fc-tacsqy",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Olivier Sarr",
@@ -6583,7 +7990,10 @@
       "tov": 0.5,
       "fg": 0.714,
       "three": 0.667,
-      "ts": 0.761
+      "ts": 0.761,
+      "nameZh": "",
+      "playerId": "fc-1qerjld",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Yuki Kawamura",
@@ -6597,7 +8007,10 @@
       "tov": 0.7777777777777778,
       "fg": 0.327,
       "three": 0.297,
-      "ts": 0.514
+      "ts": 0.514,
+      "nameZh": "",
+      "playerId": "fc-ls4be2",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Trayce Jackson-Davis",
@@ -6611,7 +8024,10 @@
       "tov": 0.4339622641509434,
       "fg": 0.573,
       "three": 1,
-      "ts": 0.578
+      "ts": 0.578,
+      "nameZh": "",
+      "playerId": "fc-3h4r8y",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Drew Timme",
@@ -6625,7 +8041,10 @@
       "tov": 0.48148148148148145,
       "fg": 0.576,
       "three": 0.44,
-      "ts": 0.658
+      "ts": 0.658,
+      "nameZh": "",
+      "playerId": "fc-sg37oj",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Taj Gibson",
@@ -6639,7 +8058,10 @@
       "tov": 0.1,
       "fg": 0.462,
       "three": 0.5,
-      "ts": 0.576
+      "ts": 0.576,
+      "nameZh": "",
+      "playerId": "fc-7kkrjm",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Dwight Powell",
@@ -6653,7 +8075,10 @@
       "tov": 0.6507936507936508,
       "fg": 0.644,
       "three": 0.286,
-      "ts": 0.699
+      "ts": 0.699,
+      "nameZh": "",
+      "playerId": "fc-w8lr3x",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "AJ Johnson",
@@ -6667,7 +8092,10 @@
       "tov": 0.625,
       "fg": 0.324,
       "three": 0.211,
-      "ts": 0.413
+      "ts": 0.413,
+      "nameZh": "",
+      "playerId": "fc-1fbcb8t",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Isaiah Stevens",
@@ -6681,7 +8109,10 @@
       "tov": 0.6666666666666666,
       "fg": 0.429,
       "three": 0,
-      "ts": 0.571
+      "ts": 0.571,
+      "nameZh": "",
+      "playerId": "fc-5j9c4m",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Dorian Finney-Smith",
@@ -6695,7 +8126,10 @@
       "tov": 0.5945945945945946,
       "fg": 0.333,
       "three": 0.27,
-      "ts": 0.452
+      "ts": 0.452,
+      "nameZh": "",
+      "playerId": "fc-rnpepr",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Malevy Leons",
@@ -6709,7 +8143,10 @@
       "tov": 0.52,
       "fg": 0.444,
       "three": 0.25,
-      "ts": 0.516
+      "ts": 0.516,
+      "nameZh": "",
+      "playerId": "fc-3rlcau",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "James Wiseman",
@@ -6723,7 +8160,10 @@
       "tov": 1.25,
       "fg": 0.6,
       "three": 0,
-      "ts": 0.597
+      "ts": 0.597,
+      "nameZh": "",
+      "playerId": "fc-zmzz6j",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Enrique Freeman",
@@ -6737,7 +8177,10 @@
       "tov": 0.5,
       "fg": 0.5,
       "three": 0.5,
-      "ts": 0.666
+      "ts": 0.666,
+      "nameZh": "",
+      "playerId": "fc-1erk3im",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Amir Coffey",
@@ -6751,7 +8194,10 @@
       "tov": 0.1956521739130435,
       "fg": 0.487,
       "three": 0.347,
-      "ts": 0.594
+      "ts": 0.594,
+      "nameZh": "",
+      "playerId": "fc-ngaask",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Kelly Olynyk",
@@ -6765,7 +8211,10 @@
       "tov": 0.5714285714285714,
       "fg": 0.49,
       "three": 0.255,
-      "ts": 0.59
+      "ts": 0.59,
+      "nameZh": "",
+      "playerId": "fc-mxj5ks",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Alex Antetokounmpo",
@@ -6779,7 +8228,10 @@
       "tov": 0.16666666666666666,
       "fg": 0.375,
       "three": 0.286,
-      "ts": 0.651
+      "ts": 0.651,
+      "nameZh": "",
+      "playerId": "fc-1c3qa7b",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Jamison Battle",
@@ -6793,7 +8245,10 @@
       "tov": 0.3114754098360656,
       "fg": 0.51,
       "three": 0.412,
-      "ts": 0.635
+      "ts": 0.635,
+      "nameZh": "",
+      "playerId": "fc-4hnev8",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Mark Sears",
@@ -6807,7 +8262,10 @@
       "tov": 0.5714285714285714,
       "fg": 0.462,
       "three": 0.5,
-      "ts": 0.666
+      "ts": 0.666,
+      "nameZh": "",
+      "playerId": "fc-1bgp6bw",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Miles Kelly",
@@ -6821,7 +8279,10 @@
       "tov": 0.42857142857142855,
       "fg": 0.364,
       "three": 0.303,
-      "ts": 0.484
+      "ts": 0.484,
+      "nameZh": "",
+      "playerId": "fc-702q5m",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Khaman Maluach",
@@ -6835,7 +8296,10 @@
       "tov": 0.5434782608695652,
       "fg": 0.533,
       "three": 0.238,
-      "ts": 0.586
+      "ts": 0.586,
+      "nameZh": "",
+      "playerId": "fc-k3xtz4",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Monte Morris",
@@ -6849,7 +8313,10 @@
       "tov": 0.3333333333333333,
       "fg": 0.35,
       "three": 0.25,
-      "ts": 0.414
+      "ts": 0.414,
+      "nameZh": "",
+      "playerId": "fc-u8a74m",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "CJ Huntley",
@@ -6863,7 +8330,10 @@
       "tov": 0,
       "fg": 0.545,
       "three": 0,
-      "ts": 0.545
+      "ts": 0.545,
+      "nameZh": "",
+      "playerId": "fc-gehcqh",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Emanuel Miller",
@@ -6877,7 +8347,10 @@
       "tov": 0,
       "fg": 0.462,
       "three": 0.333,
-      "ts": 0.54
+      "ts": 0.54,
+      "nameZh": "",
+      "playerId": "fc-1411xtr",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Chris Livingston",
@@ -6891,7 +8364,10 @@
       "tov": 0,
       "fg": 0.571,
       "three": 0,
-      "ts": 0.605
+      "ts": 0.605,
+      "nameZh": "",
+      "playerId": "fc-1pumjtj",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Tyus Jones",
@@ -6905,7 +8381,10 @@
       "tov": 0.373134328358209,
       "fg": 0.349,
       "three": 0.292,
-      "ts": 0.448
+      "ts": 0.448,
+      "nameZh": "",
+      "playerId": "fc-auc3ql",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Duop Reath",
@@ -6919,7 +8398,10 @@
       "tov": 0.21875,
       "fg": 0.446,
       "three": 0.418,
-      "ts": 0.613
+      "ts": 0.613,
+      "nameZh": "",
+      "playerId": "fc-hb1iup",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Chris Paul",
@@ -6933,7 +8415,10 @@
       "tov": 1,
       "fg": 0.321,
       "three": 0.333,
-      "ts": 0.413
+      "ts": 0.413,
+      "nameZh": "克里斯·保罗",
+      "playerId": "fc-4kh0xq",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Julian Phillips",
@@ -6947,7 +8432,10 @@
       "tov": 0.22916666666666666,
       "fg": 0.421,
       "three": 0.308,
-      "ts": 0.534
+      "ts": 0.534,
+      "nameZh": "",
+      "playerId": "fc-mytlfz",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "David Jones Garcia",
@@ -6961,7 +8449,10 @@
       "tov": 0.45454545454545453,
       "fg": 0.52,
       "three": 0.6,
-      "ts": 0.579
+      "ts": 0.579,
+      "nameZh": "",
+      "playerId": "fc-g3xo1j",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Bronny James",
@@ -6975,7 +8466,10 @@
       "tov": 0.5952380952380952,
       "fg": 0.409,
       "three": 0.386,
-      "ts": 0.517
+      "ts": 0.517,
+      "nameZh": "",
+      "playerId": "fc-15dcdal",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Curtis Jones",
@@ -6989,7 +8483,10 @@
       "tov": 0.2,
       "fg": 0.407,
       "three": 0.333,
-      "ts": 0.52
+      "ts": 0.52,
+      "nameZh": "",
+      "playerId": "fc-18uoiek",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Kobe Bufkin",
@@ -7003,7 +8500,10 @@
       "tov": 0.3125,
       "fg": 0.3,
       "three": 0.192,
-      "ts": 0.416
+      "ts": 0.416,
+      "nameZh": "",
+      "playerId": "fc-1l1j9vz",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Cam Christie",
@@ -7017,7 +8517,10 @@
       "tov": 0.4,
       "fg": 0.381,
       "three": 0.245,
-      "ts": 0.484
+      "ts": 0.484,
+      "nameZh": "",
+      "playerId": "fc-1gjsdz7",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Norchad Omier",
@@ -7031,7 +8534,10 @@
       "tov": 0,
       "fg": 0.7,
       "three": 0,
-      "ts": 0.751
+      "ts": 0.751,
+      "nameZh": "",
+      "playerId": "fc-7nf1y6",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Kevon Looney",
@@ -7045,7 +8551,10 @@
       "tov": 0.42857142857142855,
       "fg": 0.417,
       "three": 0.154,
-      "ts": 0.458
+      "ts": 0.458,
+      "nameZh": "",
+      "playerId": "fc-je3z6q",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Jae'Sean Tate",
@@ -7059,7 +8568,10 @@
       "tov": 0.34782608695652173,
       "fg": 0.514,
       "three": 0.313,
-      "ts": 0.567
+      "ts": 0.567,
+      "nameZh": "",
+      "playerId": "fc-wg6wu9",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Rocco Zikarsky",
@@ -7073,7 +8585,10 @@
       "tov": 0.2,
       "fg": 0.625,
       "three": 0,
-      "ts": 0.717
+      "ts": 0.717,
+      "nameZh": "",
+      "playerId": "fc-xwsmkl",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Christian Koloko",
@@ -7087,7 +8602,10 @@
       "tov": 0.5925925925925926,
       "fg": 0.419,
       "three": 0.111,
-      "ts": 0.453
+      "ts": 0.453,
+      "nameZh": "",
+      "playerId": "fc-1yumk2x",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Antonio Reeves",
@@ -7101,7 +8619,10 @@
       "tov": 0.1,
       "fg": 0.5,
       "three": 0.538,
-      "ts": 0.675
+      "ts": 0.675,
+      "nameZh": "",
+      "playerId": "fc-scfotn",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Gary Harris",
@@ -7115,7 +8636,10 @@
       "tov": 0.3958333333333333,
       "fg": 0.442,
       "three": 0.412,
-      "ts": 0.593
+      "ts": 0.593,
+      "nameZh": "",
+      "playerId": "fc-uwowy3",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Pat Connaughton",
@@ -7129,7 +8653,10 @@
       "tov": 0.2619047619047619,
       "fg": 0.447,
       "three": 0.404,
-      "ts": 0.586
+      "ts": 0.586,
+      "nameZh": "",
+      "playerId": "fc-m7auc2",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Jonathan Isaac",
@@ -7143,7 +8670,10 @@
       "tov": 0.34615384615384615,
       "fg": 0.422,
       "three": 0.184,
-      "ts": 0.498
+      "ts": 0.498,
+      "nameZh": "",
+      "playerId": "fc-13hiv1f",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Mo Bamba",
@@ -7157,7 +8687,10 @@
       "tov": 0.5,
       "fg": 0.455,
       "three": 0,
-      "ts": 0.455
+      "ts": 0.455,
+      "nameZh": "",
+      "playerId": "fc-16lyl38",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "John Tonje",
@@ -7171,7 +8704,10 @@
       "tov": 0,
       "fg": 0.286,
       "three": 0.3,
-      "ts": 0.476
+      "ts": 0.476,
+      "nameZh": "",
+      "playerId": "fc-14bgrv8",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "JD Davison",
@@ -7185,7 +8721,10 @@
       "tov": 0.25,
       "fg": 0.375,
       "three": 0.25,
-      "ts": 0.477
+      "ts": 0.477,
+      "nameZh": "",
+      "playerId": "fc-1t2iek5",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Lachlan Olbrich",
@@ -7199,7 +8738,10 @@
       "tov": 0.43243243243243246,
       "fg": 0.468,
       "three": 0.105,
-      "ts": 0.47
+      "ts": 0.47,
+      "nameZh": "",
+      "playerId": "fc-16g7qqt",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Hunter Dickinson",
@@ -7213,7 +8755,10 @@
       "tov": 0.6,
       "fg": 0.357,
       "three": 0,
-      "ts": 0.403
+      "ts": 0.403,
+      "nameZh": "",
+      "playerId": "fc-lqcrr1",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Kevin McCullar Jr.",
@@ -7227,7 +8772,10 @@
       "tov": 0.5714285714285714,
       "fg": 0.426,
       "three": 0.333,
-      "ts": 0.508
+      "ts": 0.508,
+      "nameZh": "",
+      "playerId": "fc-19k3g8z",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Lindy Waters III",
@@ -7241,7 +8789,10 @@
       "tov": 0.175,
       "fg": 0.375,
       "three": 0.342,
-      "ts": 0.532
+      "ts": 0.532,
+      "nameZh": "",
+      "playerId": "fc-vg8k0s",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Andre Jackson Jr.",
@@ -7255,7 +8806,10 @@
       "tov": 0.6458333333333334,
       "fg": 0.328,
       "three": 0.25,
-      "ts": 0.425
+      "ts": 0.425,
+      "nameZh": "",
+      "playerId": "fc-1vh69d8",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Chaz Lanier",
@@ -7269,7 +8823,10 @@
       "tov": 0.08823529411764706,
       "fg": 0.315,
       "three": 0.284,
-      "ts": 0.436
+      "ts": 0.436,
+      "nameZh": "",
+      "playerId": "fc-43124q",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Luke Travers",
@@ -7283,7 +8840,10 @@
       "tov": 0.25,
       "fg": 0.25,
       "three": 0.063,
-      "ts": 0.35
+      "ts": 0.35,
+      "nameZh": "",
+      "playerId": "fc-qzg7rd",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Chris Boucher",
@@ -7297,7 +8857,10 @@
       "tov": 0.1111111111111111,
       "fg": 0.32,
       "three": 0.133,
-      "ts": 0.392
+      "ts": 0.392,
+      "nameZh": "",
+      "playerId": "fc-1e1vtpi",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Caleb Houstan",
@@ -7311,7 +8874,10 @@
       "tov": 0.2222222222222222,
       "fg": 0.538,
       "three": 0.524,
-      "ts": 0.769
+      "ts": 0.769,
+      "nameZh": "",
+      "playerId": "fc-bugi6g",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Jeff Green",
@@ -7325,7 +8891,10 @@
       "tov": 0.13333333333333333,
       "fg": 0.368,
       "three": 0.273,
-      "ts": 0.477
+      "ts": 0.477,
+      "nameZh": "",
+      "playerId": "fc-172e71z",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Alijah Martin",
@@ -7339,7 +8908,10 @@
       "tov": 0.34782608695652173,
       "fg": 0.32,
       "three": 0.19,
-      "ts": 0.437
+      "ts": 0.437,
+      "nameZh": "",
+      "playerId": "fc-13kpo35",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Yang Hansen",
@@ -7353,7 +8925,10 @@
       "tov": 0.7441860465116279,
       "fg": 0.31,
       "three": 0.119,
-      "ts": 0.413
+      "ts": 0.413,
+      "nameZh": "",
+      "playerId": "fc-pefg3n",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Hunter Tyson",
@@ -7367,7 +8942,10 @@
       "tov": 0.23809523809523808,
       "fg": 0.269,
       "three": 0.212,
-      "ts": 0.398
+      "ts": 0.398,
+      "nameZh": "",
+      "playerId": "fc-mcvhja",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Ariel Hukporti",
@@ -7381,7 +8959,10 @@
       "tov": 0.5925925925925926,
       "fg": 0.563,
       "three": 0.25,
-      "ts": 0.619
+      "ts": 0.619,
+      "nameZh": "",
+      "playerId": "fc-qhf0mi",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Chris Youngblood",
@@ -7395,7 +8976,10 @@
       "tov": 0.058823529411764705,
       "fg": 0.349,
       "three": 0.333,
-      "ts": 0.527
+      "ts": 0.527,
+      "nameZh": "",
+      "playerId": "fc-1hgbob0",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Johnny Juzang",
@@ -7409,7 +8993,10 @@
       "tov": 0.23809523809523808,
       "fg": 0.421,
       "three": 0.25,
-      "ts": 0.518
+      "ts": 0.518,
+      "nameZh": "",
+      "playerId": "fc-tijf7g",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Jordan McLaughlin",
@@ -7423,7 +9010,10 @@
       "tov": 0.3409090909090909,
       "fg": 0.418,
       "three": 0.425,
-      "ts": 0.542
+      "ts": 0.542,
+      "nameZh": "",
+      "playerId": "fc-lu5u6d",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Maxi Kleber",
@@ -7437,7 +9027,10 @@
       "tov": 0.3953488372093023,
       "fg": 0.452,
       "three": 0.231,
-      "ts": 0.509
+      "ts": 0.509,
+      "nameZh": "",
+      "playerId": "fc-19jg57v",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Isaiah Crawford",
@@ -7451,7 +9044,10 @@
       "tov": 0.2857142857142857,
       "fg": 0.417,
       "three": 0.231,
-      "ts": 0.526
+      "ts": 0.526,
+      "nameZh": "",
+      "playerId": "fc-17d9ozq",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Dalano Banton",
@@ -7465,7 +9061,10 @@
       "tov": 1.3333333333333333,
       "fg": 0.333,
       "three": 0,
-      "ts": 0.436
+      "ts": 0.436,
+      "nameZh": "",
+      "playerId": "fc-o4qzx4",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Alex Morales",
@@ -7479,7 +9078,10 @@
       "tov": 1,
       "fg": 0.429,
       "three": 0,
-      "ts": 0.508
+      "ts": 0.508,
+      "nameZh": "",
+      "playerId": "fc-1kesr2m",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Jayson Kent",
@@ -7493,7 +9095,10 @@
       "tov": 0,
       "fg": 0.571,
       "three": 0.25,
-      "ts": 0.672
+      "ts": 0.672,
+      "nameZh": "",
+      "playerId": "fc-10lch0x",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Colby Jones",
@@ -7507,7 +9112,10 @@
       "tov": 0,
       "fg": 0.333,
       "three": 0,
-      "ts": 0.333
+      "ts": 0.333,
+      "nameZh": "",
+      "playerId": "fc-5ekq7",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Trentyn Flowers",
@@ -7521,7 +9129,10 @@
       "tov": 0.5,
       "fg": 0.667,
       "three": 0,
-      "ts": 0.667
+      "ts": 0.667,
+      "nameZh": "",
+      "playerId": "fc-bv4cc7",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Adou Thiero",
@@ -7535,7 +9146,10 @@
       "tov": 0.36,
       "fg": 0.516,
       "three": 0.333,
-      "ts": 0.578
+      "ts": 0.578,
+      "nameZh": "",
+      "playerId": "fc-1wzsac1",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Sean Pedulla",
@@ -7549,7 +9163,10 @@
       "tov": 0.14285714285714285,
       "fg": 0.333,
       "three": 0.3,
-      "ts": 0.433
+      "ts": 0.433,
+      "nameZh": "",
+      "playerId": "fc-sc7y85",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Bobi Klintman",
@@ -7563,7 +9180,10 @@
       "tov": 0.5,
       "fg": 0.333,
       "three": 0.308,
-      "ts": 0.388
+      "ts": 0.388,
+      "nameZh": "",
+      "playerId": "fc-12wn739",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Isaiah Livers",
@@ -7577,7 +9197,10 @@
       "tov": 0.3333333333333333,
       "fg": 0.344,
       "three": 0.3,
-      "ts": 0.469
+      "ts": 0.469,
+      "nameZh": "",
+      "playerId": "fc-4w95nb",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Jahmir Young",
@@ -7591,7 +9214,10 @@
       "tov": 0.21428571428571427,
       "fg": 0.4,
       "three": 0.333,
-      "ts": 0.483
+      "ts": 0.483,
+      "nameZh": "",
+      "playerId": "fc-pir1pw",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Cody Martin",
@@ -7605,7 +9231,10 @@
       "tov": 1,
       "fg": 0.2,
       "three": 0,
-      "ts": 0.277
+      "ts": 0.277,
+      "nameZh": "",
+      "playerId": "fc-1sd3d5v",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Orlando Robinson",
@@ -7619,7 +9248,10 @@
       "tov": 0,
       "fg": 0.6,
       "three": 0.5,
-      "ts": 0.7
+      "ts": 0.7,
+      "nameZh": "",
+      "playerId": "fc-1yu3s9y",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Brooks Barnhizer",
@@ -7633,7 +9265,10 @@
       "tov": 0.25,
       "fg": 0.38,
       "three": 0.292,
-      "ts": 0.451
+      "ts": 0.451,
+      "nameZh": "",
+      "playerId": "fc-1xw8joi",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Wendell Moore Jr.",
@@ -7647,7 +9282,10 @@
       "tov": 0.16666666666666666,
       "fg": 0.571,
       "three": 0,
-      "ts": 0.635
+      "ts": 0.635,
+      "nameZh": "",
+      "playerId": "fc-kk9gi8",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Pacôme Dadiet",
@@ -7661,7 +9299,10 @@
       "tov": 0.10344827586206896,
       "fg": 0.333,
       "three": 0.219,
-      "ts": 0.454
+      "ts": 0.454,
+      "nameZh": "",
+      "playerId": "fc-kb235",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Jacob Toppin",
@@ -7675,7 +9316,10 @@
       "tov": 0,
       "fg": 0.667,
       "three": 0,
-      "ts": 0.667
+      "ts": 0.667,
+      "nameZh": "",
+      "playerId": "fc-1wj6idi",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Harrison Ingram",
@@ -7689,7 +9333,10 @@
       "tov": 0.14285714285714285,
       "fg": 0.833,
       "three": 1,
-      "ts": 0.917
+      "ts": 0.917,
+      "nameZh": "",
+      "playerId": "fc-1jb6rz9",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Mason Plumlee",
@@ -7703,7 +9350,10 @@
       "tov": 0.6,
       "fg": 0.786,
       "three": 0,
-      "ts": 0.769
+      "ts": 0.769,
+      "nameZh": "",
+      "playerId": "fc-ode91d",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Jonathan Mogbo",
@@ -7717,7 +9367,10 @@
       "tov": 0.35,
       "fg": 0.591,
       "three": 0,
-      "ts": 0.608
+      "ts": 0.608,
+      "nameZh": "",
+      "playerId": "fc-1piuq82",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Joe Ingles",
@@ -7731,7 +9384,10 @@
       "tov": 0.5185185185185185,
       "fg": 0.593,
       "three": 0.438,
-      "ts": 0.735
+      "ts": 0.735,
+      "nameZh": "",
+      "playerId": "fc-1q1pqkj",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Buddy Boeheim",
@@ -7745,7 +9401,10 @@
       "tov": 0,
       "fg": 0.333,
       "three": 0.333,
-      "ts": 0.5
+      "ts": 0.5,
+      "nameZh": "",
+      "playerId": "fc-1dpk2bs",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Xavier Tillman",
@@ -7759,7 +9418,10 @@
       "tov": 0.26666666666666666,
       "fg": 0.435,
       "three": 0.167,
-      "ts": 0.461
+      "ts": 0.461,
+      "nameZh": "",
+      "playerId": "fc-126zm6l",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Thanasis Antetokounmpo",
@@ -7773,7 +9435,10 @@
       "tov": 0.29411764705882354,
       "fg": 0.469,
       "three": 0,
-      "ts": 0.52
+      "ts": 0.52,
+      "nameZh": "",
+      "playerId": "fc-4u7g60",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Amari Williams",
@@ -7787,7 +9452,10 @@
       "tov": 0.5,
       "fg": 0.5,
       "three": 0,
-      "ts": 0.573
+      "ts": 0.573,
+      "nameZh": "",
+      "playerId": "fc-ocjoov",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "TyTy Washington Jr.",
@@ -7801,7 +9469,10 @@
       "tov": 0.1875,
       "fg": 0.474,
       "three": 0.375,
-      "ts": 0.553
+      "ts": 0.553,
+      "nameZh": "",
+      "playerId": "fc-lx0lab",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Dillon Jones",
@@ -7815,7 +9486,10 @@
       "tov": 0,
       "fg": 0.222,
       "three": 0.2,
-      "ts": 0.418
+      "ts": 0.418,
+      "nameZh": "",
+      "playerId": "fc-1qjj00s",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Isaac Jones",
@@ -7829,7 +9503,10 @@
       "tov": 0.14285714285714285,
       "fg": 0.429,
       "three": 0,
-      "ts": 0.514
+      "ts": 0.514,
+      "nameZh": "",
+      "playerId": "fc-1reg2nn",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Nigel Hayes-Davis",
@@ -7843,7 +9520,10 @@
       "tov": 0.2962962962962963,
       "fg": 0.326,
       "three": 0.125,
-      "ts": 0.356
+      "ts": 0.356,
+      "nameZh": "",
+      "playerId": "fc-c6o5v4",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Colin Castleton",
@@ -7857,7 +9537,10 @@
       "tov": 0.5,
       "fg": 0.4,
       "three": 0,
-      "ts": 0.46
+      "ts": 0.46,
+      "nameZh": "",
+      "playerId": "fc-3urc3v",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Kyle Lowry",
@@ -7871,7 +9554,10 @@
       "tov": 0.2857142857142857,
       "fg": 0.16,
       "three": 0.16,
-      "ts": 0.308
+      "ts": 0.308,
+      "nameZh": "",
+      "playerId": "fc-1dqfutp",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Javonte Cooke",
@@ -7885,7 +9571,10 @@
       "tov": 0.47368421052631576,
       "fg": 0.22,
       "three": 0.13,
-      "ts": 0.275
+      "ts": 0.275,
+      "nameZh": "",
+      "playerId": "fc-h7mmlz",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Trey Jemison III",
@@ -7899,7 +9588,10 @@
       "tov": 0.7692307692307693,
       "fg": 0.6,
       "three": 0,
-      "ts": 0.623
+      "ts": 0.623,
+      "nameZh": "",
+      "playerId": "fc-gu8wsd",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Dario Saric",
@@ -7913,7 +9605,10 @@
       "tov": 0.4,
       "fg": 0.167,
       "three": 0.333,
-      "ts": 0.363
+      "ts": 0.363,
+      "nameZh": "",
+      "playerId": "fc-18jmjrm",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Hunter Sallis",
@@ -7927,7 +9622,10 @@
       "tov": 0.7142857142857143,
       "fg": 0.6,
       "three": 0,
-      "ts": 0.595
+      "ts": 0.595,
+      "nameZh": "",
+      "playerId": "fc-k5bpfh",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Trevor Keels",
@@ -7941,7 +9639,10 @@
       "tov": 0,
       "fg": 0.25,
       "three": 0.222,
-      "ts": 0.333
+      "ts": 0.333,
+      "nameZh": "",
+      "playerId": "fc-1rikyhj",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Stanley Umude",
@@ -7955,7 +9656,10 @@
       "tov": 0,
       "fg": 0.5,
       "three": 0,
-      "ts": 0.5
+      "ts": 0.5,
+      "nameZh": "",
+      "playerId": "fc-1qu5tiz",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Bismack Biyombo",
@@ -7969,7 +9673,10 @@
       "tov": 0.32,
       "fg": 0.6,
       "three": 0,
-      "ts": 0.636
+      "ts": 0.636,
+      "nameZh": "",
+      "playerId": "fc-11dw776",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Johni Broome",
@@ -7983,7 +9690,10 @@
       "tov": 0.2727272727272727,
       "fg": 0.167,
       "three": 0,
-      "ts": 0.188
+      "ts": 0.188,
+      "nameZh": "",
+      "playerId": "fc-1uhe87p",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Drew Peterson",
@@ -7997,7 +9707,10 @@
       "tov": 0,
       "fg": 0.125,
       "three": 0,
-      "ts": 0.148
+      "ts": 0.148,
+      "nameZh": "",
+      "playerId": "fc-xqz1j3",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Markelle Fultz",
@@ -8011,7 +9724,10 @@
       "tov": 0.8,
       "fg": 0.182,
       "three": 0,
-      "ts": 0.182
+      "ts": 0.182,
+      "nameZh": "",
+      "playerId": "fc-1pwyr4z",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Chris Mañon",
@@ -8025,7 +9741,10 @@
       "tov": 0.1111111111111111,
       "fg": 0.333,
       "three": 0,
-      "ts": 0.451
+      "ts": 0.451,
+      "nameZh": "",
+      "playerId": "fc-m9apgk",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Vladislav Goldin",
@@ -8039,7 +9758,10 @@
       "tov": 0.3333333333333333,
       "fg": 0.75,
       "three": 0,
-      "ts": 0.788
+      "ts": 0.788,
+      "nameZh": "",
+      "playerId": "fc-f6kinu",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Garrett Temple",
@@ -8053,7 +9775,10 @@
       "tov": 0.3181818181818182,
       "fg": 0.267,
       "three": 0.25,
-      "ts": 0.448
+      "ts": 0.448,
+      "nameZh": "",
+      "playerId": "fc-1m1vrfd",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "N'Faly Dante",
@@ -8067,7 +9792,10 @@
       "tov": 0.25,
       "fg": 0.25,
       "three": 0,
-      "ts": 0.338
+      "ts": 0.338,
+      "nameZh": "",
+      "playerId": "fc-cw60zk",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Max Shulga",
@@ -8081,7 +9809,10 @@
       "tov": 0.2727272727272727,
       "fg": 0.25,
       "three": 0.25,
-      "ts": 0.394
+      "ts": 0.394,
+      "nameZh": "",
+      "playerId": "fc-1ehzjw1",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Jahmyl Telfort",
@@ -8095,7 +9826,10 @@
       "tov": 0.125,
       "fg": 0,
       "three": 0,
-      "ts": 0.087
+      "ts": 0.087,
+      "nameZh": "",
+      "playerId": "fc-hi9lh2",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Chucky Hepburn",
@@ -8109,7 +9843,10 @@
       "tov": 0.5,
       "fg": 0,
       "three": 0,
-      "ts": 0
+      "ts": 0,
+      "nameZh": "",
+      "playerId": "fc-l32os6",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Tosan Evbuomwan",
@@ -8123,7 +9860,10 @@
       "tov": 0,
       "fg": 0,
       "three": 0,
-      "ts": 0
+      "ts": 0,
+      "nameZh": "",
+      "playerId": "fc-1iq1uca",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Noa Essengue",
@@ -8137,7 +9877,10 @@
       "tov": 0,
       "fg": 0,
       "three": 0,
-      "ts": 0
+      "ts": 0,
+      "nameZh": "",
+      "playerId": "fc-19073sa",
+      "image": "./assets/nba-players/default-player.svg"
     },
     {
       "name": "Darius Brown II",
@@ -8151,7 +9894,11 @@
       "tov": 0,
       "fg": 0,
       "three": 0,
-      "ts": 0
+      "ts": 0,
+      "nameZh": "",
+      "playerId": "fc-kzbbpb",
+      "image": "./assets/nba-players/default-player.svg"
     }
-  ]
+  ],
+  "directoryVersion": 2
 }
