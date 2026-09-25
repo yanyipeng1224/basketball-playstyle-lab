@@ -253,9 +253,64 @@
       html { scroll-behavior: auto; }
       *, *::before, *::after { transition: none !important; animation: none !important; }
     }
+
+    /* Glass workspace redesign */
+    :root { --glass: rgba(25,31,40,.62); --glass-strong: rgba(20,25,33,.84); --solid: #111720; --solid-2:#151d28; --blue:#7eaaff; --shadow:0 22px 65px rgba(0,0,0,.28); --radius-lg:24px; }
+    body { min-height:100vh; background:radial-gradient(circle at 75% -10%,rgba(71,119,205,.17),transparent 33rem),radial-gradient(circle at 8% 15%,rgba(255,107,32,.12),transparent 28rem),#080b10; }
+    body::before { content:""; position:fixed; inset:0; pointer-events:none; background:linear-gradient(125deg,rgba(255,255,255,.025),transparent 26%,rgba(126,170,255,.025)); z-index:-1; }
+    .shell { width:min(1600px,100%); padding:18px 28px 42px 266px; }
+    header { position:sticky; top:12px; z-index:30; margin-bottom:16px; padding:13px 16px; border:1px solid rgba(255,255,255,.12); border-radius:18px; background:var(--glass); box-shadow:var(--shadow); backdrop-filter:blur(18px) saturate(135%); }
+    .brand-name { letter-spacing:.04em; } .ball { box-shadow:inset 0 0 0 2px rgba(8,11,16,.72),0 7px 18px rgba(255,107,32,.2); }
+    .feature-nav { position:fixed; z-index:40; top:22px; bottom:22px; left:max(18px,calc((100vw - 1600px)/2 + 18px)); width:218px; display:flex; flex-direction:column; align-items:stretch; gap:5px; overflow:visible; padding:18px 12px; border:1px solid rgba(255,255,255,.12); border-radius:24px; background:var(--glass); box-shadow:var(--shadow); backdrop-filter:blur(22px) saturate(135%); }
+    .feature-nav::before { content:"全场解码"; padding:5px 10px 13px; color:var(--orange-2); font-size:.74rem; font-weight:850; letter-spacing:.14em; }
+    .feature-nav a { width:100%; border:0; border-radius:12px; padding:10px 12px; color:#bec8d5; background:transparent; font-weight:700; }
+    .feature-nav a:hover, .feature-nav a:focus-visible { color:#fff; outline:0; background:rgba(255,255,255,.09); }
+    .feature-nav a[href="#workspace"] { margin-top:8px; color:#150c08; background:var(--orange); }
+    .dashboard-home { display:grid; grid-template-columns:1.15fr .85fr .85fr; gap:14px; margin-bottom:18px; }
+    .dashboard-card { min-height:150px; padding:20px; border:1px solid rgba(255,255,255,.12); border-radius:var(--radius-lg); background:var(--glass); box-shadow:var(--shadow); backdrop-filter:blur(18px) saturate(135%); }
+    .dashboard-card.primary-card { background:linear-gradient(130deg,rgba(255,107,32,.18),rgba(20,27,38,.68) 55%,rgba(88,132,212,.12)); }
+    .dashboard-card h2 { margin:5px 0 8px; font-size:1.23rem; } .dashboard-card p { margin:0; color:var(--muted); font-size:.88rem; }
+    .dashboard-card .primary { display:inline-flex; align-items:center; min-height:38px; margin-top:14px; padding:0 13px; text-decoration:none; }
+    main { padding-top:0; } .panel { border-color:rgba(255,255,255,.11); background:var(--solid); box-shadow:0 13px 38px rgba(0,0,0,.16); }
+    .input-panel,.identity,.ai-card { background:var(--glass); backdrop-filter:blur(18px) saturate(125%); }
+    .panel-head,.feature-head { border-color:rgba(255,255,255,.1); } .feature-panel { padding:24px; scroll-margin-top:100px; }
+    .feature-area { gap:20px; padding-top:20px; } .mini-card,.session { background:var(--solid-2); border-color:rgba(255,255,255,.09); }
+    .identity { border-radius:var(--radius-lg); } .identity::after { color:rgba(255,255,255,.05); }
+    .account-button,.icon-button { background:rgba(255,255,255,.07); border-color:rgba(255,255,255,.12); } dialog { border-color:rgba(255,255,255,.14); border-radius:24px; background:var(--glass-strong); backdrop-filter:blur(25px) saturate(140%); }
+    .feature-tools button,.feature-tools label.button-like,.field input,.field select,.field textarea { border-color:rgba(255,255,255,.11); background:#121923; }
+    .table-scroll { border-color:rgba(255,255,255,.11); background:#0f151e; } .nba-table th { background:#151d28; }
+    .feature-panel > .feature-head { padding-bottom:14px; border-bottom:1px solid rgba(255,255,255,.09); }
+    .nba-picker { display:grid; grid-template-columns:1fr 1fr auto; align-items:end; gap:10px; } .nba-picker .field { min-width:0; }
+    .nba-person { display:flex; align-items:center; gap:10px; } .nba-person img,.player-avatar { flex:0 0 auto; width:44px; height:44px; border:1px solid rgba(255,255,255,.13); border-radius:50%; object-fit:cover; background:#172231; }
+    .nba-person b { display:block; color:#f7f9fb; } .nba-person small { display:block; color:var(--muted); margin-top:1px; }
+    .nba-table button { color:inherit; } .nba-table button:hover b { color:var(--orange-2); }
+    .nba-player-card { overflow:hidden; } .nba-card-top { display:flex; gap:14px; align-items:center; margin-bottom:14px; } .nba-card-top .player-avatar { width:68px; height:68px; border-radius:18px; }
+    .nba-detail { width:min(660px,calc(100% - 28px)); } .nba-detail-content { padding:24px; } .nba-detail-hero { display:flex; align-items:center; gap:18px; margin:12px 0 22px; } .nba-detail-hero .player-avatar { width:104px; height:104px; border-radius:26px; }
+    .nba-detail-actions { display:flex; gap:10px; margin-top:20px; } .stat-pills { display:grid; grid-template-columns:repeat(3,1fr); gap:10px; } .stat-pill { padding:12px; border-radius:13px; background:#101722; border:1px solid rgba(255,255,255,.08); } .stat-pill b { display:block; font-size:1.15rem; } .stat-pill span { color:var(--muted); font-size:.76rem; }
+    .onboarding { position:fixed; inset:0; z-index:100; display:none; align-items:center; justify-content:center; padding:22px; overflow:auto; background:rgba(4,7,11,.7); backdrop-filter:blur(14px); }
+    body.onboarding-open { overflow:hidden; } body.onboarding-open .onboarding { display:flex; }
+    .wizard { width:min(650px,100%); padding:28px; border:1px solid rgba(255,255,255,.15); border-radius:30px; background:linear-gradient(145deg,rgba(31,39,52,.93),rgba(15,20,28,.96)); box-shadow:0 30px 100px rgba(0,0,0,.5); }
+    .wizard-progress { display:flex; gap:7px; margin:18px 0 25px; } .wizard-progress span { height:5px; flex:1; border-radius:99px; background:#293445; } .wizard-progress span.active { background:var(--orange); }
+    .wizard-step { display:none; } .wizard-step.active { display:block; } .wizard-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:12px; } .wizard-actions { display:flex; justify-content:space-between; gap:10px; margin-top:26px; }
+    .wizard h1 { font-size:clamp(1.65rem,4vw,2.35rem); margin:7px 0 8px; } .wizard .hint { max-width:42rem; }
+    .onboarding-brand { display:flex; align-items:center; gap:10px; color:var(--orange-2); font-weight:800; letter-spacing:.09em; }
+    @supports not (backdrop-filter:blur(2px)) { header,.feature-nav,.dashboard-card,.input-panel,.identity,.ai-card,dialog { background:#151c26; } }
+    @media (prefers-reduced-transparency: reduce) { header,.feature-nav,.dashboard-card,.input-panel,.identity,.ai-card,dialog { background:#151c26; backdrop-filter:none; } }
+    @media (max-width:1100px) { .shell { padding-left:22px; } .feature-nav { position:sticky; top:0; left:auto; bottom:auto; width:auto; flex-direction:row; overflow-x:auto; margin-bottom:14px; padding:9px; border-radius:16px; } .feature-nav::before { display:none; } .feature-nav a { width:auto; white-space:nowrap; padding:8px 11px; } .feature-nav a[href="#workspace"] { margin-top:0; } }
+    @media (max-width:760px) { .shell { padding:10px 12px 94px; } header { position:relative; top:auto; padding:12px; } .brand-sub { display:none; } .dashboard-home { grid-template-columns:1fr; } .dashboard-card { min-height:128px; } .feature-nav { position:fixed; z-index:50; top:auto; bottom:10px; left:10px; right:10px; justify-content:flex-start; margin:0; padding:7px; border-radius:18px; } .feature-nav a { font-size:.75rem; } .feature-nav a[href="#workspace"] { display:none; } main { grid-template-columns:1fr; } .input-panel { order:2; } .results { order:1; } .nba-picker { grid-template-columns:1fr 1fr; } .nba-picker button { grid-column:1/-1; } .wizard { padding:22px; border-radius:24px; } .wizard-grid,.stat-pills { grid-template-columns:1fr 1fr; } .nba-detail-hero { align-items:flex-start; } }
   </style>
 </head>
-<body>
+<body class="onboarding-open">
+  <section class="onboarding" id="onboarding" aria-labelledby="wizard-title" aria-modal="true" role="dialog">
+    <form class="wizard" id="profile-wizard">
+      <div class="onboarding-brand"><span class="ball" aria-hidden="true">//</span> 全场解码</div>
+      <div class="wizard-progress" aria-label="建档进度"><span class="active"></span><span></span><span></span></div>
+      <section class="wizard-step active" data-step="1"><div class="eyebrow">01 / 基础资料</div><h1 id="wizard-title">先认识你，再制定方案。</h1><p class="hint">只需一分钟，后续可以随时修改。</p><div class="wizard-grid" style="margin-top:22px"><div class="field"><label for="wizard-height">身高 / cm</label><input id="wizard-height" type="number" min="140" max="230" value="180" required></div><div class="field"><label for="wizard-weight">体重 / kg</label><input id="wizard-weight" type="number" min="35" max="180" value="75" required></div><div class="field"><label for="wizard-frequency">每周训练</label><select id="wizard-frequency"><option value="2">2 天</option><option value="3">3 天</option><option value="4" selected>4 天</option><option value="5">5 天</option></select></div></div></section>
+      <section class="wizard-step" data-step="2"><div class="eyebrow">02 / 当前能力</div><h1>告诉我你的比赛感觉。</h1><p class="hint">按实战表现评分，不用追求精确。</p><div class="skills" style="margin-top:22px"><div class="skill-row"><label for="wizard-shooting">投篮</label><input id="wizard-shooting" type="range" min="1" max="10" value="7"><output>7</output></div><div class="skill-row"><label for="wizard-handling">运球</label><input id="wizard-handling" type="range" min="1" max="10" value="7"><output>7</output></div><div class="skill-row"><label for="wizard-defense">防守</label><input id="wizard-defense" type="range" min="1" max="10" value="6"><output>6</output></div><div class="skill-row"><label for="wizard-stamina">体能</label><input id="wizard-stamina" type="range" min="1" max="10" value="7"><output>7</output></div></div></section>
+      <section class="wizard-step" data-step="3"><div class="eyebrow">03 / 本阶段目标</div><h1>最后一步，设定方向。</h1><p class="hint">例如：提高半场突破稳定性，或准备校队选拔。</p><div class="field" style="margin-top:22px"><label for="wizard-goal">你的目标</label><textarea id="wizard-goal" maxlength="300" placeholder="我想…"></textarea></div></section>
+      <div class="wizard-actions"><button class="secondary" type="button" id="wizard-back" hidden>上一步</button><span></span><button class="primary" type="button" id="wizard-next">下一步</button></div>
+    </form>
+  </section>
   <div class="shell">
     <header>
       <div class="brand">
@@ -265,11 +320,17 @@
       <div class="header-actions"><div class="status">DeepSeek 教练已就绪</div><span class="account-name" id="account-name"></span><span class="hint" id="ai-usage" aria-live="polite"></span><button class="account-button" id="auth-open" type="button">登录 / 注册</button></div>
     </header>
 
-    <nav class="feature-nav" aria-label="篮球工具">
-      <a href="#shooting-lab">投篮热区</a><a href="#form-lab">动作分析</a><a href="#nba-lab">NBA 球员</a><a href="#boxscore-lab">单场表现</a><a href="#training-lab">训练记录</a>
+    <nav class="feature-nav" aria-label="工作台导航">
+      <a href="#workspace">我的工作台</a><a href="#shooting-lab">投篮热区</a><a href="#form-lab">动作分析</a><a href="#nba-lab">NBA 球员</a><a href="#boxscore-lab">单场表现</a><a href="#training-lab">训练记录</a><a href="#saved-lab">我的记录</a>
     </nav>
 
-    <main>
+    <section class="dashboard-home" id="dashboard-home" aria-label="个人工作台概览">
+      <article class="dashboard-card primary-card"><div class="eyebrow">MY PLAYSTYLE</div><h2>你的比赛正在成形</h2><p id="dashboard-role">先完成建档，得到你的打法定位和第一周训练方向。</p><a class="primary" href="#workspace">查看我的打法</a></article>
+      <article class="dashboard-card"><div class="eyebrow">THIS WEEK</div><h2>本周训练</h2><p id="dashboard-training">完成建档后，这里会显示本周最重要的一次训练。</p></article>
+      <article class="dashboard-card"><div class="eyebrow">CONTINUE</div><h2>继续使用</h2><p>记录一次出手、复盘比赛，或在 NBA 数据库中寻找参照球员。</p></article>
+    </section>
+
+    <main id="workspace">
       <section class="panel input-panel" aria-labelledby="input-title">
         <div class="panel-head">
           <div><div class="eyebrow">01 / 录入数据</div><h1 id="input-title">你的球员档案</h1></div>
@@ -365,19 +426,19 @@
         <div class="feature-tools"><label class="button-like" for="pose-file">选择本地视频</label><input id="pose-file" type="file" accept="video/*" hidden><button type="button" id="pose-camera">打开摄像头</button><button type="button" id="pose-stop" disabled>关闭摄像头</button><button type="button" id="pose-analyze" class="primary" disabled>分析动作</button></div>
         <video class="video-preview" id="pose-video" controls playsinline hidden></video>
         <canvas id="pose-canvas" hidden></canvas>
-        <p id="pose-status" class="result-message" role="status">可上传侧面投篮视频，或使用摄像头。首次分析会加载网站内置的姿势识别模型。</p>
+        <p id="pose-status" class="result-message" role="status">可上传侧面投篮视频，或使用摄像头。首次分析会加载姿势识别模型。</p>
         <div id="pose-report" class="mini-card" hidden></div>
         <p class="account-note">建议拍摄全身侧面；这是姿势辅助建议，不会追踪篮球或判断进球，也不替代教练现场指导。</p>
       </section>
 
       <section class="panel feature-panel" id="nba-lab" aria-labelledby="nba-title">
-        <div class="feature-head"><div><div class="eyebrow">06 / NBA 球员数据库</div><h2 id="nba-title">搜索并对比球员</h2><p class="hint">2025–26 常规赛球员数据，展示赛季场均统计与投篮效率；基于公开赛季汇总数据，不是实时数据。</p></div></div>
+        <div class="feature-head"><div><div class="eyebrow">06 / NBA 球员数据库</div><h2 id="nba-title">搜索并对比球员</h2><p class="hint">2025–26 常规赛场均数据。中文优先显示，点击球员可查看资料并加入对比。</p></div></div>
         <p id="nba-status" class="result-message" role="status">正在载入球员数据…</p>
-        <div class="field"><label for="nba-search">搜索球员或球队</label><input id="nba-search" type="search" placeholder="输入英文球员名、球队缩写或球队名"></div>
-        <div class="feature-tools"><div class="field"><label for="nba-player-a">球员 A</label><select id="nba-player-a"><option value="">选择球员</option></select></div><div class="field"><label for="nba-player-b">球员 B</label><select id="nba-player-b"><option value="">选择球员</option></select></div><button id="nba-compare" type="button">对比两名球员</button></div>
+        <div class="field"><label for="nba-search">搜索球员或球队</label><input id="nba-search" type="search" placeholder="输入中文名、英文名或球队缩写"></div>
+        <div class="nba-picker feature-tools"><div class="field"><label for="nba-player-a">球员 A</label><select id="nba-player-a"><option value="">选择球员</option></select></div><div class="field"><label for="nba-player-b">球员 B</label><select id="nba-player-b"><option value="">选择球员</option></select></div><button id="nba-compare" type="button">开始对比</button></div>
         <div id="nba-compare-output" class="feature-grid"></div>
         <div class="table-scroll"><table class="nba-table"><thead><tr><th>球员</th><th>球队</th><th>场次</th><th>得分</th><th>篮板</th><th>助攻</th><th>投篮%</th><th>三分%</th><th>真实命中%</th></tr></thead><tbody id="nba-rows"><tr><td colspan="9">正在载入…</td></tr></tbody></table></div>
-        <p class="account-note">数据：BoxScore Lab，数据截至 2026-09-21，CC BY 4.0；统计来源为 NBA Stats。<a href="https://boxscorelab.com/downloads/" target="_blank" rel="noreferrer">来源与授权</a>。非 NBA 官方产品。</p>
+        <p class="account-note">数据：BoxScore Lab，数据截至 2026-09-21，CC BY 4.0；统计来源为 NBA Stats。<a href="https://boxscorelab.com/downloads/" target="_blank" rel="noreferrer">来源与授权</a>。头像使用站内剪影占位，后续可替换为已获授权的球员肖像。非 NBA 官方产品。</p>
       </section>
 
       <section class="panel feature-panel" id="boxscore-lab" aria-labelledby="boxscore-title">
@@ -422,6 +483,8 @@
       </section>
     </div>
   </div>
+
+  <dialog id="nba-detail-dialog" class="nba-detail" aria-labelledby="nba-detail-name"><div class="nba-detail-content"><div class="auth-top"><div><div class="eyebrow">PLAYER PROFILE</div><h2 id="nba-detail-name">球员资料</h2></div><button class="icon-button" id="nba-detail-close" type="button" aria-label="关闭">×</button></div><div id="nba-detail-content"></div></div></dialog>
 
   <dialog id="auth-dialog" aria-labelledby="auth-title">
     <form class="auth-box" id="auth-form">
@@ -541,6 +604,8 @@
       document.getElementById('focus-list').innerHTML = result.priorities.map(([key, score], i) => `<div class="focus-item"><div class="rank">0${i + 1}</div><div><strong>${metrics[key].label} · 当前 ${score}/10</strong><span>${metrics[key].drill}</span></div></div>`).join('');
       document.getElementById('weekly-load').textContent = `每周 ${data.frequency} 练`;
       document.getElementById('sessions').innerHTML = buildSessions(data, result).map((s, i) => `<article class="session"><div class="session-top"><strong>训练 ${i + 1} · ${s.title}</strong><time>${s.time}</time></div><p>${s.text}</p></article>`).join('');
+      document.getElementById('dashboard-role').textContent = `${role.name} · ${result.strengths.map(([key]) => metrics[key].label).join(' / ')} 是你当前最有价值的比赛组合。`;
+      const firstSession = buildSessions(data, result)[0]; document.getElementById('dashboard-training').textContent = firstSession ? `${firstSession.title} · ${firstSession.time}` : '完成建档后，这里会显示本周最重要的一次训练。';
       document.getElementById('results').classList.remove('flash');
       requestAnimationFrame(() => document.getElementById('results').classList.add('flash'));
       return { role: role.name, strengths: result.strengths.map(([key]) => metrics[key].label), priorities: result.priorities.map(([key]) => metrics[key].label), weeklySessions: data.frequency };
@@ -626,6 +691,29 @@
       render(valuesFromForm());
       document.getElementById('ai-card').classList.remove('visible');
     });
+
+    const onboardingStorageKey = 'full-court-onboarding-v2';
+    function setWizardStep(step) {
+      document.querySelectorAll('.wizard-step').forEach(element => element.classList.toggle('active', Number(element.dataset.step) === step));
+      document.querySelectorAll('.wizard-progress span').forEach((element, index) => element.classList.toggle('active', index < step));
+      document.getElementById('wizard-back').hidden = step === 1;
+      document.getElementById('wizard-next').textContent = step === 3 ? '生成我的工作台' : '下一步';
+    }
+    function finishOnboarding() {
+      const copy = { height:'wizard-height', weight:'wizard-weight', frequency:'wizard-frequency', shooting:'wizard-shooting', handling:'wizard-handling', defense:'wizard-defense', stamina:'wizard-stamina', goal:'wizard-goal' };
+      Object.entries(copy).forEach(([target, source]) => { form.elements[target].value = document.getElementById(source).value; });
+      inputs.forEach(input => input.nextElementSibling.value = input.value);
+      localStorage.setItem(onboardingStorageKey, 'complete');
+      document.body.classList.remove('onboarding-open');
+      render(valuesFromForm());
+      document.getElementById('workspace').scrollIntoView({ behavior:'smooth', block:'start' });
+    }
+    let wizardStep = 1;
+    document.querySelectorAll('#profile-wizard input[type="range"]').forEach(input => input.addEventListener('input', () => input.nextElementSibling.value = input.value));
+    document.getElementById('wizard-next').addEventListener('click', () => { if (wizardStep < 3) { wizardStep += 1; setWizardStep(wizardStep); } else finishOnboarding(); });
+    document.getElementById('wizard-back').addEventListener('click', () => { wizardStep = Math.max(1, wizardStep - 1); setWizardStep(wizardStep); });
+    if (localStorage.getItem(onboardingStorageKey) === 'complete') document.body.classList.remove('onboarding-open');
+
 
     const authDialog = document.getElementById('auth-dialog');
     const authForm = document.getElementById('auth-form');
@@ -719,7 +807,7 @@
     // ---------- Account data and basketball features ----------
     const shotStorageKey = 'full-court-shots-v1';
     const trainingStorageKey = 'full-court-training-v1';
-    const nbaStorageKey = 'full-court-nba-2025-26-v1';
+    const nbaStorageKey = 'full-court-nba-2025-26-v2';
     const NBA_CSV_URL = 'https://boxscorelab.com/downloads/2025-26-player-season-totals.csv';
     let shotAttempts = [];
     let trainingLogs = [];
@@ -966,138 +1054,34 @@
     }
     function numberValue(value) { const n = Number(String(value || '').replace(/,/g,'').replace('%','')); return Number.isFinite(n) ? n : 0; }
     const nbaStatFields = ['ppg','rpg','apg','spg','bpg','tov','fg','three','ts'];
+    const nbaFallbackImage = './assets/nba-players/default-player.svg';
+    function playerKey(name) { let hash=2166136261; for (const char of String(name).normalize('NFKD').toLowerCase()) hash=Math.imul(hash^char.charCodeAt(0),16777619); return `fc-${(hash>>>0).toString(36)}`; }
+    function normalizeNbaPlayer(player) { return { ...player, nameZh:typeof player.nameZh==='string'?player.nameZh:'', playerId:typeof player.playerId==='string'?player.playerId:playerKey(player.name), image:typeof player.image==='string'&&player.image?player.image:nbaFallbackImage }; }
     function validNbaPlayers(players, minimum = 300) {
-      return Array.isArray(players) && players.length >= minimum &&
-        players.every(player => player && typeof player.name === 'string' && player.name.trim() &&
-          Number.isFinite(player.games) && player.games > 0 &&
-          nbaStatFields.every(field => Number.isFinite(player[field]) && player[field] >= 0)) &&
-        nbaStatFields.every(field => players.some(player => player[field] > 0));
+      return Array.isArray(players) && players.length >= minimum && players.every(player => player && typeof player.name === 'string' && player.name.trim() && typeof player.playerId === 'string' && typeof player.image === 'string' && Number.isFinite(player.games) && player.games > 0 && nbaStatFields.every(field => Number.isFinite(player[field]) && player[field] >= 0)) && nbaStatFields.every(field => players.some(player => player[field] > 0));
     }
     function parseNbaCsv(csv) {
-      const matrix = parseCsv(csv); const headers = (matrix.shift() || []).map(keyNorm);
-      const fields = {
-        name:['player_name','player','name','athlete'], team:['team_abbreviation','team_abbr','team','team_name','tm'],
-        games:['games','games_played','gp','g'], points:['points','pts','total_points'],
-        rebounds:['rebounds','reb','trb','total_rebounds'], assists:['assists','ast','total_assists'],
-        steals:['steals','stl','total_steals'], blocks:['blocks','blk','total_blocks'], turnovers:['turnovers','tov','total_turnovers'],
-        fgPct:['fg_pct','fg_percent','field_goal_pct','field_goal_percentage'], fgMade:['fgm','field_goals_made'], fgAttempts:['fga','field_goals_attempted'],
-        threePct:['fg3_pct','three_point_pct','three_pct','three_point_percentage','3p_pct'], threeMade:['fg3m','three_pointers_made','3pm'], threeAttempts:['fg3a','three_pointers_attempted','3pa'],
-        tsPct:['true_shooting_pct','ts_pct','ts_percent','true_shooting_percentage'], ftAttempts:['fta','free_throws_attempted']
-      };
-      const has = aliases => aliases.some(alias => headers.includes(keyNorm(alias)));
-      const missing = ['name','team','games','points','rebounds','assists','steals','blocks','turnovers'].filter(field => !has(fields[field]));
-      if (!headers.includes('season')) missing.push('season');
-      if (!has(fields.fgPct) && !(has(fields.fgMade) && has(fields.fgAttempts))) missing.push('FG%');
-      if (!has(fields.threePct) && !(has(fields.threeMade) && has(fields.threeAttempts))) missing.push('3P%');
-      if (!has(fields.tsPct) && !(has(fields.fgAttempts) && has(fields.ftAttempts))) missing.push('TS%');
-      if (missing.length) throw new Error(`CSV 缺少可识别字段：${missing.join('、')}`);
-      const seasonIndex = headers.indexOf('season');
-      if (matrix.some(values => String(values[seasonIndex] || '').trim() !== '2025-26')) throw new Error('CSV 赛季不是 2025–26');
-      const players = matrix.map(values => Object.fromEntries(headers.map((header,index) => [header,values[index] || '']))).map(row => {
-        const games = numberValue(fieldValue(row,fields.games));
-        const name = fieldValue(row,fields.name);
-        if (!name || !games) return null;
-        const total = (aliases) => numberValue(fieldValue(row,aliases));
-        const perGame = aliases => total(aliases) / games;
-        const percent = aliases => { let v = total(aliases); if (!v) return 0; if (v > 1) v /= 100; return Math.max(0,Math.min(1,v)); };
-        let fg = percent(fields.fgPct);
-        let three = percent(fields.threePct);
-        let ts = percent(fields.tsPct);
-        const fgm = total(fields.fgMade); const fga = total(fields.fgAttempts);
-        if (!fg && fga) fg = fgm / fga;
-        const tsm = total(fields.threeMade); const tsa = total(fields.threeAttempts);
-        if (!three && tsa) three = tsm / tsa;
-        if (!ts && fga) ts = total(fields.points) / (2 * (fga + .44 * total(fields.ftAttempts)));
-        return {
-          name: String(name), team: String(fieldValue(row,fields.team) || '—'), games,
-          ppg: perGame(fields.points), rpg: perGame(fields.rebounds), apg: perGame(fields.assists),
-          spg: perGame(fields.steals), bpg: perGame(fields.blocks), tov: perGame(fields.turnovers), fg, three,
-          ts: Math.max(0,Math.min(1,ts))
-        };
-      }).filter(Boolean).sort((a,b) => b.ppg-a.ppg);
-      if (!validNbaPlayers(players, 1)) {
-        throw new Error('CSV 统计字段无法正确读取');
-      }
-      return players;
+      const matrix=parseCsv(csv); const headers=(matrix.shift()||[]).map(keyNorm); const fields={name:['player_name','player','name','athlete'],team:['team_abbreviation','team_abbr','team','team_name','tm'],games:['games','games_played','gp','g'],points:['points','pts','total_points'],rebounds:['rebounds','reb','trb','total_rebounds'],assists:['assists','ast','total_assists'],steals:['steals','stl','total_steals'],blocks:['blocks','blk','total_blocks'],turnovers:['turnovers','tov','total_turnovers'],fgPct:['fg_pct','fg_percent','field_goal_pct','field_goal_percentage'],fgMade:['fgm','field_goals_made'],fgAttempts:['fga','field_goals_attempted'],threePct:['fg3_pct','three_point_pct','three_pct','three_point_percentage','3p_pct'],threeMade:['fg3m','three_pointers_made','3pm'],threeAttempts:['fg3a','three_pointers_attempted','3pa'],tsPct:['true_shooting_pct','ts_pct','ts_percent','true_shooting_percentage'],ftAttempts:['fta','free_throws_attempted']};
+      const has=aliases=>aliases.some(alias=>headers.includes(keyNorm(alias))); const missing=['name','team','games','points','rebounds','assists','steals','blocks','turnovers'].filter(field=>!has(fields[field])); if(!headers.includes('season'))missing.push('season'); if(missing.length)throw new Error(`CSV 缺少可识别字段：${missing.join('、')}`); const seasonIndex=headers.indexOf('season'); if(matrix.some(values=>String(values[seasonIndex]||'').trim()!=='2025-26'))throw new Error('CSV 赛季不是 2025–26');
+      return matrix.map(values=>Object.fromEntries(headers.map((header,index)=>[header,values[index]||'']))).map(row=>{const games=numberValue(fieldValue(row,fields.games)),name=fieldValue(row,fields.name);if(!name||!games)return null;const total=aliases=>numberValue(fieldValue(row,aliases));const rate=aliases=>{let value=total(aliases);if(value>1)value/=100;return Math.max(0,Math.min(1,value));};const fga=total(fields.fgAttempts),tsa=total(fields.threeAttempts);let fg=rate(fields.fgPct),three=rate(fields.threePct),ts=rate(fields.tsPct);if(!fg&&fga)fg=total(fields.fgMade)/fga;if(!three&&tsa)three=total(fields.threeMade)/tsa;if(!ts&&fga)ts=total(fields.points)/(2*(fga+.44*total(fields.ftAttempts)));return normalizeNbaPlayer({name:String(name),team:String(fieldValue(row,fields.team)||'—'),games,ppg:total(fields.points)/games,rpg:total(fields.rebounds)/games,apg:total(fields.assists)/games,spg:total(fields.steals)/games,bpg:total(fields.blocks)/games,tov:total(fields.turnovers)/games,fg,three,ts:Math.max(0,Math.min(1,ts))});}).filter(Boolean).sort((a,b)=>b.ppg-a.ppg);
     }
-    function playerRole(player) {
-      if (player.apg >= 7) return '主要组织者';
-      if (player.ppg >= 25) return '核心得分手';
-      if (player.rpg >= 10) return '篮板内线';
-      if (player.three >= .38) return '外线空间点';
-      if (player.spg >= 1.5) return '外线防守者';
-      return '全能轮换';
+    function playerRole(player){if(player.apg>=7)return '主要组织者';if(player.ppg>=25)return '核心得分手';if(player.rpg>=10)return '篮板内线';if(player.three>=.38)return '外线空间点';if(player.spg>=1.5)return '外线防守者';return '全能轮换';}
+    function pct(value){return `${(value*100).toFixed(1)}%`;}
+    function playerDisplayName(player){return player.nameZh?`${player.nameZh} / ${player.name}`:player.name;}
+    function playerAvatar(player, className='player-avatar'){return `<img class="${className}" src="${escapeHtml(player.image||nbaFallbackImage)}" alt="${escapeHtml(playerDisplayName(player))}" onerror="this.onerror=null;this.src='${nbaFallbackImage}'">`;}
+    function playerCard(player){return `<article class="mini-card nba-player-card"><div class="nba-card-top">${playerAvatar(player)}<div><div class="eyebrow">${escapeHtml(player.team)} · ${player.games} 场</div><h2 style="margin:4px 0">${escapeHtml(player.nameZh||player.name)}</h2><p class="hint">${escapeHtml(player.name)} · ${playerRole(player)}</p></div></div><div class="stat-pills"><div class="stat-pill"><b>${player.ppg.toFixed(1)}</b><span>得分</span></div><div class="stat-pill"><b>${player.rpg.toFixed(1)}</b><span>篮板</span></div><div class="stat-pill"><b>${player.apg.toFixed(1)}</b><span>助攻</span></div><div class="stat-pill"><b>${pct(player.fg)}</b><span>投篮</span></div><div class="stat-pill"><b>${pct(player.three)}</b><span>三分</span></div><div class="stat-pill"><b>${pct(player.ts)}</b><span>真实命中</span></div></div></article>`;}
+    function renderNbaTable(filter=''){
+      const term=filter.trim().toLocaleLowerCase('zh-CN'); const filtered=nbaPlayers.filter(player=>`${player.nameZh||''} ${player.name} ${player.team}`.toLocaleLowerCase('zh-CN').includes(term)).slice(0,100); const body=document.getElementById('nba-rows'); body.innerHTML=filtered.length?filtered.map(player=>`<tr><td><button type="button" data-nba-name="${escapeHtml(player.name)}"><span class="nba-person">${playerAvatar(player)}<span><b>${escapeHtml(player.nameZh||player.name)}</b><small>${escapeHtml(player.name)}</small></span></span></button></td><td>${escapeHtml(player.team)}</td><td>${player.games}</td><td>${player.ppg.toFixed(1)}</td><td>${player.rpg.toFixed(1)}</td><td>${player.apg.toFixed(1)}</td><td>${pct(player.fg)}</td><td>${pct(player.three)}</td><td>${pct(player.ts)}</td></tr>`).join(''):`<tr><td colspan="9">${nbaPlayers.length?'没有符合条件的球员。':'暂无可显示的数据。'}</td></tr>`;
+      body.querySelectorAll('[data-nba-name]').forEach(button=>button.addEventListener('click',()=>openNbaDetail(nbaPlayers.find(player=>player.name===button.dataset.nbaName))));
     }
-    function pct(value) { return `${(value*100).toFixed(1)}%`; }
-    function playerCard(player) {
-      return `<article class="mini-card"><div class="eyebrow">${escapeHtml(player.team)} · ${player.games} 场</div><h2 style="margin:7px 0">${escapeHtml(player.name)}</h2><p class="hint">${playerRole(player)}</p><div class="feature-grid three"><div><strong>${player.ppg.toFixed(1)}</strong><small> 得分</small></div><div><strong>${player.rpg.toFixed(1)}</strong><small> 篮板</small></div><div><strong>${player.apg.toFixed(1)}</strong><small> 助攻</small></div><div><strong>${pct(player.fg)}</strong><small> 投篮</small></div><div><strong>${pct(player.three)}</strong><small> 三分</small></div><div><strong>${pct(player.ts)}</strong><small> 真实命中</small></div></div></article>`;
-    }
-    function renderNbaTable(filter = '') {
-      const term = filter.trim().toLowerCase(); const filtered = nbaPlayers.filter(player => `${player.name} ${player.team}`.toLowerCase().includes(term)).slice(0,100);
-      const body = document.getElementById('nba-rows');
-      body.innerHTML = filtered.length ? filtered.map(player => `<tr><td><button type="button" data-nba-name="${escapeHtml(player.name)}">${escapeHtml(player.name)}</button></td><td>${escapeHtml(player.team)}</td><td>${player.games}</td><td>${player.ppg.toFixed(1)}</td><td>${player.rpg.toFixed(1)}</td><td>${player.apg.toFixed(1)}</td><td>${pct(player.fg)}</td><td>${pct(player.three)}</td><td>${pct(player.ts)}</td></tr>`).join('') : `<tr><td colspan="9">${nbaPlayers.length ? '没有符合条件的球员。' : '暂无可显示的数据。'}</td></tr>`;
-      body.querySelectorAll('[data-nba-name]').forEach(button => button.addEventListener('click', () => {
-        const name = button.dataset.nbaName; const player = nbaPlayers.find(item => item.name === name); if (!player) return;
-        const selects = [document.getElementById('nba-player-a'),document.getElementById('nba-player-b')]; const target = selects.find(select => !select.value || select.value !== name) || selects[0]; target.value = name; renderNbaComparison();
-      }));
-    }
-    function renderNbaComparison() {
-      const first = nbaPlayers.find(player => player.name === document.getElementById('nba-player-a').value);
-      const second = nbaPlayers.find(player => player.name === document.getElementById('nba-player-b').value);
-      document.getElementById('nba-compare-output').innerHTML = first && second ? `${playerCard(first)}${playerCard(second)}` : '';
-    }
-    async function downloadNbaPlayers() {
-      let directError;
-      try {
-        const response = await fetch(NBA_CSV_URL, { mode:'cors', cache:'force-cache' });
-        if (!response.ok) throw new Error(`数据源返回 ${response.status}`);
-        const players = parseNbaCsv(await response.text());
-        if (validNbaPlayers(players)) return players;
-        directError = new Error('公开数据文件列格式不符合预期');
-      } catch (error) { directError = error; }
-      if (!supabaseReady) throw directError;
-      const proxyUrl = `${SUPABASE_URL.replace(/\/$/,'')}/functions/v1/nba-data`;
-      const response = await fetch(proxyUrl,{ headers:{ apikey:SUPABASE_PUBLISHABLE_KEY }, cache:'no-store' });
-      if (!response.ok) throw new Error(`${directError?.message || '直接下载失败'}；数据代理返回 ${response.status}`);
-      const players = parseNbaCsv(await response.text());
-      if (!validNbaPlayers(players)) throw new Error('NBA 数据格式不符合预期');
-      return players;
-    }
-    async function loadNbaPlayers() {
-      const status = document.getElementById('nba-status');
-      try {
-        const cached = localStorage.getItem(nbaStorageKey);
-        if (cached) {
-          try { nbaPlayers = JSON.parse(cached); } catch { localStorage.removeItem(nbaStorageKey); }
-          if (!validNbaPlayers(nbaPlayers)) nbaPlayers = [];
-        }
-        if (!nbaPlayers.length) {
-          try {
-            const bundled = await fetch('./data/nba-2025-26.json', { cache: 'force-cache' });
-            if (!bundled.ok) throw new Error(`本地数据包返回 ${bundled.status}`);
-            const payload = await bundled.json();
-            if (!validNbaPlayers(payload.players)) throw new Error('本地数据包不完整');
-            nbaPlayers = payload.players;
-          } catch {
-            nbaPlayers = await downloadNbaPlayers();
-          }
-          localStorage.setItem(nbaStorageKey, JSON.stringify(nbaPlayers));
-        }
-        const sorted = [...nbaPlayers].sort((a,b) => a.name.localeCompare(b.name));
-        const options = '<option value="">选择球员</option>' + sorted.map(player => `<option value="${escapeHtml(player.name)}">${escapeHtml(player.name)} · ${escapeHtml(player.team)}</option>`).join('');
-        document.getElementById('nba-player-a').innerHTML = options; document.getElementById('nba-player-b').innerHTML = options;
-        status.textContent = `已载入 ${nbaPlayers.length} 名球员 · 2025–26 赛季`;
-        renderNbaTable(document.getElementById('nba-search').value);
-      } catch (error) {
-        status.textContent = `球员数据库暂时无法读取（${error.message}）。你仍可从数据来源下载 CSV。`;
-        document.getElementById('nba-rows').innerHTML = '<tr><td colspan="9">加载失败。请刷新页面，或访问数据来源页面。</td></tr>';
-      }
-    }
-    document.getElementById('nba-search').addEventListener('input', event => renderNbaTable(event.target.value));
-    document.getElementById('nba-player-a').addEventListener('change', renderNbaComparison);
-    document.getElementById('nba-player-b').addEventListener('change', renderNbaComparison);
-    document.getElementById('nba-compare').addEventListener('click', renderNbaComparison);
-
+    function renderNbaComparison(){const first=nbaPlayers.find(player=>player.name===document.getElementById('nba-player-a').value);const second=nbaPlayers.find(player=>player.name===document.getElementById('nba-player-b').value);document.getElementById('nba-compare-output').innerHTML=first&&second?`${playerCard(first)}${playerCard(second)}`:'';}
+    const nbaDetailDialog=document.getElementById('nba-detail-dialog');
+    function addPlayerToCompare(player, slot){const select=document.getElementById(slot==='b'?'nba-player-b':'nba-player-a');select.value=player.name;renderNbaComparison();nbaDetailDialog.close();document.getElementById('nba-compare-output').scrollIntoView({behavior:'smooth',block:'center'});}
+    function openNbaDetail(player){if(!player)return;document.getElementById('nba-detail-name').textContent=player.nameZh||player.name;document.getElementById('nba-detail-content').innerHTML=`<div class="nba-detail-hero">${playerAvatar(player)}<div><div class="eyebrow">${escapeHtml(player.team)} · ${player.games} 场</div><h2>${escapeHtml(player.nameZh||player.name)}</h2><p class="hint">${escapeHtml(player.name)} · ${playerRole(player)}</p></div></div><div class="stat-pills"><div class="stat-pill"><b>${player.ppg.toFixed(1)}</b><span>场均得分</span></div><div class="stat-pill"><b>${player.rpg.toFixed(1)}</b><span>场均篮板</span></div><div class="stat-pill"><b>${player.apg.toFixed(1)}</b><span>场均助攻</span></div><div class="stat-pill"><b>${pct(player.fg)}</b><span>投篮命中</span></div><div class="stat-pill"><b>${pct(player.three)}</b><span>三分命中</span></div><div class="stat-pill"><b>${pct(player.ts)}</b><span>真实命中</span></div></div><div class="nba-detail-actions"><button class="secondary" type="button" data-compare-slot="a">加入球员 A</button><button class="primary" type="button" data-compare-slot="b">加入球员 B</button></div>`;document.getElementById('nba-detail-content').querySelectorAll('[data-compare-slot]').forEach(button=>button.addEventListener('click',()=>addPlayerToCompare(player,button.dataset.compareSlot)));if(!nbaDetailDialog.open)nbaDetailDialog.showModal();}
+    document.getElementById('nba-detail-close').addEventListener('click',()=>nbaDetailDialog.close());
+    async function downloadNbaPlayers(){let directError;try{const response=await fetch(NBA_CSV_URL,{mode:'cors',cache:'force-cache'});if(!response.ok)throw new Error(`数据源返回 ${response.status}`);const players=parseNbaCsv(await response.text());if(validNbaPlayers(players))return players;directError=new Error('公开数据文件列格式不符合预期');}catch(error){directError=error;}if(!supabaseReady)throw directError;const proxyUrl=`${SUPABASE_URL.replace(/\/$/,'')}/functions/v1/nba-data`;const response=await fetch(proxyUrl,{headers:{apikey:SUPABASE_PUBLISHABLE_KEY},cache:'no-store'});if(!response.ok)throw new Error(`${directError?.message||'直接下载失败'}；数据代理返回 ${response.status}`);const players=parseNbaCsv(await response.text());if(!validNbaPlayers(players))throw new Error('NBA 数据格式不符合预期');return players;}
+    async function loadNbaPlayers(){const status=document.getElementById('nba-status');try{const cached=localStorage.getItem(nbaStorageKey);if(cached){try{nbaPlayers=JSON.parse(cached).map(normalizeNbaPlayer);}catch{localStorage.removeItem(nbaStorageKey);}if(!validNbaPlayers(nbaPlayers))nbaPlayers=[];}if(!nbaPlayers.length){try{const bundled=await fetch('./data/nba-2025-26.json',{cache:'force-cache'});if(!bundled.ok)throw new Error(`本地数据包返回 ${bundled.status}`);const payload=await bundled.json();nbaPlayers=(payload.players||[]).map(normalizeNbaPlayer);if(!validNbaPlayers(nbaPlayers))throw new Error('本地数据包不完整');}catch{nbaPlayers=await downloadNbaPlayers();}localStorage.setItem(nbaStorageKey,JSON.stringify(nbaPlayers));}const sorted=[...nbaPlayers].sort((a,b)=>(a.nameZh||a.name).localeCompare(b.nameZh||b.name,'zh-CN'));const options='<option value="">选择球员</option>'+sorted.map(player=>`<option value="${escapeHtml(player.name)}">${escapeHtml(playerDisplayName(player))} · ${escapeHtml(player.team)}</option>`).join('');document.getElementById('nba-player-a').innerHTML=options;document.getElementById('nba-player-b').innerHTML=options;status.textContent=`已载入 ${nbaPlayers.length} 名球员 · 2025–26 赛季`;renderNbaTable(document.getElementById('nba-search').value);}catch(error){status.textContent=`球员数据库暂时无法读取（${error.message}）。你仍可从数据来源下载 CSV。`;document.getElementById('nba-rows').innerHTML='<tr><td colspan="9">加载失败。请刷新页面，或访问数据来源页面。</td></tr>';}}
+    document.getElementById('nba-search').addEventListener('input',event=>renderNbaTable(event.target.value));document.getElementById('nba-player-a').addEventListener('change',renderNbaComparison);document.getElementById('nba-player-b').addEventListener('change',renderNbaComparison);document.getElementById('nba-compare').addEventListener('click',renderNbaComparison);
     function renderSimpleReport(root, report) {
       const localMetrics = root.id === 'pose-report' ? root.querySelector('#pose-local-metrics')?.outerHTML || '' : '';
       const advice = Array.isArray(report.advice) ? report.advice : [];
@@ -1183,28 +1167,39 @@
     let poseObjectUrl = null;
     let cameraStream = null;
     const poseVideo = document.getElementById('pose-video');
+    const poseAnalyzeButton = document.getElementById('pose-analyze');
+    const poseStatus = document.getElementById('pose-status');
+    function setPoseStatus(message, isError = false) { poseStatus.textContent = message; poseStatus.classList.toggle('error', isError); }
+    function updatePoseAnalyzeAvailability() { poseAnalyzeButton.disabled = !(cameraStream || (poseVideo.src && poseVideo.readyState >= 1)); }
     function disposeCamera() { if (cameraStream) cameraStream.getTracks().forEach(track => track.stop()); cameraStream = null; document.getElementById('pose-stop').disabled = true; }
     document.getElementById('pose-file').addEventListener('change', event => {
       const file = event.target.files?.[0]; if (!file) return;
       disposeCamera(); if (poseObjectUrl) URL.revokeObjectURL(poseObjectUrl); poseObjectUrl = URL.createObjectURL(file);
       poseVideo.srcObject = null; poseVideo.src = poseObjectUrl; poseVideo.hidden = false; poseVideo.controls = true;
-      poseVideo.onloadedmetadata = () => { document.getElementById('pose-analyze').disabled = false; document.getElementById('pose-status').textContent = `已在本机载入视频（${poseVideo.duration.toFixed(1)} 秒）。点击分析即可提取姿势指标。`; };
+      poseAnalyzeButton.disabled = true; setPoseStatus('正在读取视频…');
+      poseVideo.onloadedmetadata = () => { updatePoseAnalyzeAvailability(); setPoseStatus(`已在本机载入视频（${poseVideo.duration.toFixed(1)} 秒）。点击分析即可提取姿势指标。`); };
+      poseVideo.onerror = () => { poseAnalyzeButton.disabled = true; setPoseStatus('无法读取这个视频。请尝试 MP4（H.264）格式，或改用摄像头。', true); };
       document.getElementById('pose-report').hidden = true;
     });
     document.getElementById('pose-camera').addEventListener('click', async () => {
       try {
         disposeCamera(); cameraStream = await navigator.mediaDevices.getUserMedia({ video:{facingMode:'environment'}, audio:false });
         poseVideo.src = ''; poseVideo.srcObject = cameraStream; poseVideo.hidden = false; poseVideo.controls = false; await poseVideo.play();
-        document.getElementById('pose-analyze').disabled = false; document.getElementById('pose-stop').disabled = false;
-        document.getElementById('pose-status').textContent = '摄像头已开启，画面仅在本机显示。你可以站到侧面后点击“分析动作”。';
-      } catch (error) { document.getElementById('pose-status').textContent = `无法开启摄像头：${error.message}。请检查浏览器权限，或改为上传本地视频。`; document.getElementById('pose-status').classList.add('error'); }
+        updatePoseAnalyzeAvailability(); document.getElementById('pose-stop').disabled = false;
+        setPoseStatus('摄像头已开启，画面仅在本机显示。你可以站到侧面后点击“分析动作”。');
+      } catch (error) { setPoseStatus(`无法开启摄像头：${error.message}。请检查浏览器权限，或改为上传本地视频。`, true); }
     });
-    document.getElementById('pose-stop').addEventListener('click', () => { disposeCamera(); poseVideo.pause(); poseVideo.srcObject = null; poseVideo.hidden = true; });
+    document.getElementById('pose-stop').addEventListener('click', () => { disposeCamera(); poseVideo.pause(); poseVideo.srcObject = null; poseVideo.hidden = true; updatePoseAnalyzeAvailability(); setPoseStatus('摄像头已关闭。你可以上传本地视频继续分析。'); });
     async function getPoseLandmarker() {
       if (!posePromise) posePromise = (async () => {
-        const vision = await import('./assets/mediapipe/vision_bundle.mjs');
-        const files = await vision.FilesetResolver.forVisionTasks('./assets/mediapipe/wasm');
-        return vision.PoseLandmarker.createFromOptions(files,{ baseOptions:{modelAssetPath:'./assets/mediapipe/pose_landmarker_lite.task'}, runningMode:'VIDEO', numPoses:1, minPoseDetectionConfidence:.45, minTrackingConfidence:.45 });
+        try {
+          const vision = await import('./assets/mediapipe/vision_bundle.mjs');
+          const files = await vision.FilesetResolver.forVisionTasks('./assets/mediapipe/wasm');
+          return await vision.PoseLandmarker.createFromOptions(files,{ baseOptions:{modelAssetPath:'./assets/mediapipe/pose_landmarker_lite.task'}, runningMode:'VIDEO', numPoses:1, minPoseDetectionConfidence:.45, minTrackingConfidence:.45 });
+        } catch (error) {
+          posePromise = null;
+          throw new Error(`姿势识别模型加载失败：${error.message || '请刷新页面后重试'}`);
+        }
       })();
       return posePromise;
     }
@@ -1249,7 +1244,7 @@
         const result=await invokeAi('shot',{metrics}); renderSimpleReport(reportBox,result.report); await saveReport('pose','投篮动作分析',{metrics,report:result.report},result.ownerUserId);
         status.textContent='分析完成。视频画面没有上传，只有上方列出的动作指标发送给 AI。';
       } catch(error) { status.textContent=`${error.message} ${error.message.includes('登录') ? '请登录后重试 AI 反馈。' : ''}`; status.classList.add('error'); }
-      finally { button.disabled=false; }
+      finally { updatePoseAnalyzeAvailability(); }
     });
 
     async function refreshAiUsage() {
