@@ -1,0 +1,60 @@
+name: Vendor MediaPipe pose model
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  vendor-mediapipe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Download MediaPipe files into the site
+        shell: bash
+        run: |
+          set -euo pipefail
+          npm pack @mediapipe/tasks-vision@0.10.22 --silent
+          tar -xzf mediapipe-tasks-vision-0.10.22.tgz
+          mkdir -p assets/mediapipe/wasm
+          cp package/vision_bundle.mjs assets/mediapipe/vision_bundle.mjs
+          cp package/wasm/* assets/mediapipe/wasm/
+          curl --fail --location --retry 3             https://storage.googleapis.com/mediapipe-models/pose_landmarker/pose_landmarker_lite/float16/1/pose_landmarker_lite.task             --output assets/mediapipe/pose_landmarker_lite.task
+          rm -rf package mediapipe-tasks-vision-0.10.22.tgz
+          test -s assets/mediapipe/vision_bundle.mjs
+          test -s assets/mediapipe/pose_landmarker_lite.task
+          find assets/mediapipe -type f -maxdepth 2 -print
+      - name: Point the website to its bundled files
+        shell: python
+        run: |
+          from pathlib import Path
+          page = Path("index.html")
+          source = page.read_text(encoding="utf-8")
+          replacements = {
+              "https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@0.10.22/vision_bundle.mjs": "./assets/mediapipe/vision_bundle.mjs",
+              "https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@0.10.22/wasm": "./assets/mediapipe/wasm",
+              "https://storage.googleapis.com/mediapipe-models/pose_landmarker/pose_landmarker_lite/float16/1/pose_landmarker_lite.task": "./assets/mediapipe/pose_landmarker_lite.task",
+              "首次分析会加载姿势识别模型。": "首次分析会加载网站内置的姿势识别模型。",
+          }
+          for old, new in replacements.items():
+              if old not in source and new not in source:
+                  raise SystemExit(f"Expected text is missing: {old}")
+              source = source.replace(old, new)
+          page.write_text(source, encoding="utf-8")
+      - name: Publish the fix
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add index.html assets/mediapipe
+          if git diff --cached --quiet; then
+            echo "MediaPipe files are already current."
+            exit 0
+          fi
+          git commit -m "Self-host MediaPipe pose model"
+          git push
