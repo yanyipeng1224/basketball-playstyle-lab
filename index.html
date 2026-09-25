@@ -506,6 +506,7 @@
   <script src="./config.js"></script>
   <script type="module">
     import { createClient } from 'https://esm.sh/@supabase/supabase-js@2';
+    import { createPlayerProfileBridge } from './src/player-profile/bridge.js';
 
     // Publishable key is intended for browser use. Keep DeepSeek keys in Supabase secrets.
     const SUPABASE_URL = window.APP_CONFIG.supabaseUrl;
@@ -661,7 +662,7 @@
       button.disabled = true;
       button.textContent = 'DeepSeek 正在分析…';
       try {
-        const result = await invokeAi('profile', { ...data, baseline });
+        const result = await playerProfileBridge.invokeAi('profile', { ...data, baseline });
         renderAiReport(result.report);
         await saveReport('profile', '打法分析', { player:data, baseline, report:result.report }, result.ownerUserId);
         document.getElementById('ai-card').scrollIntoView({ behavior: 'smooth', block: 'center' });
@@ -673,6 +674,77 @@
       } finally {
         button.disabled = false;
         button.textContent = '让 DeepSeek 制定方案';
+      }
+    }
+
+    const playerProfileBridge = createPlayerProfileBridge({
+      supabase,
+      storage: window.localStorage,
+      invokeExistingAi: invokeAi
+    });
+    let profileLoadGeneration = 0;
+    let unresolvedCrossAccountProfile = false;
+
+    function applyProfileToExistingForm(profile) {
+      const values = playerProfileBridge.profileToExistingForm(profile);
+      Object.entries(values).forEach(([name, value]) => {
+        if (value === null || value === undefined || !form.elements[name]) return;
+        form.elements[name].value = String(value);
+      });
+      inputs.forEach(input => { input.nextElementSibling.value = input.value; });
+      render(valuesFromForm());
+    }
+
+    async function loadPlayerProfileState() {
+      const generation = ++profileLoadGeneration;
+      const status = document.getElementById('profile-save-status');
+      try {
+        const result = await playerProfileBridge.loadCurrent();
+        if (generation !== profileLoadGeneration) return;
+        unresolvedCrossAccountProfile = false;
+
+        if (result.status === 'guest_available') {
+          applyProfileToExistingForm(result.guest.data);
+          if (window.confirm('检测到这台设备上的游客球员档案。是否同步到当前账号？')) {
+            const synced = await playerProfileBridge.syncGuestToCurrentUser();
+            if (generation !== profileLoadGeneration) return;
+            if (synced.status === 'synced' || synced.status === 'already_synced') {
+              applyProfileToExistingForm(synced.cloud.data);
+              status.textContent = '游客球员档案已安全同步到当前账号。';
+            } else {
+              status.textContent = '云端已有不同档案，本地档案没有被覆盖或删除。';
+            }
+          } else {
+            status.textContent = '当前继续使用本地档案，尚未同步到账号。';
+          }
+          return;
+        }
+
+        if (result.status === 'conflict') {
+          const crossAccount = result.reason === 'cross_account_guest';
+          const prompt = crossAccount
+            ? '这份本地档案曾关联其他账号。是否明确复制到当前账号？取消将保留现有数据且不写入云端。'
+            : '云端和本地都有不同的球员档案。是否明确使用本地档案替换云端档案？取消将保留云端档案。';
+          if (window.confirm(prompt)) {
+            const replaced = await playerProfileBridge.replaceCloudWithGuest();
+            if (generation !== profileLoadGeneration) return;
+            applyProfileToExistingForm(replaced.cloud.data);
+            status.textContent = '已按你的确认使用本地档案更新当前账号；本地副本仍然保留。';
+          } else if (result.cloud) {
+            applyProfileToExistingForm(result.cloud.data);
+            status.textContent = '已保留云端档案，本地档案没有被删除。';
+          } else {
+            applyProfileToExistingForm(result.guest.data);
+            unresolvedCrossAccountProfile = true;
+            status.textContent = '本地档案未复制到当前账号；保存前请先重新登录正确账号或确认复制。';
+          }
+          return;
+        }
+
+        if (result.profile) applyProfileToExistingForm(result.profile);
+        if (result.source === 'legacy_migration') status.textContent = '旧球员档案已安全迁移到当前档案。';
+      } catch (error) {
+        if (generation === profileLoadGeneration) status.textContent = `球员档案暂时无法载入：${error.message}`;
       }
     }
 
@@ -699,13 +771,23 @@
       document.getElementById('wizard-back').hidden = step === 1;
       document.getElementById('wizard-next').textContent = step === 3 ? '生成我的工作台' : '下一步';
     }
-    function finishOnboarding() {
+    async function finishOnboarding() {
       const copy = { height:'wizard-height', weight:'wizard-weight', frequency:'wizard-frequency', shooting:'wizard-shooting', handling:'wizard-handling', defense:'wizard-defense', stamina:'wizard-stamina', goal:'wizard-goal' };
       Object.entries(copy).forEach(([target, source]) => { form.elements[target].value = document.getElementById(source).value; });
       inputs.forEach(input => input.nextElementSibling.value = input.value);
       localStorage.setItem(onboardingStorageKey, 'complete');
       document.body.classList.remove('onboarding-open');
-      render(valuesFromForm());
+      const data = valuesFromForm();
+      const baseline = analyze(data);
+      render(data);
+      try {
+        const result = await playerProfileBridge.saveFromExistingForm(data, baseline);
+        document.getElementById('profile-save-status').textContent = result.status === 'saved_cloud'
+          ? '球员档案已保存到你的账号。'
+          : '球员档案已保存在这台设备上。';
+      } catch (error) {
+        document.getElementById('profile-save-status').textContent = `球员档案保存失败：${error.message}`;
+      }
       document.getElementById('workspace').scrollIntoView({ behavior:'smooth', block:'start' });
     }
     let wizardStep = 1;
@@ -1090,11 +1172,20 @@
       root.hidden = false;
     }
     document.getElementById('save-profile-btn').addEventListener('click', async () => {
-      const saved = await saveReport('profile','球员档案与本地训练计划',{ ...valuesFromForm(), baseline: analyze(valuesFromForm()) });
       const status=document.getElementById('profile-save-status');
-      if(saved===true) status.textContent='球员档案已保存到你的账号。';
-      else if(saved===null) { status.textContent='登录后即可跨设备保存。'; showAuthMessage('请登录后保存档案。'); authDialog.showModal(); }
-      else status.textContent='保存失败，请检查 Supabase 数据表配置后重试。';
+      if (unresolvedCrossAccountProfile) {
+        status.textContent='这份本地档案尚未确认复制到当前账号，未执行保存。';
+        return;
+      }
+      try {
+        const values = valuesFromForm();
+        const saved = await playerProfileBridge.saveFromExistingForm(values, analyze(values));
+        status.textContent = saved.status === 'saved_cloud'
+          ? '球员档案已保存到你的账号。'
+          : '球员档案已保存在这台设备上，登录后可以选择同步。';
+      } catch (error) {
+        status.textContent=`保存失败：${error.message}`;
+      }
     });
 
     document.getElementById('boxscore-form').addEventListener('submit', async event => {
@@ -1263,19 +1354,22 @@
             renderShots(); renderTrainingLogs(); renderSavedReports([]);
           }
           loadAccountData();
+          loadPlayerProfileState();
         }
         if (event === 'PASSWORD_RECOVERY') showPasswordReset();
-        if (event === 'SIGNED_OUT') { accountLoadGeneration += 1; document.getElementById('ai-usage').textContent = ''; renderSavedReports([]); loadGuestData(); }
+        if (event === 'SIGNED_OUT') { accountLoadGeneration += 1; document.getElementById('ai-usage').textContent = ''; renderSavedReports([]); loadGuestData(); loadPlayerProfileState(); }
       });
       supabase.auth.getSession().then(({data}) => {
         updateAccount(data?.session || null);
         if (data?.session) loadAccountData();
         else renderSavedReports([]);
+        loadPlayerProfileState();
       });
     }
     window.addEventListener('load', renderCaptcha);
 
     loadGuestData();
+    if (!supabase) loadPlayerProfileState();
     loadNbaPlayers();
     refreshAiUsage();
     render(valuesFromForm());
