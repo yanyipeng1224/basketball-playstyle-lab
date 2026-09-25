@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-label="球员剪影">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ff9b55"/><stop offset="1" stop-color="#5d88c9"/></linearGradient></defs>
+  <rect width="240" height="240" rx="48" fill="#131a22"/>
+  <circle cx="120" cy="88" r="42" fill="url(#g)" opacity=".92"/>
+  <path d="M45 220c7-47 35-72 75-72s68 25 75 72" fill="url(#g)" opacity=".92"/>
+  <path d="M34 197h172" stroke="#f6f8fa" stroke-opacity=".25" stroke-width="3"/>
+</svg>
