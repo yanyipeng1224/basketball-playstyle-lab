@@ -52,3 +52,21 @@ npm run nba:data
 此仓库的 GitHub Pages 当前从 `main` 分支根目录发布，因此需要将 `dist/index.html` 与 `dist/config.js` 放到发布根目录；如果生成了 NBA JSON，还要把 `dist/data/nba-2025-26.json` 一并放到根目录的 `data/` 子目录。由于投篮动作分析需要摄像头权限，网站必须通过 HTTPS 打开（GitHub Pages 默认支持）。视频文件和摄像头画面仅在浏览器本机处理；发给 DeepSeek 的只有动作关键点统计值。
 
 投篮动作分析所需的 MediaPipe 程序、WASM 和姿势模型必须随网站放在 `assets/mediapipe/`，避免访客分析时再连接外部 CDN 或 Google Storage。GitHub 仓库中的 `Vendor MediaPipe pose model` 工作流可以手动下载并提交这些固定版本文件。
+
+## 6. Phase 2B PlayerProfile migration
+
+`supabase/migrations/202609250001_player_profiles.sql` 只新增 `player_profiles`、专用更新时间函数、trigger 和 RLS policy，不修改或删除 `app_records`、`shot_attempts`、`training_logs` 或 AI 用量表。DDL migration 由 Supabase migration version 管理，不应在 SQL Editor 中反复手工执行。
+
+执行前必须只读核对目标项目：
+
+- `public.app_records.id` 的实际类型仍为 `uuid`。
+- 类型、数据和时间字段仍为 `kind`、`payload jsonb`、`created_at timestamptz`。
+- `public.player_profiles` 尚不存在。
+- `public.set_player_profiles_updated_at()` 和同名 trigger 尚不存在。
+- 目标项目与 `config.js` 使用的是同一个预期开发/验证项目。
+
+核对通过后才可用 Supabase migration 流程应用文件。应用后必须使用 anon key 和两个真实测试账号的 authenticated JWT 测试 RLS。service role 只能用于准备或清理测试账号，不能作为 RLS 测试请求主体。至少验证 A→A 允许、A→B 拒绝、B→A 拒绝、anon 拒绝、伪造其他 `user_id` 拒绝及 DELETE 拒绝。
+
+业务数据同步和 DDL migration 是两种不同的幂等：DDL 由 migration version 保证只执行一次；guest 同步和旧 `app_records` 惰性迁移必须依靠 `user_id` 主键、insert-only、写后重读和冲突处理保证可重试。
+
+回滚前先停止发布依赖新表的网页版本。若新表尚无真实数据，可在明确确认后删除新 policies、trigger、专用函数和表；若已有真实数据，先导出备份，并优先保留停用的表而不是直接删除。回滚不得修改旧表、旧记录或旧 localStorage key。
