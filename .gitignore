@@ -1,0 +1,5 @@
+.vercel
+*.zip
+*.tar.gz
+.env*
+!.env.example

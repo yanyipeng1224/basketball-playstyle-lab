@@ -1,0 +1,10 @@
+{
+  "name": "basketball-playstyle-lab",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "nba:data": "node scripts/update-nba-data.mjs",
+    "nba:enrich": "node scripts/enrich-nba-data.mjs",
+    "test": "node --test tests/*.test.mjs"
+  }
+}

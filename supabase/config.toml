@@ -1,0 +1,5 @@
+[functions.analyze]
+verify_jwt = true
+
+[functions.nba-data]
+verify_jwt = false
